@@ -1,65 +1,73 @@
-# SnowRunner Mod Working Guide
+# SnowRunner Mod Structure and XML Guide
 
-## Goal
+## Active mod
 
-Tune SnowRunner truck frames to flex naturally, retain truck-specific handling, and configure steering and cameras without disturbing unrelated mod settings.
+`FrameFlex-Steering-Camera` is the working mod. Its `[media]` directory mirrors
+SnowRunner's content paths. Preserve these relative paths when adding or
+changing files so the game resolves the intended truck or addon definition.
 
-## Folders and edit boundaries
+`Original/[media]` is a read-only copy of vanilla files for comparison. Do not
+edit it.
 
-Inspect the repository before each task because folders may move. When present:
+## What is inside `[media]`
 
-- `FrameFlex` is the active mod and the only folder to edit for frame, steering, or camera changes.
-- `FrameFlexOldMod` is a read-only reference for frame-joint limits and original stiffness.
-- `CameraMod` is a read-only source for camera configuration.
+- `classes/trucks/` contains base-game truck definitions.
+- `classes/trucks/addons/` contains shared addon definitions, including the
+  big/minicranes and Cat 745C log bunk.
+- `_dlc/<dlc-id>/classes/trucks/` contains truck definitions for that DLC.
+  DLC-specific addons are often in its `addons/` subfolder; truck-specific
+  configurations can be in a `<truck>_tuning/` subfolder.
+- `.xml` files are game-readable definitions. `.bak` and `.bak.bak` files are
+  backups, not active mod definitions.
+- Models, textures, sounds, and other referenced game assets are not bundled
+  here; XML references generally point to assets supplied by SnowRunner.
 
-Never replace a whole active truck XML with a file from a reference mod. Preserve all unrelated settings, editing only the requested attributes or complete camera element.
+## Main truck XML sections
 
-## Frame-flex configuration
+| Section or parameter | What it controls |
+|---|---|
+| `Truck` / `TruckData` | Truck identity, type, compatible equipment, wheels, and camera definitions. |
+| `Wheels` and `_templates/Wheel` | Wheel positions and reusable wheel settings, including steering angle and steering response. |
+| `SteeringRack` and steering constraints | Steering behavior. Existing tie-rod hinge `MinLimit` and `MaxLimit` set its travel range. |
+| `Camera` / `Cockpit` | First-person camera position, view limits, zoom offsets, mirrors, and related interior view behavior. |
+| `PhysicsModel` / `Body` | Physical bodies, their mass, model frames, collision behavior, and body hierarchy. |
+| `Constraint` | The connection between bodies. `Type`, `AxisLocal`, `MinLimit`, and `MaxLimit` define its kind, orientation, and permitted movement. |
+| `Motor` `Damping` / `Spring` | Response of a spring-type joint. Together they affect how readily the connected frame twists and how strongly it resists or settles that movement. |
+| `GameData` | Garage/shop information, unlocks, addon compatibility, sockets, and other gameplay metadata. |
+| `Socket` / `InstallSocket` | Where equipment can be mounted and which addon type can attach there. |
 
-The target is an existing chassis-to-cabin or cabin-twist `Hinge` constraint in the truck's physics model. Some trucks use a `Twist` template. Do not alter unrelated cabin dampers, props, mirrors, or accessory joints, and do not add a hinge where none exists.
+Frame flex is controlled by the truck's existing cabin-to-frame hinge or
+cabin-twist joint. Its `MinLimit` and `MaxLimit` bound the twist; its
+`Damping` and `Spring` affect the joint's motion and resistance. The effect
+depends on the particular truck and the interaction of these settings. Only
+the relevant existing joint should be tuned; do not create a new joint or
+change unrelated suspension, cabin, or accessory constraints.
 
-For a truck with a matching `FrameFlexOldMod` file:
+## Main addon XML sections
 
-- Copy `MinLimit` and `MaxLimit` exactly from the corresponding old-mod cabin/twist hinge.
-- Set motor values between the current active value and old-mod value using geometric interpolation:
-  - `Damping = round(current_Damping^0.50 * old_Damping^0.50)`
-  - `Spring = round(current_Spring^0.35 * old_Spring^0.65)`
-- The spring is blended farther toward the old value to resist quick flex on unloaded bumps; damping moves halfway toward the old value to temper motion under heavy cargo.
-- Do not apply wheelbase multipliers or substitute a global coefficient. Calculate each truck from its own matching joint values.
-- Preserve the old mod's limit strings and round motor values to the nearest integer.
+| Section or parameter | What it controls |
+|---|---|
+| `TruckAddon` | Declares the equipment addon. |
+| `PhysicsModel`, `Body`, and `Mass` | Physical bodies and the addon mass contributing to the equipped vehicle. Nested crane sections and anchors can each have their own mass. |
+| `PoweredConstraints` | Player-triggered groups and chains for deploying, folding, or operating equipment. |
+| `ControlledIK` | Movement of articulated equipment. `CoeffEndMovementSpeedOY` controls vertical movement; `CoeffEndMovementSpeedXZ` controls horizontal movement. The `WithLoad` variants apply when carrying a load. |
+| `ControlledConstraints` / `SpeedMult` | Speed multiplier for a named powered constraint, such as the log-lift grapple rotation. |
+| `Motor` `Force` / `Tau` | Actuator strength and response for powered joints; these are distinct from body mass and movement coefficients. |
+| `LoadArea` | Cargo type, capacity region, and placement bounds for cargo carried by an addon. |
+| `CraneSourceSocket`, `CraneSocket`, and `InstallSocket` | Crane attachment point or the location/type used to mount an addon. |
+| `GameData` / `AddonType` | Shop display, unlocks, sounds, and equipment category. |
 
-If values are zero, negative, missing, or the joint cannot be matched unambiguously, do not guess; leave it unchanged and report it. Never edit `FrameFlexOldMod`.
+For a log-lift claw, identify the `GrapplerBase` constraint in
+`ControlledConstraints` to adjust claw rotation speed. The separate
+`LeftGrappler` and `RightGrappler` constraints control opening and closing; do
+not change them when the request is rotation-only.
 
-## Steering configuration
+## Editing boundaries
 
-Classify trucks from `TruckType` and, for ambiguous `HEAVY_DUTY` trucks, wheelbase and default tire:
-
-- `SCOUT` -> Scout.
-- `HIGHWAY` -> road/highway.
-- `HEAVY_DUTY` -> road/highway only when the XML wheelbase span is at most 6.3 game units and the default tire name contains `highway` or `road`; otherwise heavy.
-- `OFFROAD`, `HEAVY`, and remaining `HEAVY_DUTY` -> heavy/offroad.
-
-Apply these settings to the front steering definitions in `_templates/Wheel` and to existing local tie-rod/steering constraints:
-
-| Category | Front steering angle target | Tie-rod `MinLimit` / `MaxLimit` | `SteerSpeed` | `BackSteerSpeed` |
-|---|---:|---:|---:|---:|
-| Road/highway | 48 | -22 / 22 | 0.045 | 0.030 |
-| Heavy/offroad | 38 | -16 / 16 | 0.035 | 0.020 |
-| Scout | 44 | -18 / 18 | Keep current value if already above 0.035 | Keep current value if already above 0.020 |
-
-For angles, compare against the truck's original steering definition: if its absolute angle exceeds the category target, add 4 degrees to its absolute value and preserve its sign; otherwise use the category target. Apply tie-rod limits only to existing steering tie rods; do not create missing constraints. Leave scout steering speeds unchanged when already above the stated minimums.
-
-## Camera configuration
-
-For matching truck files, copy the complete `<Camera>...</Camera>` element from `CameraMod` into the corresponding `FrameFlex` file. Match files by relative path and require exactly one camera element in both files. Replace only that element, including nested camera positions and settings; preserve all text outside it. Do not edit `CameraMod`.
-
-If a counterpart is missing, the camera count is unexpected, or matching is ambiguous, leave the destination unchanged and report the reason rather than guessing.
-
-## Safe editing and validation
-
-- Read the affected source and destination XML before editing.
-- Use targeted text-span edits rather than XML serialization that reformats files.
-- Keep edits within `FrameFlex` and within the exact requested XML blocks/attributes.
-- Parse all edited XML files after changes.
-- Confirm values against their requested source/configuration and verify that unrelated text and files remain unchanged.
-- Report skipped or ambiguous files explicitly.
+- For mod changes, edit only the specifically requested files in
+  `FrameFlex-Steering-Camera`; keep all paths and unrelated settings intact.
+- Read matching vanilla XML under `Original/[media]` when a vanilla comparison
+  is needed, but never modify it.
+- Preserve formatting with targeted edits. Avoid replacing complete truck or
+  addon files when only selected attributes need to change.
+- Check that XML remains well-formed and that only requested parameters changed.
