@@ -1,0 +1,54 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Mudtires _template="Medium">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Soft" RadiusOffset="0.085"/>
+			<WheelFriction _template="Mudtires" />
+		</Mudtires>
+	</TruckTire>
+</_templates>
+<TruckWheels DamageCapacity="20" Radius="1" Width="0.863">
+	<TruckTires>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_scout_mudtires1_1" Name="mudtires_1"><!--TREKOL-1350-->
+			<WheelFriction _template="Mudtires" BodyFrictionAsphalt="3.9" BodyFriction="1.3" SubstanceFriction="2" />
+			<GameData
+				Price="4900"
+				UnlockByExploration="false"
+				UnlockByRank="10"
+			>
+				<UiDesc UiDesc="UI_TIRE_SCOUT_MUDTIRES_YAR_87_1_DESC" UiName="UI_TIRE_SCOUT_MUDTIRES_YAR_87_1_NAME" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_scout_mudtires1_2" Name="mudtires_2">
+			<WheelFriction _template="Mudtires" BodyFriction="1.3"  SubstanceFriction="2" />
+			<GameData
+				Price="5300"
+				UnlockByExploration="false"
+				UnlockByRank="12"
+			>
+				<UiDesc UiDesc="UI_TIRE_SCOUT_MUDTIRES_YAR_87_2_DESC" UiName="UI_TIRE_SCOUT_MUDTIRES_YAR_87_2_NAME" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_kirovets_k700" Name="ATT-X">
+			<WheelFriction _template="HeavyMudtires" BodyFriction="1.2"  SubstanceFriction="2" />
+			<GameData
+				Price="7500"
+				UnlockByExploration="false"
+				UnlockByRank="30"
+			>
+				<UiDesc UiDesc="UI_TIRE_MUDTIRES_TRACTOR_SM_DESC" UiName="UI_TIRE_MUDTIRES_TRACTOR_SM_NAME" />
+			</GameData>
+			<WheelTracks
+                TextureAlpha="tracks/kirovets_k7m_base_alpha__s_d.tga"
+                TextureHeight="tracks/kirovets_k7m_base_height__s_d.tga"
+			/>
+		</TruckTire>       
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_scout_mudtires1_1" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_SCOUT_MUDTIRES_1_1_DESC" UiName="UI_RIM_SCOUT_MUDTIRES_1_1_NAME" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

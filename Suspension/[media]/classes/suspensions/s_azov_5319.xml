@@ -1,0 +1,25 @@
+<_templates Include="trucks" />
+<SuspensionSetVariants>
+	<SuspensionSet
+		_template="Normal"
+		BrokenWheelDamageMultiplier="2"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="300"
+		Name="azov_5319_suspension_default"
+	>
+		<Suspension Damping="0.6" Height="0.129" Strength="0.04" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.24" />
+		<Suspension Damping="0.6" Height="0.068" Strength="0.05" WheelType="rear" BrokenSuspensionMax="0.2" SuspensionMin="-0.24" />
+		<GameData
+			Price="5900"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_SUSPENSION_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_DEFAULT_NAME"
+			/>
+		</GameData>
+	</SuspensionSet>
+</SuspensionSetVariants>

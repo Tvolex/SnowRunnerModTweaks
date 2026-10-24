@@ -1,0 +1,70 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Average" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels DamageCapacity="50" Radius="1" Width="0.84">
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_kenworth_963" Name="allterrain_1">
+			<!--<WheelFriction _template="Allterrain" BodyFrictionAsphalt="5" BodyFriction="0.5" SubstanceFriction="2.45"/>-->
+			<WheelFriction _template="Allterrain"/>
+			<GameData
+				Price="4900"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="UI_TIRE_HEAVY_OFFROAD_KENWORTH_963_DESC" UiName="UI_TIRE_HEAVY_OFFROAD_KENWORTH_963_NAME" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_kirovets_k700" Name="tire">
+			<WheelFriction _template="HeavyMudtires" />
+			<GameData
+				Price="11550"
+				UnlockByExploration="false"
+				UnlockByRank="22"
+			>
+				<!--<UiDesc UiDesc="UI_TIRE_KIROVETS_SUPERHEAVY_MUDTIRES_DESC" UiName="UI_TIRE_KIROVETS_SUPERHEAVY_MUDTIRES_NAME" />-->
+				<UiDesc UiDesc="UI_TIRE_MUDTIRES_TRACTOR_DESC" UiName="UI_TIRE_MUDTIRES_TRACTOR_NAME" />
+			</GameData>
+			<WheelTracks
+                TextureAlpha="tracks/kirovets_k7m_base_alpha__s_d.tga"
+                TextureHeight="tracks/kirovets_k7m_base_height__s_d.tga"
+			/>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_mack_defense_m917" Name="offroad">
+		<!--Almost XZL tread-->
+			<WheelFriction 
+				_template="Offroad"
+				
+			/>
+			<GameData
+				Price="9385"
+				UnlockByExploration="false"
+				UnlockByRank="13"
+			>
+				<UiDesc UiDesc="UI_TIRE_CONT_E4_L4_DESC" UiName="Continental EM-Master E4/L4" />
+				<!--Also similar thread pattern: Titan STL3: 63", 73"-->
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" BodyFrictionAsphalt="3.8" Mesh="wheels/tire_sleiter_mfk816" Name="tire_4">
+			<WheelFriction _template="HeavyMudtires" />
+			<GameData
+				Price="10500"
+				UnlockByExploration="false"
+				UnlockByRank="30"
+			>
+				<UiDesc UiDesc="UI_TIRE_MUDTIRES_DESC" UiName="UI_TIRE_SUPERHEAVY_OFFROAD_SLEITER_MFK816_NAME" />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_kenworth_963" Name="rim">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_HEAVY_OFFROAD_SINGLE_KENWORTH_963_DESC" UiName="UI_RIM_HEAVY_OFFROAD_SINGLE_KENWORTH_963_NAME" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

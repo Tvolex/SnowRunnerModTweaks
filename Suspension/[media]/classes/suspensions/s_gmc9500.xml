@@ -1,0 +1,47 @@
+<_templates Include="trucks" />
+<SuspensionSetVariants>
+	<SuspensionSet
+		_template="Normal"
+		BrokenWheelDamageMultiplier="2"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="180"
+		Name="gmc9500_suspension_default"
+	>
+		<Suspension Damping="0.6" Height="0.25" Strength="0.025" WheelType="front" SuspensionMin="-0.45" SuspensionMax="0.3" />
+		<Suspension Damping="0.6" Height="0.2" Strength="0.03" WheelType="rear" SuspensionMin="-0.3" SuspensionMax="0.3" />
+		<GameData
+			Price="4000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_SUSPENSION_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_DEFAULT_NAME"
+			/>
+		</GameData>
+	</SuspensionSet>
+	<SuspensionSet
+		_template="High"
+		BrokenWheelDamageMultiplier="2"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="210"
+		Name="gmc9500_suspension_high"
+	>
+		<Suspension Damping="0.6" Height="0.35" Strength="0.05" WheelType="front" SuspensionMin="-0.5" SuspensionMax="0.15" />
+		<Suspension Damping="0.6" Height="0.3" Strength="0.05" WheelType="rear" SuspensionMin="-0.35" SuspensionMax="0.15" />
+		<GameData
+			Price="6400"
+			UnlockByExploration="true"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_SUSPENSION_HIGH_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_SUSPENSION_HIGH_NAME"
+			/>
+		</GameData>
+	</SuspensionSet>
+</SuspensionSetVariants>

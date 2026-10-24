@@ -1,0 +1,11 @@
+<ModelBrand
+	AcceptZoneBorderDecals="true"
+	Instanced="true"
+	InstancedAsModel="true"
+	NightLightingShadowsAllowCap="true"
+>
+	<PhysicsModel>
+		<Body Collisions="Dynamic" NoSoftContacts="true" Friction="2.4" />
+	</PhysicsModel>
+	<Landmark Mesh="landmarks/rock_06_pile_lmk"/>
+</ModelBrand>

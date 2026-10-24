@@ -1,0 +1,23 @@
+<_templates Include="models" />
+<ModelBrand ClipCamera="false" DynamicModel="true">
+	<PhysicsModel>
+		<Body _template="Gravity"
+			Collisions="Dynamic"
+			Friction="0.8"
+			Mass="18850"
+			NoSoftContacts="true"
+		/>
+	</PhysicsModel>
+	<GameData PackSlotsNumber="2" LoadType="CargoMetalPlanks">
+		<CraneSocket Pos="(0.000; 1.234; 0.000)" />
+		<WinchSocket Pos="(0.000; 1.234; 0.000)" />
+		<CraneSocket Pos="(2; 1.234; 0.000)" />
+		<WinchSocket Pos="(2; 1.234; 0.000)" />
+		<CraneSocket Pos="(-2; 1.234; 0.000)" />
+		<WinchSocket Pos="(-2; 1.234; 0.000)" />
+		<CraneSocket Pos="(0.000; 0.617; -1)" />
+		<WinchSocket Pos="(0.000; 0.617; -1)" />
+		<CraneSocket Pos="(0.000; 0.617; 1)" />
+		<WinchSocket Pos="(0.000; 0.617; 1)" />
+    </GameData>
+</ModelBrand>
