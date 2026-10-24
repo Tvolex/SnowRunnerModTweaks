@@ -1,0 +1,34 @@
+<_templates Include="trucks" />
+<_parent File="western_star_nf1424_snorkel_1" />
+<TruckAddon>
+	<Snorkel Origin="(5.861; 2.554; 0)" />
+	<PhysicsModel Mesh="trucks/western_star_nf1424_tuning/western_star_nf1424_snorkel_2">
+		<Body ImpactType="Truck" Mass="50" ModelFrame="BoneCabinDamper_cdt">
+			<Constraint Type="Fixed" />
+		</Body>
+	</PhysicsModel>
+	<ModelAttachments>
+		<Ignition>
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.885; -1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.823; -1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.761; -1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.699; -1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.885; 1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.823; 1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.761; 1.273)" ParentFrame="BoneCabinDamper_cdt" />
+			<Flare _template="MarkerBeacon" Color="g(255; 140; 0) x 0.3" Size="0.2" Pos="(5.893; 1.699; 1.273)" ParentFrame="BoneCabinDamper_cdt" />
+		</Ignition>
+	</ModelAttachments>
+	<GameData
+		Price="4200"
+		UnlockByExploration="false"
+		UnlockByRank="15"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_SNORKEL_FRONTFACE_TALL_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_SNORKEL_FRONTFACE_TALL_NAME"
+		/>
+	</GameData>
+</TruckAddon>

@@ -1,0 +1,26 @@
+<_templates Include="trucks" />
+<_parent File="khan_39_marshall_bumper_rear_default" />
+<TruckAddon>
+	<TruckData>
+		<Damage>
+			<Multiplier Multiplier="0.95" Type="FuelTank" />
+		</Damage>
+	</TruckData>
+	<PhysicsModel Mesh="trucks/khan_39_marshall_tuning/khan_39_marshall_bumper_rear_1" >
+		<Body ImpactType="Truck" Mass="15">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<GameData
+		Price="1200"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_REAR_BUMPER_TOWLOOPS_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_REAR_BUMPER_TOWLOOPS_NAME"
+		/>
+	</GameData>
+</TruckAddon>
