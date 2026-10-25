@@ -440,10 +440,10 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.07)" />
 			</Socket>
 			<Socket Names="BunkLog" NamesBlock="LogLift" Offset="(-6.5; 1.33; 0)" />
-			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector, LogLift, Pacific512SpareWheel" Offset="(-1.455; 1.324; 0)">
+			<Socket Names="FrameAddonLogShort" NamesBlock="MinicraneUS, MetalDetector, LogLift, Pacific512SpareWheel" Offset="(-0.955; 1.324; 0)">
 				<AddonsShift Offset="(-0.25; 0; 0)" Types="Pacific512CabinProtector" />
 			</Socket>
-			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneUS, MetalDetector, LogLift, Pacific512SpareWheel" Offset="(-1.455; 1.324; 0)">
+			<Socket Names="FrameAddonLogMedium" NamesBlock="MinicraneUS, MetalDetector, LogLift, Pacific512SpareWheel" Offset="(-0.955; 1.324; 0)">
 				<AddonsShift Offset="(-0.25; 0; 0)" Types="Pacific512CabinProtector" />
 			</Socket>
 			<Socket Names="BigCraneUs" NamesBlock="LogLift" Offset="(-3.07; 1.324; 0)">
@@ -458,9 +458,9 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.015)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.015)" />
 			</Socket>
-			<Socket Names="FrameAddonTowPlatform" NamesBlock="Pacific512CabinProtector, LogLift, MetalDetector, MinicraneUS, Pacific512SpareWheel, Trailer, LogTrailer" Offset="(-0.82; 1.324; 0)" />
+			<Socket Names="FrameAddonTowPlatform" NamesBlock="Pacific512CabinProtector, LogLift, MetalDetector, MinicraneUS, Pacific512SpareWheel, Trailer, LogTrailer" Offset="(-0.32; 1.324; 0)" />
 			<Socket Names="HeavyRepairSmall" NamesBlock="Pacific512SpareWheel, LogLift, MetalDetector, MinicraneUS" Offset="(-2.13; 1.51; 0)" />
-			<Socket Names="FrameAddon" NamesBlock="LogLift, Pacific512SpareWheel" Offset="(-1.87; 1.324; 0)">
+			<Socket Names="FrameAddon" NamesBlock="LogLift, Pacific512SpareWheel" Offset="(-1.37; 1.324; 0)">
 				<AddonsShift Offset="(-0.48; 0; 0)" Types="MinicraneUS" />
 				<AddonsShift Offset="(-0.65; 0; 0)" Types="LogLiftKenworth" />
 			</Socket>
