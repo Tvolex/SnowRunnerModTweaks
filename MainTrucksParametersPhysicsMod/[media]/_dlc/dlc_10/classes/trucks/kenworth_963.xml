@@ -405,7 +405,7 @@
 			<Flare _template="IgnitionSignalRed" Color="g(169; 0; 0) x 0.8" Size="0.33" Pos="(-7.73; 1.14; 0.302)" />
 		</Ignition>
 	</ModelAttachments>
-	<HeadLight _template="Default" Pos="(4.9; 1.709; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(4.9; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<Landmark Mesh="landmarks/kenworth_963_lmk" MinScale="1.7" MaxScale="3.5" />
 	<GameData
 		Country="US,NE,CE"

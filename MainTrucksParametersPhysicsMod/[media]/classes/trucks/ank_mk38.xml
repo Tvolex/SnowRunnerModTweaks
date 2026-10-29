@@ -45,7 +45,8 @@
 		TruckImage="ANKMK38mchr"
 		TruckType="OFFROAD"
 		HideDistance="250"
-		ShadowHideDistance="100"	>
+		ShadowHideDistance="100"
+	>
 		<WinchUpgradeSocket Default="w_medium_trucks_default" IsUpgradable="true" Type="winches_medium_trucks" />
 		<Wheels
 			DefaultRim="rim_1"
@@ -118,7 +119,7 @@
 		<Intake Dir="(1; 0; 0)" Origin="(3.474; 1.593; 0)" Size="1" />
 		<GearboxSocket Default="g_truck_default" Type="gearboxes_trucks" />
 		<FuelTank DamageCapacity="50" />
-		<EngineSocket Default="us_truck_old_engine_0" Type="e_us_truck_old, e_us_truck_old_top" />
+		<EngineSocket Default="us_truck_old_heavy_engine_0" Type="e_us_truck_old_heavy" />
 		<Driver
 			AnimationSet="Truck"
 			Pos="(1.111; 1.883; 0.603)"
@@ -304,7 +305,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/ank_mk38_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="51100"
@@ -434,9 +435,6 @@
 			<Socket Names="AddonHornsSmall" NamesBlock="StuffHoodAnkMk38" Offset="(3.432; 2.085; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSlots InitialOffset="(-1.131; 1.419; 0)" OffsetStep="(-2.486; 0; 0)" Quantity="2" />
-		<AddonSockets>
-			<Socket _template="Cabin2Chassis" Names="tuz_16_actaeonRooftopTrunk" NamesBlock="AnkMk38Beacon, AnkMk38Horn, AnkMk38Spotlight, AnkMk38SpotlightBeacon" Offset="(-0.105; 0.278; 0)" />
-		</AddonSockets>
 	</GameData>
 	<ControlledConstraints>
 		<Constraint Id="chassis_steer" IsLinkedSteering="true" Name="TieRodSteer" />

@@ -335,7 +335,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/ws_4964_white_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.539; 1.163; -0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(4.539; 1.163; -0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="32200"

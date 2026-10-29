@@ -338,7 +338,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/western_star_nf1430_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(7.291; 1.135; 0)" ParentFrame="BoneCabinDamper_cdt" />
+	<HeadLight _template="Default" Pos="(7.291; 1.135; 0)" ParentFrame="BoneCabinDamper_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="120600"

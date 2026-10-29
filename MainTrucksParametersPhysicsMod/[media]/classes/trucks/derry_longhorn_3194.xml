@@ -332,7 +332,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/derry_longhorn_3194_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(3.479; 1.222; 0)" />
+	<HeadLight _template="Default" Pos="(3.479; 1.222; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="stuff_bobblehead_joker, trailer_log_pole, semitrailer_gooseneck_3"

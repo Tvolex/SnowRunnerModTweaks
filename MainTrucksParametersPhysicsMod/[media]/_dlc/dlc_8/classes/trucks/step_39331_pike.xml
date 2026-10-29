@@ -306,7 +306,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/step_39331_pike_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(3.8; 0.8; 0)" />
+	<HeadLight _template="Default" Pos="(3.8; 0.8; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData Country="RU,CAS,WA" Price="63000" UnlockByExploration="true" UnlockByRank="1">
 		<WinchSocket Pos="(3.43; 0.968; -0.451)" ParentFrame="BoneCabin_cdt" />
 		<WinchSocket Pos="(3.43; 0.968; 0.451)" ParentFrame="BoneCabin_cdt" />

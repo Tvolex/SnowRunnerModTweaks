@@ -318,7 +318,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/gmc_8000_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(2.513; 1.167; 0)" />
+	<HeadLight _template="Default" Pos="(2.513; 1.167; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="90000"

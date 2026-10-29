@@ -353,7 +353,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/pacific_p512_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(5.292; 0.982; 0)" />
+	<HeadLight _template="Default" Pos="(5.292; 0.982; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="108300"

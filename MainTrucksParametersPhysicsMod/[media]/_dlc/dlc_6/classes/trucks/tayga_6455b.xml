@@ -310,7 +310,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/tayga_6455b_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.5; 1.5; 0)" />
+	<HeadLight _template="Default" Pos="(4.5; 1.5; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="70200"

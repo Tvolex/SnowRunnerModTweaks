@@ -400,7 +400,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/derry_longhorn_4520_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.576; 1.033; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(4.576; 1.033; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="125500"

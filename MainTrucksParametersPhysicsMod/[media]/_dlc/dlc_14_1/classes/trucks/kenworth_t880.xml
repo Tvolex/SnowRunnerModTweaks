@@ -444,7 +444,7 @@
 			<Flare _template="BlueStreak" Color="g(220; 220; 255) x 0.05" Dir="(-1; 0; 0)" Size="0.4" Pos="(-4.179; 0.661; -0.138)" />
 		</ReverseSignals>
 	</ModelAttachments>
-	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<Landmark Mesh="landmarks/kenworth_t880_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData
 		Country="US,NE,CE"

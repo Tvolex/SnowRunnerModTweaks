@@ -462,7 +462,7 @@
 		</Ignition>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/plad_450_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(5.874; 1.374; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(5.874; 1.374; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CAS,CE"
 		Price="113600"

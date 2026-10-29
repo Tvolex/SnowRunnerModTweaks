@@ -345,7 +345,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/international_fleetstar_f2070a_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.200; 1.283; 0.949)" />
+	<HeadLight _template="Default" Pos="(4.200; 1.283; 0.949)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="semitrailer_stepdeck_5, semitrailer_gooseneck_4, semitrailer_gooseneck_3,semitrailer_log_double_ls"

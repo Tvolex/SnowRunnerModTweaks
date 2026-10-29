@@ -361,8 +361,8 @@
 	<Landmark Mesh="landmarks/zikz_566a_lmk" MinScale="1.8" MaxScale="3.8" />
 	<HeadLight
 		_template="Default"
-		AttenEnd="35"
-		Color="g(255; 212; 154) x 3"
+		AttenEnd="47.25"
+		Color="g(255; 242; 225) x 6"
 		OuterCone="90`	"
 		Pos="(4.299; 1.241; 0)"
 		ParentFrame="BoneCabin_cdt"

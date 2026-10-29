@@ -325,7 +325,7 @@
     </HeadLight>
 </ModelAttachments>
 <Landmark Mesh="landmarks/chevrolet_kodiakC70_lmk" MinScale="1.8" MaxScale="3.8" />
-<HeadLight _template="Default" Pos="(3.801; 1.124; 0)" />
+<HeadLight _template="Default" Pos="(3.801; 1.124; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 <GameData
         Country="US,NE,CE"
         ExcludeAddons="semitrailer_log_double_ls, semitrailer_gooseneck_3"

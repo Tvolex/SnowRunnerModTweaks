@@ -458,7 +458,7 @@
 			<Flare _template="BlueStreak" Size="0.4" Pos="(4.854; 1.262; -1.016)" ParentFrame="BoneCabin_cdt"/>
 		</HeadLight>
 	</ModelAttachments>
-	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<Landmark Mesh="landmarks/kenworth_w990_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData
 		Country="US,NE,CE"

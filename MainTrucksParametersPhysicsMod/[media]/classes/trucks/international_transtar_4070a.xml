@@ -346,7 +346,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/international_transtar_4070a_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(3.357; 0.832; 0)" ParentFrame="BoneCabinPrismatic_cdt" />
+	<HeadLight _template="Default" Pos="(3.357; 0.832; 0)" ParentFrame="BoneCabinPrismatic_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="17900"

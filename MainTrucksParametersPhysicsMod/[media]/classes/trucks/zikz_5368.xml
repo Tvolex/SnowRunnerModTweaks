@@ -309,7 +309,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/zikz_5368_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(2.969; 1.14; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(2.969; 1.14; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="17800"

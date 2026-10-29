@@ -541,7 +541,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/paystar_5600ts_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(6.917; 0.94; 0)" ParentFrame="BoneCabinSusp_cdt" />
+	<HeadLight _template="Default" Pos="(6.917; 0.94; 0)" ParentFrame="BoneCabinSusp_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="frame_addon_sideboard_2"

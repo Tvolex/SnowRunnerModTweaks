@@ -397,7 +397,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/azov_64131_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(4.239; 1.202; 0)" ParentFrame="BoneCabin_cdt" />
+	<HeadLight _template="Default" Pos="(4.239; 1.202; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="69000"
