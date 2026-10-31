@@ -24,7 +24,7 @@ This file is the current repository-wide guidance. If older guidance in
 | `AddonsLeaning/` | Addon XML tweaks, including crane and other addon definitions. |
 | `CameraMod/` | Truck XML camera and cockpit-view changes. |
 | `De-RC-Fication/` | Truck XML changes intended to make vehicles less remote-control-like. |
-| `DestructubleTrees/` | Environment and truck XML related to destructible trees. |
+| `DestructibleTrees/` | Standalone tree-destruction mod with tree template overrides under `[media]/_templates/`. |
 | `Engines/` | Engine definitions and engine-related truck XML. |
 | `Gearboxes/` | Gearbox definitions. |
 | `MainTrucksParametersPhysicsMod/` | **The only editable/publishable mod folder.** The personal combined pack; its README documents included truck handling, camera, crane, and log-bunk tweaks. |
