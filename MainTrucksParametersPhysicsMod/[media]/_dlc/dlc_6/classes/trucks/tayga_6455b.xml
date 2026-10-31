@@ -175,6 +175,19 @@
 		<CompatibleWheels Scale=".64" RearOffsetZ="-0.1" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels Scale=".64" RearOffsetZ="-0.1" Type="wheels_heavy_mudtires_single2" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.64" RearOffsetZ="-0.08" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.61" RearOffsetZ="-0.1" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.61" RearOffsetZ="-0.1" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.61" RearOffsetZ="-0.1" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabinDamper_cdt">
 			<Cockpit
 				_template="Default"
@@ -310,7 +323,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/tayga_6455b_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.5; 1.5; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.5; 1.5; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="70200"
@@ -337,7 +350,7 @@
 			<CameraPos FOV="32.0" Interior="true" Name="mirror_mount" InterestPosition="(6.729; 2.700; -0.0)" Position="(4.147; 2.500; -0.111)" />
 			<CameraPos FOV="32.0" Name="side_r" InterestPosition="(4.764; 1.97; -0)" MaxXRotation="360" MaxYRotation="360" MaxZoom="2" Position="(-0.226; 4.969; -4.508)" />
 			<CameraPos FOV="32.0" Interior="true" Name="sticker" InterestPosition="(6.750; 2.000; 2.200)" Position="(4.650; 2.200; 0.200)" />
-			
+
 			<CameraPos FOV="32.0" Interior="true" Name="sticker_1" InterestPosition="(6.700; 2.250; 0.550)" Position="(4.810; 2.300; -0.500)" />
 			<CameraPos FOV="32.0" Interior="true" Name="glass_sticker" InterestPosition="(4.252; 2.181; -0.988)" Position="(8.71; 3.42; 1.018)" />
 			<CameraPos FOV="32.0" Interior="true" Name="door_r_sticker" InterestPosition="(6.426; 1.350; 0)" Position="(3.929; 2.715; 3.395)" />
@@ -390,7 +403,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0.01)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; -0.01)" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneRU" Offset="(-2.150; 0.079; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.043)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.043)" />
@@ -398,7 +411,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.200; 0.000; -0.043)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.200; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MinicraneRU" NamesBlock=" FrameAddonLogShort, FrameAddonLogMedium, FrameAddonKung, FrameAddonTank, FrameAddonSeismicVibrator" Offset="(0.6; 1.341; 0)">

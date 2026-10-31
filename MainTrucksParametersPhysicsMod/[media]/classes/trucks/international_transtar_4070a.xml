@@ -144,11 +144,25 @@
 		<CompatibleWheels Scale="0.5" Type="wheels_medium_offroad_double" />
 		<CompatibleWheels Scale="0.5" Type="wheels_medium_highway_double" />
 		<CompatibleWheels Scale="0.5" Type="wheels_medium_allterrain_double" />
-	
+
 		<CompatibleWheels Scale="0.53" Type="wheels_medium_offroad_double" />
 		<CompatibleWheels Scale="0.53" Type="wheels_medium_allterrain_double" />
 		<CompatibleWheels Scale="0.53" Type="wheels_medium_highway_double" />
-		
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.53" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.53" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.5" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.5" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.5" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.5" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -346,7 +360,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/international_transtar_4070a_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(3.357; 0.832; 0)" ParentFrame="BoneCabinPrismatic_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(3.357; 0.832; 0)" ParentFrame="BoneCabinPrismatic_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="17900"
@@ -431,7 +445,7 @@
 			<Socket Names="FrameAddonTank" NamesBlock="LogLift" Offset="(-2; 1.063; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="BigCraneUs" NamesBlock="LogLift, MinicraneUS, Semitrailer" Offset="(-1.682; 1.065; 0)" />
 			<!-- <Socket Names="BigCraneRu" NamesBlock="Minicrane, Semitrailer" Offset="(-1.9; 1.064; 0)" /> -->
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneUS, LogLift, MetalDetector" Offset="(-0.770; -0.202; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.045)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.045)" />
@@ -458,7 +472,7 @@
 				<ExtraParent Frame="BoneCabin_cdt" Offset="(0; 0; 0.05)" />
 			</Socket>
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="LogLift, InternationalTranstar4070aSpareWheel, FrameAddonKung, FrameAddonTank, FrameAddon, BigCraneUs, BigCraneRu, SaddleHigh" Offset="(0.048; 0.011; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="MinicraneUS" NamesBlock="LogLift, FrameAddonKung, FrameAddonTank" Offset="(0.9; 1.07; 0)">

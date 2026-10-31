@@ -188,10 +188,28 @@
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.16" Scale="0.6" Type="wheels_medium_allterrain_double" />
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.16" Scale="0.6" Type="wheels_medium_mudtires_double" />
 
+
 		<!--<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.08" Scale="0.5" Type="wheels_medium_offroad_double" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.5" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.5" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.5" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.5" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.08" Scale="0.5" Type="wheels_medium_highway_double" />
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.08" Scale="0.5" Type="wheels_medium_allterrain_double" />
-		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.08" Scale="0.5" Type="wheels_medium_mudtires_double" />-->
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.08" Scale="0.5" Type="wheels_medium_mudtires_double" />
+
+		-->
 
 		<Camera Center="(-1.25; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -283,6 +301,18 @@
 					<Constraint
 						AxisLocal="(0; 0; -1)"
 						PivotOffset="(0; 0; 0)"
+
+
+
+
+
+
+
+
+
+
+
+
 						Type="Hinge"
 						MinLimit="-6"
 						MaxLimit="1"
@@ -337,7 +367,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/tuz_108_warthog_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(2.865; 1.326; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(2.865; 1.326; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="19900"

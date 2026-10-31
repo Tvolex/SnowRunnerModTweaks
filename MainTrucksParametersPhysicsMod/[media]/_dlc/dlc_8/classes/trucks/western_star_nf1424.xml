@@ -150,6 +150,20 @@
 		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_medium_highway_double" />
 		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_medium_allterrain_double" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.07" RearOffsetZ="0.09" Scale="0.61" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.56" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.56" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.56" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.56" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.05" RearOffsetZ="0.07" Scale="0.61" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(1.4; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -320,7 +334,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/western_star_nf1424_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(7.084; 1.180; 0)" ParentFrame="BoneCabinDamper_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(7.084; 1.180; 0)" ParentFrame="BoneCabinDamper_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="113500"
@@ -402,7 +416,7 @@
 			<Socket Names="FrameAddonFlatbed1" Offset="(1.77; 1.08; 0)" >
 				<AddonsShift Offset="(-1.1; 0; 0)" Types="MinicraneNavistar" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneNavistar" Offset="(1.500; -0.190; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.080)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.080)" />
@@ -410,7 +424,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.740; 0.000; -0.080)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.740; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets >
 			<Socket Names="MinicraneNavistar" NamesBlock="FrameAddon, FrameAddonMaintainer, BunkLog" Offset="(2.75; 1.07; 0)" />
@@ -421,7 +435,7 @@
 				<ExtraParent Frame="BoneCabinDamper_cdt" />
 			</Socket>
 		</AddonSockets>
-		
+
 		<AddonSockets DefaultAddon="western_star_nf1424_horns_default">
 			<Socket Names="nf1424Horn" ParentFrame="BoneCabinDamper_cdt" />
 		</AddonSockets>

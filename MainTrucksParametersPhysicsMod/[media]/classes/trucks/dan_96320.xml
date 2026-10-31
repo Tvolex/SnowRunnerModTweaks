@@ -155,6 +155,17 @@
 		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_heavy_mudtires_single2" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.12" RearOffsetZ="0.02" Scale="0.65" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.65" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera Center="(0; 0; 0)" Radius="1.2">
 			<Cockpit
 				_template="Default"
@@ -301,7 +312,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/dan_96320_01_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(6.922; 1.131; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(6.922; 1.131; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		ExcludeAddons="frame_addon_flatbed_2"
@@ -387,7 +398,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.033; -0.03)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.033; 0.03)" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" Offset="(-1.100; -0.082; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.030)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.030)" />
@@ -395,7 +406,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; -0.030)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="Dan96320WheelAddon" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt">

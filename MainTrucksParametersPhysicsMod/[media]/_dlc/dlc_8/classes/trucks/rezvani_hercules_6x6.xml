@@ -167,6 +167,10 @@
 		<CompatibleWheels Scale="0.47" Type="wheels_scout_allterrain_chain" />
 		<CompatibleWheels Scale="0.49" Type="wheels_scout_allterrain" />
 		<CompatibleWheels Scale="0.49" Type="wheels_scout_allterrain_chain" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.49" Type="wheels_scout_wide/3280471" />
+
 		<Camera Center="(0.3; 0; 0)" RadiusMultiplier="0.8">
 			<Cockpit
 				_template="Default"
@@ -314,7 +318,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/rezvani_hercules_6x6_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(2.842; 1.041; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(2.842; 1.041; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData Country="US,NE,CE" Price="25800" UnlockByRank="1">
 		<WinchSocket Pos="(4.657; 0.605; 0)" />
 		<WinchSocket Pos="(2.051; 0.589; -0.901)" />

@@ -173,6 +173,20 @@
 		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.01" Scale="0.60" Type="wheels_medium_highway_double" />
 		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_medium_allterrain_double" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.12" Scale="0.60" RearOffsetZ="0.01" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.1" Scale="0.55" RearOffsetZ="-0.01" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.55" RearOffsetZ="-0.01" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.55" RearOffsetZ="-0.01" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.55" RearOffsetZ="-0.01" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" Scale="0.60" RearOffsetZ="-0.01" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.7; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -402,7 +416,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/cat_ct680_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.21; 0.864; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.21; 0.864; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="37000"
@@ -507,7 +521,7 @@
 			</Socket>
 			<!-- <Socket Names="BigCraneRu" NamesBlock="Minicrane, Cat680CabinProtector" Offset="(-3; 1.07; 0)" /> -->
 			<Socket Names="FrameAddonMaintainer" NamesBlock="LogLift, MinicraneUS, Cat680CabinProtector, Trailer" Offset="(-2.5; 0.03; 0)" />
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="LogLift, Cat680CabinProtector, MetalDetector, MinicraneUS" Offset="(-1.60; -0.199; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.065)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.065)" />

@@ -149,6 +149,20 @@
 		<CompatibleWheels Scale="0.60" Type="wheels_medium_highway_double" />
 		<CompatibleWheels Scale="0.60" Type="wheels_medium_allterrain_double" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.60" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.60" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.60" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.60" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.60" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.60" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.4; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -218,9 +232,7 @@
 						PlaneMax="1.5"
 					>
 						<PlaneMotor Damping="200000" Spring="3500000" Type="Spring" />
-						<!--влево-вправо-->
 						<ConeMotor Damping="700000" Spring="1500000" Type="Spring" />
-						<!--взад-вперед-->
 					</Constraint>
 					<Body Collisions="None" Mass="2" ModelFrame="BoneBelt1_cdt">
 						<Constraint
@@ -335,7 +347,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/gmc_9500_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.523; 1.275; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.523; 1.275; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="10600"
@@ -426,7 +438,7 @@
 			</Socket>
 			<Socket Names="FrameAddonSeismicVibrator" NamesBlock="LogLift, MetalDetector, MinicraneUS, Trailer" Offset="(0.28; 1.051; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="FrameAddonMaintainer" NamesBlock="LogLift, MetalDetector, Trailer, MinicraneUS" Offset="(-2.15; 0.022; 0)" ParentFrame="BoneChassis_cdt" />
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="LogLift, MetalDetector, MinicraneUS" Offset="(-1.200; -0.214; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.050)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.050)" />
@@ -434,7 +446,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.000; 0.000; -0.050)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.000; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="LogLift, FrameAddonKung, FrameAddonTank" Offset="(0.7; 0; 0)" ParentFrame="BoneCabin_cdt" />

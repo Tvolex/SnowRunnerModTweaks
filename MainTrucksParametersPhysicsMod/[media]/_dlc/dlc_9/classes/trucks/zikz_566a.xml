@@ -199,9 +199,29 @@
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_medium_offroad_double" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_medium_highway_double" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_medium_allterrain_double" />
+
+
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_medium_mudtires_double" />
 
+
+
+
+
 		<!-- <CompatibleWheels OffsetZ="0.49" Scale="0.65" Type="wheels_heavy_single3" /> -->
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.47" RearOffsetZ="0.52" Scale="0.6" Type="wheels_mrb_med_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.52" RearOffsetZ="0.5" Scale="0.55" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.54" RearOffsetZ="0.52" Scale="0.55" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.52" RearOffsetZ="0.5" Scale="0.55" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_offroad_double_20N/3555058" />
+
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 		<Camera Center="(-0.9; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -362,7 +382,7 @@
 	<HeadLight
 		_template="Default"
 		AttenEnd="47.25"
-		Color="g(255; 242; 225) x 6"
+		Color="g(255; 191; 92) x 6"
 		OuterCone="90`	"
 		Pos="(4.299; 1.241; 0)"
 		ParentFrame="BoneCabin_cdt"
@@ -386,7 +406,7 @@
 			UiName="UI_VEHICLE_ZiKZ_566A_NAME"
 		/>
 		<CustomizationCameras>
-			
+
 			<CameraPos FOV="32.0" Name="addon_1" InterestPosition="(3; 1.5; 0)" MaxXRotation="360" MaxYRotation="360" MaxZoom="2" Position="(-5; 2.5; 7)" />
 			<CameraPos FOV="32.0" Name="spare_wheel_camera" InterestPosition="(5.6; 1.3; 0)" MaxXRotation="360" MaxYRotation="360" MaxZoom="2" Position="(3.4; 2; 4)" />
 			<CameraPos FOV="32.0" Interior="true" Name="mirror_mount" InterestPosition="(6.75; 1.606; 1.9)" Position="(4.636; 2.429; -0.651)" />
@@ -408,7 +428,7 @@
 			<CameraPos FOV="32.0" Interior="true" Name="door_r_sticker" InterestPosition="(6.6; 1; 0)" Position="(4.276; 1.6; 2.785)" />
 			<CameraPos FOV="32.0" Interior="true" Name="door_l_sticker" InterestPosition="(4.4; 1.15; 0)" Position="(4.276; 1.6; -2.785)" />
 			<CameraPos FOV="32.0" Interior="true" Name="sticker_roof" InterestPosition="(4.7; 2.2; -0.8)" Position="(6.950; 4.308; -1.875)" />
-			
+
 			<CameraPos FOV="32.0" Interior="true" Name="hood_figure" InterestPosition="(6; 1.85; -0.2)" Position="(8.4; 1.5; -0.9)" />
 		</CustomizationCameras>
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -435,7 +455,7 @@
 			<Socket Names="Step3364CrocodileTank" NamesBlock="MinicraneRU" Offset="(-0.33; 0; 0)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		<!-- NamesBlock="Step3364CrocodileTank, FrameAddonSideboard1, FrameAddonMaintainerSmall, SaddleLow1, MinicraneRU, Trailer, SemitrailerOiltank, Semitrailer" -->
-		
+
 		<AddonSockets DefaultAddon="zikz_566a_diff_lock_default">
 			<Socket Names="zikz566DiffLock" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>

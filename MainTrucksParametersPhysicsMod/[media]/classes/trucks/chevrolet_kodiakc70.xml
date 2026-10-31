@@ -165,6 +165,20 @@
     <CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_highway_double" />
     <CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_allterrain_double" />
 
+    <!-- 3280471 - MrBusses -->
+    <CompatibleWheels Scale="0.55" Type="wheels_mrb_med_dually/3280471" />
+    <CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.55" Type="wheels_mrb_med_wide/3280471" />
+
+    <!-- 3555058 - Nanako -->
+    <CompatibleWheels Scale="0.50" Type="wheels_tractor_double_type1_20N/3555058" />
+    <CompatibleWheels Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+    <CompatibleWheels Scale="0.50" Type="wheels_tractor_double_type2_20N/3555058" />
+    <CompatibleWheels Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+    <CompatibleWheels Scale="0.50" Type="wheels_offroad_double_20N/3555058" />
+    <CompatibleWheels Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+    <CompatibleWheels Scale="0.50" Type="wheels_offroad_double_type2_20N/3555058" />
+    <CompatibleWheels Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+
     <Camera Center="(-1.7; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -234,9 +248,7 @@
                         PlaneMax="1.5"
                 >
                     <PlaneMotor Damping="200000" Spring="4500000" Type="Spring" />
-                    <!--влево-вправо-->
                     <ConeMotor Damping="700000" Spring="1500000" Type="Spring" />
-                    <!--взад-вперед-->
                 </Constraint>
                 <Body Mass="0.2" ModelFrame="BoneKeyFob_cdt">
                     <Constraint
@@ -325,7 +337,7 @@
     </HeadLight>
 </ModelAttachments>
 <Landmark Mesh="landmarks/chevrolet_kodiakC70_lmk" MinScale="1.8" MaxScale="3.8" />
-<HeadLight _template="Default" Pos="(3.801; 1.124; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+<HeadLight _template="Default" Pos="(3.801; 1.124; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 <GameData
         Country="US,NE,CE"
         ExcludeAddons="semitrailer_log_double_ls, semitrailer_gooseneck_3"

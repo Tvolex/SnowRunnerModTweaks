@@ -231,7 +231,17 @@
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_offroad_single_derry_special_15c177" />
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_mudtires_single_derry_special_15c177" />
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_mudtires_single2_derry_special_15c177" />
-		
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.7" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.7" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels Scale="0.7" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.7" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera Center="(-3.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -324,7 +334,7 @@
 				>
 					<Motor Type="Spring" Spring="103305" Damping="61048"/>
 				</Constraint>
-				
+
 				<Body
 					CenterOfMassOffset="(0; 0; 0)"
 					ImpactType="Truck"
@@ -373,7 +383,7 @@
 						<Motor Type="Spring" Spring="0.1" Damping="0"/>
 					</Constraint>
 				</Body>
-				
+
 				<Body
 					CenterOfMassOffset="(0; 0; 0)"
 					ImpactType="Truck"
@@ -390,7 +400,7 @@
 						<Motor Type="Spring" Spring="0" Damping="0.01"/>
 					</Constraint>
 				</Body>
-				
+
 				<Body
 					CenterOfMassOffset="(0; 0; 0)"
 					ImpactType="Truck"
@@ -407,7 +417,7 @@
 						<Motor Type="Spring" Spring="10000" Damping="220"/>
 					</Constraint>
 				</Body>
-					
+
 				<Body _template="TieRod" ModelFrame="BoneTieRodL_cdt">
 					<Constraint AxisLocal="(0; 0; -1)" Name="TieRodSteer1"  MinLimit="-16" MaxLimit="16"/>
 				</Body>
@@ -516,7 +526,7 @@
 		</HeadLight>
 	</ModelAttachments> 
 	<Landmark Mesh="landmarks/derry_special_15c177_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="150000"
@@ -635,7 +645,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.095; 0.05)" />
 			</Socket>
 			<Socket Names="SaddleHigh1" Offset="(-4.84; 1.48; 0)" />
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneUS" Offset="(-3.900; 0.216; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.041)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.041)" />
@@ -643,7 +653,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; -0.041)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MinicraneUS" Offset="(-1.65; 1.48; 0)" NamesBlock="FrameAddonDerryFirefighter, BunkLog, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig, FrameAddonSeismicVibrator" >

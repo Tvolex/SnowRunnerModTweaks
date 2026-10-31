@@ -165,6 +165,18 @@
 		</Damage>
 		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_heavy_double_p16" />
 		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_heavy_offroad_double_p16" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.73" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.0" Scale="0.73" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -387,7 +399,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/pacific_p16_lmk" MinScale="1.8" MaxScale="3.5" />
-	<HeadLight _template="Default" Pos="(3.65; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(3.65; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="ford_clt9000_top_fender, semitrailer_m747, trailer_log_pole"

@@ -143,13 +143,27 @@
 		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_heavy_offroad_p12" />
 		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_heavy_double2_p12" />
 		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_heavy_single_p12" />
-		
+
 		<CompatibleWheels OffsetZ="0.085" RearOffsetZ="-0.1" Scale="0.73" Type="wheels_heavy_offroad_single_p12" />
 		<CompatibleWheels OffsetZ="0.085" Scale="0.73" Type="wheels_heavy_offroad_double_p12" />
 		<CompatibleWheels OffsetZ="0.085" Scale="0.73" Type="wheels_heavy_allterrain_double_p12" />
 		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.73" Type="wheels_heavy_mudtires_single_p12" />
 		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.73" Type="wheels_heavy_mudtires_single2_p12" />
-		
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.07" Scale="0.73" RearOffsetZ="-0.08" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-2.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -309,7 +323,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/pacific_p12w_lmk" MinScale="1.8" MaxScale="3.5" />
-	<HeadLight _template="Default" Pos="(3.65; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(3.65; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="104400"
@@ -379,7 +393,7 @@
 			<Socket Names="PacificP12WSpotLight" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 			<Socket Names="PacificP12WBeacon" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<!-- VISUAL FRAME ADDONS -->
 		<AddonSockets>
 			<Socket
@@ -395,7 +409,7 @@
 		<AddonSockets>
 			<Socket Names="PacificP12WCabinProtector" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<!-- FRAME ADDONS -->
 		<AddonSockets>
 			<Socket Names="FrameAddonFlatbed2PacificP16" Offset="(-3.9; 1.82; 0)" NamesBlock="LogLift, MetalDetector">
@@ -410,28 +424,28 @@
 			<Socket Names="FrameAddonSideboard3PacificP16" Offset="(-3.75; 1.82; 0)" NamesBlock="LogLiftKenworth, LogLift, MetalDetector, PacificP12WCabinProtector, PacificP12wSpareWheel, Trailer, LogTrailer">
 				<AddonsShift Offset="(-0.7; 0; 0)" Types="CranePacificP12" />
 			</Socket>
-			
+
 			<Socket Names="FrameAddonTank" NamesBlock="LogLift" Offset="(-4.36; 1.82; 0)">
 				<AddonsShift Offset="(-0.5; 0; 0)" Types="PacificP12wSpareWheel" />
 				<AddonsShift Offset="(-0.45; 0; 0)" Types="PacificP12wSpareWheel, CranePacificP12" TrailerNamesBlock="Trailer, LogTrailer" />
 				<AddonsShift Offset="(-0.55; 0; 0)" Types="PacificP12WCabinProtector, CranePacificP12" TrailerNamesBlock="Trailer, LogTrailer" />
 			</Socket>
-			
+
 			<Socket Names="HeavyRepairSmall" NamesBlock="LogLiftKenworth, LogLift, MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector" Offset="(-3.45; 2; 0)">
 				<AddonsShift Offset="(-0.15; 0; 0)" Types="PacificP12wExhaust" />
 			</Socket>
 			<Socket Names="FrameAddonMaintainerBig" NamesBlock="LogLift, PacificP12wSpareWheel, Trailer, LogTrailer, PacificP12WCabinProtector" Offset="(0; 1.82; 0)" />
-			
+
 			<Socket Names="BunkLog" NamesBlock="LogLift" Offset="(-8.094; 1.825; 0)" />
 			<Socket Names="FrameAddonLogShort" NamesBlock="LogLift, MetalDetector" Offset="(-3.7; 1.821; 0)" />
 			<Socket Names="FrameAddonLogMedium" NamesBlock="LogLift, MetalDetector" Offset="(-2.7; 1.821; 0)">
 				<AddonsShift Offset="(-0.43; 0; 0)" Types="PacificP12WCabinProtector" />
 				<AddonsShift Offset="(-1; 0; 0)" Types="PacificP12wSpareWheel" />
 			</Socket>
-			
+
 			<Socket Names="SaddleHigh1" NamesBlock="LogLift" Offset="(-4.641; 1.821; 0)" />
 			<Socket Names="FrameAddonTowPlatform" NamesBlock="LogLiftKenworth, LogLift, MetalDetector, PacificP12wSpareWheel, Trailer, LogTrailer" Offset="(-2.8; 1.82; 0)" />
-			
+
 			<Socket Names="BigCraneUs" NamesBlock="LogLift, MetalDetector, PacificP12wSpareWheel, PacificP12WCabinProtector" Offset="(-3.064; 1.921; 0)">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
@@ -449,7 +463,7 @@
 				ParentFrame="BoneChassis_cdt"
 			/>
 		</AddonSockets>
-		
+
 		<!-- CRANES -->
 		<AddonSockets>
 			<Socket Names="LogLiftKenworth" NamesBlock="LogLift, FrameAddonLogMedium, BigCraneUs, MetalDetector, FrameAddonMaintainerBig, PacificP12wSpareWheel, PacificP12WCabinProtector" Offset="(-0.95; 2.009; 0)" ParentFrame="BoneCabin_cdt">
@@ -466,13 +480,13 @@
 				<AddonsShift Offset="(-1.1; 0; 0)" Types="PacificP12WCabinProtector" />
 			</Socket>
 		</AddonSockets>
-		
+
 		<!-- TRAILERS -->
 		<AddonSockets>
 			<Socket Names="LargeSemitrailer, LargeSemitrailerOiltank" NamesBlock="LogLift" Offset="(-4.641; 2.15; 0)" />
 			<Socket Names="Trailer, LogTrailer" Offset="(-6.94; 1.35; 0)" />
 		</AddonSockets>
-		
+
 		<!-- CUSTOMIZATION -->
 		<AddonSockets>
 			<Socket

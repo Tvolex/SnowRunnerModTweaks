@@ -184,11 +184,11 @@
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="fuel" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.414)" OutputAngles="(-40; 40)" Scale="1.0"/>
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.373)" OutputAngles="(-40; 18)" Scale="1.0"/>
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.333)" OutputAngles="(-40; 22)" Scale="1.0"/>
-			
+
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.642)" OutputAngles="(-45; 30)" Scale="1.0"/>
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.683)" OutputAngles="(-20; 20)" Scale="1.0"/>
 			<Gauge Damping="0.99" Dir="(-0.959; 0.282; 0.01)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.272; 2.284; 0.723)" OutputAngles="(-40; 6)" Scale="1.0"/>
-			
+
 			<Gauge Damping="0.99" Dir="(-0.771; 0.196; 0.606)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.098; 2.431; -0.045)" OutputAngles="(-120; 45)" Scale="0.8"/>
 			<Gauge Damping="0.99" Dir="(-0.771; 0.196; 0.606)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.058; 2.437; -0.097)" OutputAngles="(-120; 8)" Scale="0.8"/>
 			<Gauge Damping="0.99" Dir="(-0.771; 0.196; 0.606)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/mack_defense_m917_arrow_03" Org="(3.015; 2.444; -0.152)" OutputAngles="(-120; 20)" Scale="0.8"/>
@@ -203,6 +203,16 @@
 		<CompatibleWheels RearOffsetZ="0.05" Scale="0.6" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels RearOffsetZ="0.1" Scale="0.6" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels RearOffsetZ="0.1" Scale="0.6" Type="wheels_heavy_mudtires_single2" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.6" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.6" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels Scale="0.6" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.6" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_type2_20N/3555058" />
 
 		<Camera Center="(-0.94; -0.35; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -224,7 +234,7 @@
 				ViewDir="(1; -0.05; -0.9)"
 				ViewPosOffset="(0.01; 0.0; 0.6)"
 				/>
-				
+
 				<Mirror
 					ClipDir="(-0.888;-0.0;-0.461)"
 					ClipOffset="0.02"
@@ -244,7 +254,7 @@
 						Pos="(2.934; 2.362; 1.376)"
 					/>
 				</Mirror>
-				
+
 				<Mirror
 					ClipDir="(-0.820; -0.0; 0.649)"
 					ClipOffset="0.2"
@@ -264,7 +274,7 @@
 						Pos="(2.934; 2.362; -1.376)"
 					/>
 				</Mirror>
-				
+
 				<Mirror ClipDir="(-0.99;-0.011;0.138)" ClipOffset="0.15" CurveAngle="15" FOVScale="6" MeshFrame="mirror_left_3" ReflectionDir="(-0.99;-0.011;0.138)" Size="(0.362; 0.315)" Pos="(4.808; 2.135; 1.05)" />
 				<Mirror ClipDir="(-0.99;-0.011;0.138)" ClipOffset="0.15" CurveAngle="15" FOVScale="6" MeshFrame="mirror_right_3" ReflectionDir="(-0.99;-0.011;0.138)" Size="(0.362; 0.315)" Pos="(4.808; 2.135; -1.05)" />
 			</Cockpit>
@@ -398,7 +408,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/mack_defense_m917_lmk" MinScale="1.7" MaxScale="3.7" />
-	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="semitrailer_log_double_ls, semitrailer_gooseneck_3"
@@ -515,7 +525,7 @@
 			<Socket Names="SaddleHigh" Offset="(-1.958; 1.302; 0)" />
 			<Socket Names="SaddleLow" Offset="(-1.958; 1.302; 0)" />
 			<Socket Names="FrameAddonKung" Offset="(-1.75; 1.323; 0)" />
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneNavistar, LogLift" Offset="(-1.200; 0.037; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.020)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.020)" />
@@ -523,7 +533,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; -0.020)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MinicraneNavistar" Offset="(0.750; 1.289; 0)" NamesBlock="FrameAddonDerryFirefighter, BunkLog, FrameAddonTank, FrameAddonKung, BigCraneUs, BigCrane, BigCraneRu, FrameAddonMaintainerBig" >
@@ -657,7 +667,7 @@
 		<AddonSockets>
 			<Socket InCockpit="true" Names="StuffCurtainMackDefenseM917" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket InCockpit="true" Names="StuffDashboard" Offset="(3.23;2.509;-0.1)" Dir="(0.400; -0.003; 0.871)" UpDir="(0.110; 1; -0.05)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets> 
@@ -673,7 +683,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneTieRodHingeR2" ParentFrame="BoneTieRodRight_cdt">
 			<IKJoint AxisLocal="(1; 0; 0)" Type="Hinge2" />
 			<IKBone
@@ -684,7 +694,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonFrontRa" ParentFrame="BoneCabin_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -695,7 +705,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonFrontLa" ParentFrame="BoneCabin_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -706,7 +716,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear2Ra" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -717,7 +727,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear2La" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -728,7 +738,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear3Ra" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -739,7 +749,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear3La" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -750,7 +760,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear4La" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -761,7 +771,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKPistonRear4Ra" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge2" />
 			<IKBone
@@ -772,7 +782,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneIKRear1Left" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 0; 1)" Type="Hinge" />
 			<IKBone

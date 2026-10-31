@@ -180,6 +180,20 @@
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_medium_allterrain_double" />
 		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.06" Scale="0.6" Type="wheels_medium_mudtires_double" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.6" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.07" Scale="0.6" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.53" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.6" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.53" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.6" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.53" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.6" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.53" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.13" RearOffsetZ="0.05" Scale="0.6" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -309,7 +323,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/zikz_5368_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(2.969; 1.14; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(2.969; 1.14; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="17800"

@@ -211,7 +211,7 @@
 		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.55" Type="wheels_heavy_allterrain_double" />
 
 		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_heavy_offroad_single" />
-	
+
 		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_heavy_mudtires_single2" />
 
@@ -222,6 +222,27 @@
 		<CompatibleWheels RearOffsetZ=".12" Scale="0.63" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels RearOffsetZ=".12" Scale="0.63" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels RearOffsetZ=".12" Scale="0.63" Type="wheels_heavy_mudtires_single2" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="-0.04" RearOffsetZ="0.18" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.63" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.55" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ="0.1" Scale="0.63" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="-0.06" RearOffsetZ=".16" Scale="0.63" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -449,7 +470,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/voron_grad_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4; 1.417; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4; 1.417; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="65700"
@@ -577,7 +598,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; -0.065)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets DefaultAddon="voron_grad_diff_lock_default">
 			<Socket Names="VoronGradDiffLock" Offset="(0; 0; 0)" ParentFrame="BoneChassis_cdt" />

@@ -155,8 +155,23 @@
 		<CompatibleWheels  OffsetZ="0.1" RearOffsetZ="-.01" Scale="0.65" Type="wheels_medium_highway_double" />
 		<CompatibleWheels  OffsetZ="0.1" RearOffsetZ="-.01" Scale="0.65" Type="wheels_medium_allterrain_double" />
 		<CompatibleWheels  RearOffsetZ="-.01" Scale="0.65" Type="wheels_medium_mudtires_double" />
-		
+
 		<CompatibleWheels OffsetZ=".05" RearOffsetZ=".08" Scale="0.65" Type="wheels_medium_mudtires_ankmk38" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.65" RearOffsetZ="-0.04" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.65" RearOffsetZ="-0.02" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.6" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.65" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.6" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.65" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.6" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.65" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.6" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.04" Scale="0.65" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-2.2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -305,7 +320,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/ank_mk38_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(5; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="51100"

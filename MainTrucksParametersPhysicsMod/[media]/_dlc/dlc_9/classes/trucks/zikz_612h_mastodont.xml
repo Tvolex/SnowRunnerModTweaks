@@ -133,6 +133,27 @@
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_heavy_single_zikz_612h" />
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_heavy_single2_zikz_612h" />
 		<CompatibleWheels  OffsetZ="0.36" Scale="0.78" Type="wheels_superheavy_mudtires" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_mrb_hvy_mud_monster/3280471" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_mrb_hvy_supersingle/3280471" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_quasi_mud_double_hvy/3280471" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_quasi_mud_monster_hvy/3280471" />
+		<CompatibleWheels OffsetZ="0.36" Scale="0.78" Type="wheels_mrb_Superheavy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_mrb_Superheavy_mud_monster/3280471" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_mrb_Superheavy_tractor/3280471" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_mrb_Superheavy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_mrb_suphvy_supersingle/3280471" />
+		<CompatibleWheels OffsetZ="0.36" Scale="0.78" Type="wheels_quasi_mud_double/3280471" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_quasi_mud_monster/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<!--<LimitedFluid
 			Center="(5.483; 1.498; 1.235)"
 			SizeX="0.773"
@@ -247,7 +268,7 @@
 				>
 					<Motor Damping="122095" Spring="137740" Type="Spring" />
 				</Constraint>
-				
+
 				<Body Collisions="None" Mass="1.5" ModelFrame="BoneSunshieldL_cdt">
 					<Constraint
 						AxisLocal="(0; 0; 1)"
@@ -298,7 +319,7 @@
 						<Motor Damping="0.05" Spring="0.8" Type="Spring" />
 					</Constraint>
 				</Body>
-				
+
 				<Body
 					ImpactType="Truck"
 					Mass="1"
@@ -534,7 +555,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/zikz_612h_mastodont_lmk" MinScale="1.8" MaxScale="2.8" />
-	<HeadLight _template="Default" Pos="(9.025; 1.551; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(9.025; 1.551; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="191300"
@@ -638,7 +659,7 @@
 			<Socket Names="FrameAddonLogMediumMastodon" Offset="(1; 1.7; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="BunkLogMastadont" Offset="(-4.5; 1.5; 0)" />
 			<Socket Names="MastodonFrameAddonTowPlatform" NamesBlock="MinicraneRU, ZikzLogLift, Trailer, LogTrailer" Offset="(1.5; 1.55; 0)" />
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneRU, ZikzLogLift" Offset="(0.670; 0.029; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.110)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.110)" />
@@ -646,7 +667,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; 0.110)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket

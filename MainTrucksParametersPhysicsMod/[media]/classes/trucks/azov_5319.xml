@@ -173,6 +173,17 @@
 		<CompatibleWheels Scale="0.63" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels Scale="0.63" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels Scale="0.63" Type="wheels_heavy_mudtires_single2" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -351,7 +362,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/azov_5319_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(4.447; 1.042; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.447; 1.042; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="64600"
@@ -444,7 +455,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0)" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="LogLift, MinicraneRU" Offset="(-1.800; 0.068; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.002)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.002)" />
@@ -452,7 +463,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; -0.002)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MinicraneRU" Offset="(1.3; 1.336; 0)" ParentFrame="BoneCabin_cdt" NamesBlock="LogLift, BunkLog, FrameAddonTank, BigCraneRu, BigCrane, FrameAddonSeismicVibrator, LargeSemitrailerOiltank, Azov5319Fender" >

@@ -278,6 +278,27 @@
 		<CompatibleWheels RearOffsetZ="0.14" Scale="0.63" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels RearOffsetZ="0.14" Scale="0.63" Type="wheels_heavy_mudtires_single2" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels RearOffsetZ="0.18" OffsetZ="0.02" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.545" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.545" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.545" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.545" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.545" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.545" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.545" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".16" Scale="0.63" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera
 			Center="(-2; 0; 0)"
 			RadiusMultiplier="1.4"
@@ -541,7 +562,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/paystar_5600ts_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(6.917; 0.94; 0)" ParentFrame="BoneCabinSusp_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(6.917; 0.94; 0)" ParentFrame="BoneCabinSusp_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="frame_addon_sideboard_2"
@@ -617,7 +638,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.08; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.08; 0)" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="FrameAddonKung, LogLift" Offset="(-3.200; -0.131; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.068)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.068)" />
@@ -625,7 +646,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; -0.068)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.400; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket

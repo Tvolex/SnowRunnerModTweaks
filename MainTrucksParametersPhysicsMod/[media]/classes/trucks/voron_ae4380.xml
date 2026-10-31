@@ -186,7 +186,27 @@
 		<CompatibleWheels RearOffsetZ=".08" Scale="0.63" Type="wheels_heavy_highway_double" />
 		<CompatibleWheels RearOffsetZ=".08" Scale="0.63" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels RearOffsetZ=".08" Scale="0.63" Type="wheels_heavy_allterrain_double" />
-		
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels RearOffsetZ="0.06" OffsetZ="0.02" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.55" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.55" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.55" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.63" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -447,7 +467,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/voron_ae4380_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(3.707; 1.456; 0)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(3.707; 1.456; 0)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		ExcludeAddons="stuff_hula_girl, stuff_masha, stuff_bobblehead_joker"
@@ -535,9 +555,9 @@
 				<AddonsShift Offset="(-0.5; 0; 0)" Types="VoronAE4380WheelAddon" />
 				<AddonsShift Offset="(-1; 0; 0)" Types="MinicraneRU" />
 				<AddonsShift Offset="(0; 0; 0)" TrailerNamesBlock="FrameAddonTow" Types="MinicraneRU, VoronAE4380WheelAddon" />
-				
+
 			</Socket>
-					
+
 			<Socket Names="FrameAddonKung" Offset="(-2.348; 1.242; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; -0.08)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0.08)" />
@@ -555,7 +575,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 			</Socket>
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="MinicraneRU, MetalDetector" Offset="(-2.400; -0.110; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.085)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.085)" />
@@ -563,7 +583,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; -0.085)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.100; 0.000; 0.000)" />
 			</Socket>
-			
+
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="MetalDetector" NamesBlock="SemitrailerOiltank, FrameAddonKung, FrameAddonTank, FrameAddon, SaddleHigh, FrameAddonTow" Offset="(-1.014; 0.104; 0)" ParentFrame="BoneChassis_cdt" />
@@ -588,7 +608,7 @@
 		<AddonSockets>
 			<Socket Names="VoronAE4380Searchlight" ParentFrame="BoneCabinDamper_cdt" />
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="VoronAE4380Snorkel" NamesBlock="VoronAE4380Visor" ParentFrame="BoneCabinDamper_cdt" />
 			<Socket Names="VoronAE4380Snorkel2" ParentFrame="BoneCabinDamper_cdt" />

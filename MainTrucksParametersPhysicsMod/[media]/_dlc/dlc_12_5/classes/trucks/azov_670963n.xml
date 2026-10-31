@@ -177,7 +177,17 @@
 		<CompatibleWheels Scale="0.63" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels OffsetZ="0.05" Scale="0.63" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels OffsetZ="0.05" Scale="0.63" Type="wheels_heavy_mudtires_single2" />
-		
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.025" Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.045" RearOffsetZ="0.02" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.025" Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.025" Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.025" Scale="0.63" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.025" Scale="0.63" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera Center="(-2.1 0; 0)" RadiusMultiplier="1.2" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -255,7 +265,7 @@
 		>
 			<Body _template="Mudguard" ModelFrame="BoneMudguardRearLeft_cdt" />
 			<Body _template="Mudguard" ModelFrame="BoneMudguardRearRight_cdt" />
-		
+
 			<Body
 				CenterOfMassOffset="(0; -0.6; 0)"
 				ImpactType="Truck"
@@ -289,7 +299,7 @@
 						<Motor Damping="0.001" Spring="0.003" Type="Spring" />
 					</Constraint>
 				</Body>
-				
+
 				<Body _template="TieRod" ModelFrame="BoneLeftTieRod1_1_cdt">
 					<Constraint
 						AxisLocal="(0; 0; 1)"
@@ -384,7 +394,7 @@
 		</ReverseSignals>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/azov_670963n_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(5.874; 1.374; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(5.874; 1.374; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="RU,CAS,WA"
 		Price="137850"
@@ -482,21 +492,21 @@
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Door_R" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Side1_L" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Side1_R" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Side2_L" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Side2_R" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="Azov670963nSticker_Roof" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
@@ -663,7 +673,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneLeftTieRod1_2" ParentFrame="BoneLeftTieRod1_1_cdt">
 			<IKJoint AxisLocal="(1; 0; 0)" Type="Hinge2" />
 			<IKBone
@@ -704,7 +714,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRightTieRod1_2" ParentFrame="BoneRightTieRod1_1_cdt">
 			<IKJoint AxisLocal="(1; 0; 0)" Type="Hinge2" />
 			<IKBone

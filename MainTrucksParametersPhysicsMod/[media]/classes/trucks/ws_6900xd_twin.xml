@@ -219,7 +219,7 @@
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels Scale="0.7" Type="wheels_heavy_mudtires_single2" />
-		
+
 		<CompatibleWheels Scale="0.8" Type="wheels_heavy_offroad_single" />
 		<CompatibleWheels Scale="0.8" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels Scale="0.8" Type="wheels_heavy_mudtires_single2" />
@@ -227,6 +227,24 @@
 		<CompatibleWheels OffsetZ="0.1" Scale="0.7" Type="wheels_heavy_highway_double" />
 		<CompatibleWheels OffsetZ="0.1" Scale="0.7" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels OffsetZ="0.1" Scale="0.7" Type="wheels_heavy_allterrain_double" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.8" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.8" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels Scale="0.8" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.7" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.8" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.8" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.8" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.7" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera
 			Center="(-2; 0; 0)"
 			RadiusMultiplier="1.4"
@@ -578,7 +596,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/ws_6900xd_twin_lmk" MinScale="1.5" MaxScale="2.5" />
-	<HeadLight _template="Default" Pos="(8.318; 1.103; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(8.318; 1.103; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludedCargoTypes="CargoPlane, CargoWing1, CargoWing2"

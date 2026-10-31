@@ -135,6 +135,20 @@
 		<CompatibleWheels Scale="0.57" Type="wheels_medium_highway_double" />
 		<CompatibleWheels Scale="0.57" Type="wheels_medium_allterrain_double" />
 
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels Scale="0.57" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.57" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels Scale="0.53" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.57" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.57" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.57" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels Scale="0.53" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.57" Type="wheels_offroad_double_type2_20N/3555058" />
+
 		<Camera Center="(-1.2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
 				_template="Default"
@@ -345,7 +359,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/international_fleetstar_f2070a_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.200; 1.283; 0.949)" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.200; 1.283; 0.949)" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		ExcludeAddons="semitrailer_stepdeck_5, semitrailer_gooseneck_4, semitrailer_gooseneck_3,semitrailer_log_double_ls"
@@ -476,7 +490,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(1.300; 0.000; 0.000)" />
 			</Socket>
 		</AddonSockets>
-		
+
 		<AddonSockets>
 			<Socket Names="LogLiftKenworth"
 					Offset="(0.23; 1.197; 0)"
@@ -495,7 +509,7 @@
 				<ExtraParent Frame="BoneCabin_cdt" Offset="(0; 0; 0.065)" />
 			</Socket>
 		</AddonSockets>
-		
+
 		<AddonSockets DefaultAddon="international_fleetstar_f2070a_diff_lock_default">
 			<Socket Names="FleetstarF2070ADiffLock" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>

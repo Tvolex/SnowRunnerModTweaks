@@ -204,6 +204,21 @@
 		<CompatibleWheels OffsetZ="-0.02" Scale="0.9" Type="wheels_kenworth_963" />
 		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_superheavy_single" />
 		<CompatibleWheels Scale=".87" Type="wheels_superheavy_mudtires" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_mrb_Superheavy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.87" Type="wheels_mrb_Superheavy_mud_monster/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.87" Type="wheels_mrb_Superheavy_tractor/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.87" Type="wheels_mrb_Superheavy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.87" Type="wheels_mrb_suphvy_supersingle/3280471" />
+		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_quasi_mud_double/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.87" Type="wheels_quasi_mud_monster/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_tractor_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_offroad_single_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_offroad_single_type2_20N/3555058" />
+
 		<Camera
 			Center="(-3.5; 0; 0)"
 			RadiusMultiplier="1.5"
@@ -405,7 +420,7 @@
 			<Flare _template="IgnitionSignalRed" Color="g(169; 0; 0) x 0.8" Size="0.33" Pos="(-7.73; 1.14; 0.302)" />
 		</Ignition>
 	</ModelAttachments>
-	<HeadLight _template="Default" Pos="(4.9; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.9; 1.709; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<Landmark Mesh="landmarks/kenworth_963_lmk" MinScale="1.7" MaxScale="3.5" />
 	<GameData
 		Country="US,NE,CE"

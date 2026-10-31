@@ -139,7 +139,7 @@
 				<Gauge Dir="(-0.927; 0.376; 0)" InputRange="(0;1)" InputType="none" Mesh="trucks/arrows/awmg_ac1610_arrow_01" Org="(3.824; 2.410; 0.613)" OutputAngles="(-85;100)" />
 				<Gauge Dir="(-0.927; 0.376; 0)" InputRange="(0;1)" InputType="none" Mesh="trucks/arrows/awmg_ac1610_arrow_01" Org="(3.824; 2.409; 0.545)" OutputAngles="(-85;100)" />
 				<Gauge Dir="(-0.927; 0.376; 0)" InputRange="(0;1)" InputType="none" Mesh="trucks/arrows/awmg_ac1610_arrow_01" Org="(3.824; 2.410; 0.545)" OutputAngles="(-85;100)" />
-				
+
 				<Gauge Damping="0.5" Dir="(-0.927;0.376; 0)" InputRange="(0;1)" InputType="rpm" Mesh="trucks/arrows/awmg_ac1610_arrow_02" Org="(3.794; 2.325; 0.858)" OutputAngles="(-135;100)" />
 				<Gauge Dir="(-0.927;0.376; 0)" InputRange="(0;160)" InputType="speed" Mesh="trucks/arrows/awmg_ac1610_arrow_02" Org="(3.794; 2.325; 0.717)" OutputAngles="(-135;100)" />
 				<Gauge Damping="0.9994" Dir="(-0.626; 0.359; 0.692)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/awmg_ac1610_arrow_01" Org="(3.723; 2.409; 0.282)" OutputAngles="(-90;100)" />
@@ -161,6 +161,20 @@
 		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_offroad_double" />
 		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_highway_double" />
 		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_allterrain_double" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_mrb_med_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.02" Scale="0.55" Type="wheels_mrb_med_wide/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0.02" Scale="0.50" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.50" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.50" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.50" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
@@ -362,7 +376,7 @@
 		</HeadLight>
 	</ModelAttachments>
 	<Landmark Mesh="landmarks/ford_clt9000_lmk" MinScale="1.8" MaxScale="3.8" />
-	<HeadLight _template="Default" Pos="(4.21; 0.864; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(4.21; 0.864; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<GameData
 		Country="US,NE,CE"
 		Price="26300"
@@ -465,7 +479,7 @@
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 			</Socket>
 			<!-- <Socket Names="BigCraneRu" NamesBlock="MinicraneUS, Semitrailer, FordClt9000Top" Offset="(-1.75; 0.98; 0)" /> -->
-			
+
 			<Socket Names="SaddleMotorized" NamesBlock="LogLift, MetalDetector, MinicraneUS" Offset="(-1.000; -0.295; 0.000)" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; 0.070)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0.000; 0.000; -0.070)" />

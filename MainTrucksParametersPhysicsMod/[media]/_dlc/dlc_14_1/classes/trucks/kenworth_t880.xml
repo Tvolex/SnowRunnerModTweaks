@@ -149,17 +149,17 @@
 			<ChassisStress	Sound="trucks/common/truck_swing_big_old_rnd_set/truck_swing_big_old_rnd" />
 			<AbruptStop		Sound="trucks/common/truck_swing_big_rnd_set/truck_swing_big_rnd" />
 		</Sounds>
-		
+
 		<Shafts>
 			<Shaft SocketPointA="Shaft1a" SocketPointB="Shaft1b"/>
 			<Shaft SocketPointA="Shaft2a" SocketPointB="Shaft2b"/>
 			<Shaft SocketPointA="Shaft3a" SocketPointB="Shaft3b"/>
 		</Shafts>
-		
+
 		<Shakers>
 			<Shaker Frame="BoneGearStick" MinAngle="(0.05; 0.05; 0.05)" MaxAngle="(0.1; 0.1; 1)" MaxFrequency="0.04" />
 		</Shakers>
-		
+
 		<OcclusionMap HalfSizeZ="1.8" MinX="-5" MaxX="5.6" />
 		<LimitedFluid Center="(2.062; 0.611; 0.813)" LengthX="1.445" RadiusY="0.321" RadiusZ="0.321" Type="Cylinder"/>
 		<Intake Dir="(1; 0; 0)" Origin="(4.860; 1.207; 0)" Size="1.3" />
@@ -173,27 +173,27 @@
 			SteeringWheelPos="(2.651; 2.064; 0.517)"
 			ParentFrame="BoneCabin_cdt"
 		/>
-		
+
 		<Dashboard>
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="rpm" Mesh="trucks/arrows/kenworth_t880_arrow_01" Org="(2.961; 1.971; 0.608)" OutputAngles="(-116; 120)" />
 			<Gauge Dir="(-0.906; 0.423; 0)" InputRange="(0;140)" InputType="speed" Mesh="trucks/arrows/kenworth_t880_arrow_01" Org="(2.961; 1.971; 0.428)" OutputAngles="(-116; 70)" />
 			<Gauge Damping="0.9" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="fuel" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.945; 1.934; 0.518)" OutputAngles="(-90; 86)" />
-			
+
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.945; 1.951; 0.704)" OutputAngles="(-120; -68)" />
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.972; 2.009; 0.698)" OutputAngles="(-149; 34)" />
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.992; 2.053; 0.654)" OutputAngles="(-80; -24)" />
-			
+
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.945; 1.951; 0.332)" OutputAngles="(-120; 120)" />
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.972; 2.009; 0.338)" OutputAngles="(-149; 34)" />
 			<Gauge Damping="0.99" Dir="(-0.906; 0.423; 0)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.992; 2.053; 0.382)" OutputAngles="(-80; 80)" />
-			
+
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.942; 2.031; 0.167)" OutputAngles="(-120; 120)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.919; 1.976; 0.172)" OutputAngles="(-149; 34)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.931; 2.030; 0.105)	" OutputAngles="(-80; 80)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.908; 1.976; 0.110)" OutputAngles="(-80; 80)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.920; 2.030; 0.043)	" OutputAngles="(-80; 80)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.897; 1.975; 0.048)" OutputAngles="(-80; 80)" />
-			
+
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.899; 2.028; -0.050)" OutputAngles="(-120; 120)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.882; 2.026; -0.111)" OutputAngles="(-149; 34)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.865; 2.025; -0.172)" OutputAngles="(-80; 80)" />
@@ -201,7 +201,7 @@
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.860; 1.971; -0.103)" OutputAngles="(-80; 80)" />
 			<Gauge Damping="0.99" Dir="(-0.905; 0.394; 0.158)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/kenworth_t880_arrow_02" Org="(2.843; 1.970; -0.164)" OutputAngles="(-80; 80)" />
 		</Dashboard>
-		 
+
 		<Damage>
 			<DamageArea Type="Engine" Min="(3.119, 0.806, -0.396)" Max="(4.225, 1.637, 0.396)" ParentFrame="BoneСabinTwist_cdt" />
 			<DamageArea Type="FuelTank" Min="(1.340, 0.290, 0.492)" Max="(2.785, 0.931, 1.133)" ParentFrame="BoneChassis_cdt" />
@@ -209,20 +209,35 @@
 		</Damage>
 		<CompatibleWheels Scale="0.56" Type="wheels_kenworth_t880" />
 		<CompatibleWheels Scale="0.59" Type="wheels_kenworth_t880" />
-		
+
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_heavy_double1" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_heavy_double2" />
-		
+
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.59" Type="wheels_heavy_double1" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.59" Type="wheels_heavy_double2" />
 
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.56" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.56" Type="wheels_heavy_allterrain_double" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.56" Type="wheels_heavy_highway_double" />
-		
+
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.59" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.59" Type="wheels_heavy_allterrain_double" />
 		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.06" Scale="0.59" Type="wheels_heavy_highway_double" />
+
+		<!-- 3280471 - MrBusses -->
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_mrb_hvy_dually/3280471" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.06" Scale="0.59" Type="wheels_mrb_hvy_wide/3280471" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_quasi_mud_double_hvy/3280471" />
+
+		<!-- 3555058 - Nanako -->
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_tractor_double_type1_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_tractor_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_offroad_double_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.56" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels OffsetZ="0" RearOffsetZ="0.04" Scale="0.59" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-0.94; -0.35; 0)" RadiusMultiplier="1.3" ParentFrame="BoneChassis_cdt">
 			<Cockpit
@@ -264,7 +279,7 @@
 						FOVScale="1.5"
 					/> 
 				</Mirror>
-				
+
 				<Mirror
 					ClipDir="(-0.822; 0; 0.569)"
 					FOVScale="2"
@@ -284,7 +299,7 @@
 						FOVScale="1.5"
 					/> 
 				</Mirror>
-				
+
 				<Mirror
 					ClipDir="(-0.1; -0.9; 0.6)"
 					ClipOffset="0.1"
@@ -295,7 +310,7 @@
 					Pos="(2.238; 2.511; -1.138)"
 					LookAtOffset="(0; -0.2; 0)"
 				/>
-				
+
 			</Cockpit>
 		</Camera>
 		<Axles>
@@ -401,18 +416,18 @@
 			<Light _template="IgnitionSignalWhite" Size="0.5" Pos="(4.854; 1.262; -0.843)" />
 			<Flare _template="IgnitionSignalOrange" AspectRatio="2" Color="g(255; 140; 0) x 0.8" Dir="(1; 0; 0)" Pos="(4.484; 1.077; 0.988)" ParentFrame="BoneCabin_cdt"/>
 			<Flare _template="IgnitionSignalOrange" AspectRatio="2" Color="g(255; 140; 0) x 0.8" Dir="(1; 0; 0)" Pos="(4.484; 1.077; -0.988)" ParentFrame="BoneCabin_cdt"/>
-						
+
 			<Flare _template="IgnitionSignalOrange" AspectRatio="1.5" Color="g(255; 160; 0) x 0.6" Size="0.2" Dir="(0; 0; -1)" Pos="(3.643; 1.330; -1.206)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="IgnitionSignalOrange" AspectRatio="1.5" Color="g(255; 160; 0) x 0.6" Size="0.2" Dir="(0; 0; 1)" Pos="(3.643; 1.330; 1.206)" ParentFrame="BoneCabin_cdt" />
-			
+
 			<Flare _template="IgnitionSignalOrange" AspectRatio="1.5" Color="g(255; 160; 0) x 0.4" Size="0.2" Dir="(0; 0; -1)" Pos="(4.427; 0.82; -1.198)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="IgnitionSignalOrange" AspectRatio="1.5" Color="g(255; 160; 0) x 0.4" Size="0.2" Dir="(0; 0; 1)" Pos="(4.427; 0.82; 1.198)" ParentFrame="BoneCabin_cdt" />
-			
+
 			<Flare _template="IgnitionSignalWhite" Color="g(255; 235; 215) x 0.3" Size="0.3" Pos="(4.565; 0.952; 0.826)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="IgnitionSignalWhite" Color="g(255; 235; 215) x 0.3" Size="0.3" Pos="(4.565; 0.952; -0.826)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="IgnitionSignalWhite" Color="g(255; 235; 215) x 0.3" Size="0.3" Pos="(4.517; 0.952; 0.984)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="IgnitionSignalWhite" Color="g(255; 235; 215) x 0.3" Size="0.3" Pos="(4.517; 0.952; -0.984)" ParentFrame="BoneCabin_cdt" />
-			
+
 			<Light _template="IgnitionSignalRed" Color="g(255; 0; 0)x 0.8" Pos="(-4.179; 0.661; 0)" />
 			<Flare _template="IgnitionSignalRed" Dir="(-1; 0; 0)" Size="0.2" Pos="(-4.179; 0.661; -0.271)" />
 			<Flare _template="IgnitionSignalRed" Dir="(-1; 0; 0)" Size="0.2" Pos="(-4.179; 0.661; 0.271)" />
@@ -435,7 +450,7 @@
 		<ReverseSignals>	
 			<Flare AspectRatio="1.4" Color="g(255; 235; 215) x 0.8" ColorMultAtDay="0.6" Dir="(-1; 0; 0)" DirAngle="90" Reflections="true" Size="0.4" Pos="(1.623; 2.782; 0.521)" ParentFrame="BoneCabin_cdt" />
 			<Flare _template="BlueStreak" Color="g(220; 220; 255) x 0.05" Dir="(-1; 0; 0)" Size="0.4" Pos="(1.623; 2.782; 0.521)" ParentFrame="BoneCabin_cdt" />
-			
+
 			<Light _template="ReverseSignal" Pos="(-4.38; 0.749; 0)" />
 			<Light _template="ReverseSignal" Pos="(1.622; 2.784; -0.521)" />
 			<Flare _template="ReverseSignal" Color="g(245; 235; 220) x 0.6" Size="0.2" Pos="(-4.179; 0.661; 0.138)" />
@@ -444,7 +459,7 @@
 			<Flare _template="BlueStreak" Color="g(220; 220; 255) x 0.05" Dir="(-1; 0; 0)" Size="0.4" Pos="(-4.179; 0.661; -0.138)" />
 		</ReverseSignals>
 	</ModelAttachments>
-	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 242; 225) x 13" AttenEnd="74.25" />
+	<HeadLight _template="Default" Pos="(5.4; 1.287; 0)" ParentFrame="BoneCabin_cdt" Color="g(255; 191; 92) x 13" AttenEnd="74.25" />
 	<Landmark Mesh="landmarks/kenworth_t880_lmk" MinScale="1.8" MaxScale="3.8" />
 	<GameData
 		Country="US,NE,CE"
@@ -457,12 +472,12 @@
 		<WinchSocket Pos="(-1.011; 0.995; -0.445)" ParentFrame="BoneСabinTwist_cdt" />
 		<WinchSocket Pos="(2.109; 0.857; 1.212)" ParentFrame="BoneСabinTwist_cdt" />
 		<WinchSocket Pos="(2.354; 0.850; -1.120)" ParentFrame="BoneСabinTwist_cdt" />
-		
+
 		<CraneSocket Pos="(-1.011; 0.995; 0.445)" ParentFrame="BoneСabinTwist_cdt" />
 		<CraneSocket Pos="(-1.011; 0.995; -0.445)" ParentFrame="BoneСabinTwist_cdt" />
 		<CraneSocket Pos="(2.109; 0.857; 1.212)" ParentFrame="BoneСabinTwist_cdt" />
 		<CraneSocket Pos="(2.354; 0.850; -1.120)" ParentFrame="BoneСabinTwist_cdt" />
-		
+
 		<WinchSocket Pos="(-4.402; 0.585; 0)" ParentFrame="BoneChassis_cdt" />
 		<CraneSocket Pos="(-4.402; 0.585; 0)" ParentFrame="BoneChassis_cdt" />
 		<UiDesc
@@ -473,7 +488,7 @@
 			UiIconLogo="KenworthLogo80"
 			UiName="UI_VEHICLE_KENWORTH_T880_NAME"
 		/>
-		
+
 		<CustomizationCameras>
 			<!-- <STICKERS> -->
 			<CameraPos FOV="32.0" Name="sticker_01" Interior="true" Position="(4.4; 2.7; -0.2)" InterestPosition="(4.6; 1.8; 0.14)" />
@@ -482,7 +497,7 @@
 			<CameraPos FOV="32.0" Name="sticker_04" Interior="true" Position="(4.4; 2.6; 0.03)" InterestPosition="(4.6; 2.4; 0.15)"/>
 			<CameraPos FOV="32.0" Name="sticker_05" Interior="true" Position="(5; 2.6; -0.3)" InterestPosition="(3; 2.8; 1.13)" />
 			<CameraPos FOV="32.0" Name="sticker_06" Interior="true" Position="(4.6; 2.85; -0.3)" InterestPosition="(4.6; 2; 0)" />
-			
+
 			<CameraPos FOV="32.0" Name="door_r_sticker" Interior="true" InterestPosition="(7; 1.378; -0.294)" Position="(3.5; 2.298; 3.5)" />
 			<CameraPos FOV="32.0" Name="door_l_sticker" Interior="true" InterestPosition="(4.847; 1.378; 0.294)" Position="(4.1; 2.298; -3.5)" />
 			<CameraPos FOV="32.0" Name="capote_sticker" Interior="true" InterestPosition="(5.637; 0.335; -0.48)" Position="(8.629; 4.945; -0.557)" />
@@ -694,7 +709,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRightRearIK1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 0; 1)" Type="Hinge" />
 			<IKBone
@@ -705,7 +720,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneLeftRearIK1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 0; 1)" Type="Hinge" />
 			<IKBone
@@ -716,7 +731,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRightRearIK2_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 0; 1)" Type="Hinge" />
 			<IKBone
@@ -727,7 +742,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneLeftRearIK2_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 0; 1)" Type="Hinge" />
 			<IKBone
@@ -738,7 +753,7 @@
 				<IKJoint AxisLocal="(1; 0; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneFrontPistonL_1_1" ParentFrame="BoneСabinTwist_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
@@ -749,7 +764,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneFrontPistonR_1_1" ParentFrame="BoneСabinTwist_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
@@ -760,7 +775,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRearPistonL_1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
@@ -771,7 +786,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRearPistonR_1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
@@ -782,7 +797,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRearPiston2L_1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
@@ -793,7 +808,7 @@
 				<IKJoint AxisLocal="(0; 1; 0)" Type="Slider" />
 			</IKBone>
 		</IKBone>
-		
+
 		<IKBone ModelFrame="BoneRearPiston2R_1_1" ParentFrame="BoneChassis_cdt">
 			<IKJoint AxisLocal="(0; 1; 0)" Type="Hinge" />
 			<IKBone
