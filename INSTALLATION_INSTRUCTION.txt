@@ -1,0 +1,32 @@
+
+INSTALLATION
+
+This pack is divided into five numbered parts. Apply them in sequence so each
+set of changes is added to the game's archive.
+
+1. Open the downloaded mod archive in WinRAR; leave it compressed.
+
+2. Locate SnowRunner's client folder. Depending on your installation, it is:
+   SnowRunner\en_us\preload\paks\client
+   or
+   SnowRunner\preload\paks\client
+
+3. Before editing, copy initial.pak and shared.pak out of the client folder to
+   a separate, safe location. Keep those backups outside the client folder.
+   Renamed .pak files left alongside the originals can cause text-display
+   problems.
+
+4. Open client\initial.pak in WinRAR. In the mod archive, navigate to
+   TvolexSnowRunnerPack.
+
+5. For each folder listed below, open it and add its [media] folder to
+   initial.pak. Complete each transfer before moving on, and use this order:
+   1.Engines [Optional]
+   2.Gearboxes [Optional]
+   3.Destructible trees [Optional]
+   4.Suspension [Optional, Recommended]
+   5.NewFriction [Optional, Recommended]
+   6.MainTrucksParametersPhysicsMod [Recommended]
+
+6. Keep the original backup files safe. To undo the installation, restore those
+   backups to the client folder.

@@ -11,8 +11,8 @@ asked.
 
 `Original/` is a vanilla-game reference copy and must never be edited. Other
 folders are separate mods, source material, or comparisons; treat them as
-read-only. Keep changes targeted and preserve the game's relative paths under
-`[media]/`.
+read-only unless explicitly asked to work there. Keep changes targeted and
+preserve the game's relative paths under `[media]/`.
 
 This file is the current repository-wide guidance. If older guidance in
 `SNOWRUNNER-MOD-CONTEXT.md` conflicts with it, follow this file.
