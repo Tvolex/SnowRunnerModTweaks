@@ -110,15 +110,15 @@
 			<PlaneConeMotor Damping="30000" Spring="17000" Type="Spring" />
 		</SecondTrunk>
 		<MediumTreeRoot
-			BreakOffThreshold="5000"
+			BreakOffThreshold="10000"
 			Cone="45"
 			TwistAxisLocal="(0; 1; 0)"
 			Type="Ragdoll"
 		>
-			<PlaneConeMotor Damping="2000000" Spring="4000000" Type="Spring" />
+			<PlaneConeMotor Damping="200000" Spring="400000" Type="Spring" />
 		</MediumTreeRoot>
 		<HugeTrunk
-			BreakOffThreshold="25000"
+			BreakOffThreshold="50000"
 			Cone="30"
 			TwistAxisLocal="(0; 1; 0)"
 			Type="Ragdoll"
@@ -168,7 +168,7 @@
 		</BranchHard>
         <TreeChunk BreakOffThreshold="100" Type="Fixed"/>
 		<BigTreeRoot
-			BreakOffThreshold="15000"
+			BreakOffThreshold="30000"
 			Cone="30"
 			TwistAxisLocal="(0; 1; 0)"
 			Type="Ragdoll"
