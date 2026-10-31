@@ -164,12 +164,22 @@
 		<CompatibleWheels Scale=".6" Type="wheels_heavy_mudtires_single" />
 		<CompatibleWheels Scale=".6" Type="wheels_heavy_mudtires_single2" />
 
-		<!-- 3280471 - MrBusses -->
+		<!-- Mr.Busses overwritten by New Friction -->
+		<CompatibleWheels Scale="0.6" Type="wheels_nf_mrb_hvy_dually" />
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.6" Type="wheels_nf_mrb_hvy_wide" />
+		<CompatibleWheels Scale="0.6" Type="wheels_nf_mrb_quasi_mud_double_hvy" />
+
+		<!-- Mr.Busses Original -->
 		<CompatibleWheels Scale="0.6" Type="wheels_mrb_hvy_dually/3280471" />
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.6" Type="wheels_mrb_hvy_wide/3280471" />
 		<CompatibleWheels Scale="0.6" Type="wheels_quasi_mud_double_hvy/3280471" />
 
-		<!-- 3555058 - Nanako -->
+		<!-- Nanako overwritten by New Friction -->
+		<CompatibleWheels Scale="0.6" Type="wheels_nf_nanako_tractor_single_20N" />
+		<CompatibleWheels Scale="0.6" Type="wheels_nf_nanako_offroad_single_20N" />
+		<CompatibleWheels Scale="0.6" Type="wheels_nf_nanako_offroad_single_type2_20N" />
+
+		<!-- Nanako Original -->
 		<CompatibleWheels Scale="0.6" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_type2_20N/3555058" />

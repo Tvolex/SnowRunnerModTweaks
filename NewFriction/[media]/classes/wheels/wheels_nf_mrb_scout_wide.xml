@@ -1,0 +1,215 @@
+<!-- Local NewFriction definition; wheel meshes come from pack 3280471. -->
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Light">
+			<WheelTracks _template="Offroad" />            
+			<WheelSoftness _template="ScoutDefault" />
+			<WheelFriction _template="ScoutOffroad" />            
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="250"
+	Radius="1"
+	Width="0.65"
+	>
+	<TruckTires>
+			<TruckTire _template="Offroad" Mesh="wheels/irok" Name="roks"  Mass="75">
+		<WheelFriction _template="ScoutOffroad" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.0"
+				UiName="GWC Rock Kickers" 
+				/>
+			</GameData>
+		</TruckTire>			
+		<TruckTire _template="Offroad" Mesh="wheels/bogger" Name="bogger"  Mass="75">
+		<WheelFriction _template="ScoutMudtires" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Glitchworks Brand Bogger tires 1.8/3.5/4.0"
+				UiName="GWC Bogger" 
+				/>
+			</GameData>
+		</TruckTire>		
+		<TruckTire _template="Offroad" Mesh="wheels/bajap" Name="baja" Mass="75" >
+		<WheelFriction _template="ScoutMudtires" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.5"
+				UiName="GWC Baja" 
+				/>
+			</GameData>
+		</TruckTire>		
+		<TruckTire _template="Offroad" Mesh="wheels/tsl" Name="tsl" Mass="75" >
+		<WheelFriction _template="ScoutMudtires" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.5"
+				UiName="GWC TSL" 
+				/>
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/scout_offroad" Name="wide_offroad" Mass="75">
+		<WheelFriction _template="ScoutOffroad" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. 1.8/3.5/2.7"
+				UiName="BMG Carnivore " 
+				/>
+			</GameData>
+		</TruckTire>
+				<TruckTire _template="Offroad" Mesh="wheels/scout_mud" Name="wide_mud" Mass="75">
+		<WheelFriction _template="ScoutMudtires" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="A tire that can do everything from gripping mud to gliding over rocks  1.8/3.0/3.0"
+				UiName="BMG Mud Claws M/T" 
+				/>
+			</GameData>
+		</TruckTire>				
+		<TruckTire _template="Offroad" Mesh="wheels/scout_deepmud" Name="heavy_mud" Mass="75">
+		<WheelFriction _template="ScoutMudtires" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. 1.8/3.5/4.0"
+				UiName=" BMG Super Trencher M/T" 
+				/>
+			</GameData>
+		</TruckTire>		
+
+			<TruckTire _template="Offroad" Mesh="wheels/scout_deepmud_stud" Name="heavy_mud_stud" Mass="75">
+		<WheelFriction _template="ScoutChains" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With added studs to keep traction on ice 1.8/3.5/4.0"
+				UiName=" BMG Super Trencher M/T Ice &amp; Snow"
+				/>
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/scout_offroad_stud" Name="wide_stud" Mass="75">
+		<WheelFriction _template="ScoutChains" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+			<UiDesc 
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. Studded for ice and snow 1.8/3.5/2.7"
+				UiName="BMG Carnivore Studded " 
+				/>
+			</GameData>
+		</TruckTire>
+		</TruckTires>	
+		
+
+<TruckRims>
+		<TruckRim Mesh="wheels/rim_scout_offroad_1" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_SCOUT_OFFROAD_1_DESC" UiName="UI_RIM_SCOUT_OFFROAD_1_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_scout_offroad_2" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_SCOUT_OFFROAD_2_DESC" UiName="UI_RIM_SCOUT_OFFROAD_2_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT59_Rim" Name="PT59_Rim">
+			<GameData>
+				<UiDesc UiDesc="PT59 rims from PogTires." UiName="SEM-225" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT34B_Rim" Name="PT34B_Rim">
+			<GameData>
+				<UiDesc UiDesc="PT34B rims from PogTires." UiName="BLEM-2" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT60_Rim1" Name="PT60_Rim_1">
+			<GameData>
+				<UiDesc UiDesc="PT60 rims from PogTires." UiName="Stahlwart 1" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT60_Rim2" Name="PT60_Rim_2">
+			<GameData>
+				<UiDesc UiDesc="PT60 rims from PogTires." UiName="Stahlwart 2" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT67_Rim" Name="PT67_Rim1">
+			<GameData>
+				<UiDesc UiDesc="PT67 rims from PogTires." UiName="Rykard Magnum Black" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT67_Rim2" Name="PT67_Rim2">
+			<GameData>
+				<UiDesc UiDesc="PT67 rims from PogTires." UiName="Rykard Magnum Silver" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT36_Rim1" Name="PT36_Rim1">
+			<GameData>
+				<UiDesc UiDesc="PT36 rims from PogTires." UiName="Stellaris-5 Silver" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT36_Rim2" Name="PT36_Rim2">
+			<GameData>
+				<UiDesc UiDesc="PT36 rims from PogTires." UiName="Stellaris-5 Dark Bronze" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT75_Rim" Name="PT75_Rim">
+			<GameData>
+				<UiDesc UiDesc="PT75 rims from PogTires." UiName="Arrakis 65" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT76_Rim1" Name="PT76_Rim1">
+			<GameData>
+				<UiDesc UiDesc="PT76 rims from PogTires." UiName="Citadel RX Polished Cobalt" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT76_Rim2" Name="PT76_Rim2">
+			<GameData>
+				<UiDesc UiDesc="PT76 rims from PogTires." UiName="Big Iron" />
+			</GameData>
+		</TruckRim>
+				<TruckRim Mesh="wheels/rim_scout_offroad_10" Name="JAT OS I">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_SCOUT_OFFROAD_10_NAME" />
+			</GameData>
+		</TruckRim>
+        <TruckRim Mesh="wheels/rim_scout_offroad_11" Name="JAT OS II">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_SCOUT_OFFROAD_11_NAME" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

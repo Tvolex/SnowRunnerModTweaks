@@ -1,0 +1,60 @@
+<!-- Local NewFriction definition; wheel meshes come from pack 3280471. -->
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy"  RearMassScale="2">
+			<WheelTracks _template="Offroad" />
+			<WheelTracks _template="DefaultDouble" Rear="true" />
+			<WheelSoftness _template="Soft" />
+			<WheelFriction _template="HeavyMudtires" />
+			<WheelFriction _template="Chains" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="100"
+	Radius="1"
+	Width="0.75"
+	WidthRear="1.6"
+>
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_mod_heavy_mud" Name="heavy_mud">
+			<WheelFriction _template="HeavyMudtires" />
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 3.0" 
+				UiName="Mud Duallies by Quasi" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+		</TruckTire>
+		
+		<TruckTire 
+		_template="Offroad" 
+		Mesh="wheels/studded_mud_tires" 
+		Name="heavy_mud_stud">
+			<WheelFriction _template="Chains" />
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 3.0 Ignore Ice " 
+				UiName="Studded Mud Duallies by Quasi" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_mod_heavy_mud" Name="heavy_mud_rims">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_HEAVY_OFFROAD_DOUBLE_1_DESC" UiName="Quasi Rim" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

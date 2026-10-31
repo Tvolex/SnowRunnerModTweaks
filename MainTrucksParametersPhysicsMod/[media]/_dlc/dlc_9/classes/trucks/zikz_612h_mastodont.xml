@@ -134,7 +134,22 @@
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_heavy_single2_zikz_612h" />
 		<CompatibleWheels  OffsetZ="0.36" Scale="0.78" Type="wheels_superheavy_mudtires" />
 
-		<!-- 3280471 - MrBusses -->
+		<!-- Mr.Busses overwritten by New Friction -->
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_nf_mrb_hvy_dually" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_nf_mrb_hvy_mud_monster" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_nf_mrb_hvy_supersingle" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_nf_mrb_hvy_wide" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_nf_mrb_quasi_mud_double_hvy" />
+		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_nf_mrb_quasi_mud_monster_hvy" />
+		<CompatibleWheels OffsetZ="0.36" Scale="0.78" Type="wheels_nf_mrb_Superheavy_dually" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_nf_mrb_Superheavy_mud_monster" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_nf_mrb_Superheavy_tractor" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_nf_mrb_Superheavy_wide" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_nf_mrb_suphvy_supersingle" />
+		<CompatibleWheels OffsetZ="0.36" Scale="0.78" Type="wheels_nf_mrb_quasi_mud_double" />
+		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_nf_mrb_quasi_mud_monster" />
+
+		<!-- Mr.Busses Original -->
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_mrb_hvy_dually/3280471" />
 		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_mrb_hvy_mud_monster/3280471" />
 		<CompatibleWheels OffsetZ="0.36" RearOffsetZ="0.02" Scale="0.77" Type="wheels_mrb_hvy_supersingle/3280471" />
@@ -149,7 +164,12 @@
 		<CompatibleWheels OffsetZ="0.36" Scale="0.78" Type="wheels_quasi_mud_double/3280471" />
 		<CompatibleWheels OffsetZ="0.38" RearOffsetZ="0.02" Scale="0.78" Type="wheels_quasi_mud_monster/3280471" />
 
-		<!-- 3555058 - Nanako -->
+		<!-- Nanako overwritten by New Friction -->
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_nf_nanako_tractor_single_20N" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_nf_nanako_offroad_single_20N" />
+		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_nf_nanako_offroad_single_type2_20N" />
+
+		<!-- Nanako Original -->
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_type2_20N/3555058" />

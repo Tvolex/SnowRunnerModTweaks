@@ -161,7 +161,10 @@
 		<CompatibleWheels Scale="0.5" Type="wheels_scout_allterrain" />
 		<CompatibleWheels OffsetZ="0.01" Scale="0.5" Type="wheels_scout_allterrain_chain" />
 
-		<!-- 3280471 - MrBusses -->
+		<!-- Mr.Busses overwritten by New Friction -->
+		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.5" Type="wheels_nf_mrb_scout_wide" />
+
+		<!-- Mr.Busses Original -->
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.5" Type="wheels_scout_wide/3280471" />
 
 		<Camera Center="(-1.2; 0; 0)" RadiusMultiplier="0.8">

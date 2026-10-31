@@ -1,0 +1,126 @@
+<!-- Local NewFriction definition; wheel meshes come from pack 3280471. -->
+<_templates Include="trucks">
+	<TruckTire>
+				<Offroad _template="Superheavy" RearMassScale="2">
+			<WheelTracks _template="Offroad" />
+			<WheelTracks _template="Offroad" Rear="true" />
+			<WheelSoftness _template="Soft" />
+			<WheelFriction _template="Offroad" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels DamageCapacity="50"
+	Radius="1"
+	Width="0.58"
+	WidthRear="1.132"
+	>
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/dually" Name="offroad">
+			<WheelFriction _template="Offroad" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. 0.8/3.0/2.0" 
+				UiName="BMG Carnivore Dually" />
+			</GameData>
+		</TruckTire>
+				<TruckTire _template="Offroad" Mesh="wheels/duallymud" Name="mud">
+			<WheelFriction _template="Mudtires" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. 0.5/2.0/3.5" 
+				UiName="BMG Mud Claws M/T Dually" />
+			</GameData>
+		</TruckTire>
+			<TruckTire _template="Offroad" Mesh="wheels/duallystudd" Name="chains">
+			<WheelFriction _template="Chains" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set with studs running over the treads for maximum traction on iced-over roads. 0.8/3.0/2.0" 
+				UiName="BMG Carnivore Studded  " />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/swampdual" Name="swamp">
+			<WheelFriction _template="Mudtires" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Glitchworks Brand Bogger Dually tires 1.8/3.5/4.0" 
+				UiName="GWCS Swampers" />
+			</GameData>
+		</TruckTire>		
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_1" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_1_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_1_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_2" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_2_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_2_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_3" Name="rim_3">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_3_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_3_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_4" Name="rim_4">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_4_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_4_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_5" Name="rim_5">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_5_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_5_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_highway_allterrain_double_6" Name="rim_6">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_DOUBLE_6_DESC" UiName="UI_RIM_MEDIUM_DOUBLE_6_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_offroad_double_1" Name="rim_offroad_1">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_OFFROAD_DOUBLE_1_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_1_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_offroad_double_2" Name="rim_offroad_2">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_OFFROAD_DOUBLE_2_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_2_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_offroad_double_3" Name="rim_offroad_3">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_OFFROAD_DOUBLE_3_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_3_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_medium_offroad_double_4" Name="rim_offroad_4">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_MEDIUM_OFFROAD_DOUBLE_4_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_4_NAME" />
+			</GameData>
+		</TruckRim>
+					  <TruckRim Mesh="wheels/rim_medium_offroad_double_10" Name="JAT OMD I">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_10_NAME" />
+			</GameData>
+		</TruckRim>
+        <TruckRim Mesh="wheels/rim_medium_offroad_double_11" Name="JAT OMD II">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_JAT_DESC" UiName="UI_RIM_MEDIUM_OFFROAD_DOUBLE_11_NAME" />
+			</GameData>
+			</TruckRim>
+	</TruckRims>
+</TruckWheels>

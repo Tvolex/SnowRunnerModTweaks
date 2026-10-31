@@ -1,0 +1,59 @@
+<!-- Local NewFriction definition; wheel meshes come from pack 3280471. -->
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Soft" />
+			<WheelFriction _template="Mudtires" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="100"
+	Radius="1"
+	Width="1.36"
+>
+	<TruckTires>
+				<TruckTire 
+		_template="Offroad"
+			Mesh="wheels/tag_tire" 
+			Name="tag_tires"
+		>
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 5.5 Ignore Ice"  
+				UiName="Monster Tayga Tires" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelFriction _template="Mudtires" />
+		</TruckTire>				
+		<TruckTire 
+		_template="Offroad"
+			Mesh="wheels/tag_chain_tire" 
+			Name="tag_chain_tire"
+		>
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 5.5 Ignore Ice"  
+				UiName="Chained Monster Tayga Tires" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelFriction _template="Chains" />		
+		</TruckTire>
+		</TruckTires>
+	<TruckRims>
+			<TruckRim Mesh="wheels/beadlocksm" Name="Rim3">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Heavy Beadlock Rim" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

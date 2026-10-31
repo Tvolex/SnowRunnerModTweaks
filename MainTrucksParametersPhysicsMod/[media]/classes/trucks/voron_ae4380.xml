@@ -187,12 +187,33 @@
 		<CompatibleWheels RearOffsetZ=".08" Scale="0.63" Type="wheels_heavy_offroad_double" />
 		<CompatibleWheels RearOffsetZ=".08" Scale="0.63" Type="wheels_heavy_allterrain_double" />
 
-		<!-- 3280471 - MrBusses -->
+		<!-- Mr.Busses overwritten by New Friction -->
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_mrb_hvy_dually" />
+		<CompatibleWheels RearOffsetZ="0.06" OffsetZ="0.02" Scale="0.63" Type="wheels_nf_mrb_hvy_wide" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_mrb_quasi_mud_double_hvy" />
+
+		<!-- Mr.Busses Original -->
 		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_mrb_hvy_dually/3280471" />
 		<CompatibleWheels RearOffsetZ="0.06" OffsetZ="0.02" Scale="0.63" Type="wheels_mrb_hvy_wide/3280471" />
 		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_quasi_mud_double_hvy/3280471" />
 
-		<!-- 3555058 - Nanako -->
+		<!-- Nanako overwritten by New Friction -->
+		<CompatibleWheels Scale="0.55" Type="wheels_nf_nanako_tractor_single_20N" />
+		<CompatibleWheels Scale="0.63" Type="wheels_nf_nanako_tractor_single_20N" />
+		<CompatibleWheels Scale="0.55" Type="wheels_nf_nanako_offroad_single_20N" />
+		<CompatibleWheels Scale="0.63" Type="wheels_nf_nanako_offroad_single_20N" />
+		<CompatibleWheels Scale="0.55" Type="wheels_nf_nanako_offroad_single_type2_20N" />
+		<CompatibleWheels Scale="0.63" Type="wheels_nf_nanako_offroad_single_type2_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_nf_nanako_tractor_double_type1_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_nanako_tractor_double_type1_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_nf_nanako_tractor_double_type2_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_nanako_tractor_double_type2_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_nf_nanako_offroad_double_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_nanako_offroad_double_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.55" Type="wheels_nf_nanako_offroad_double_type2_20N" />
+		<CompatibleWheels RearOffsetZ=".04" Scale="0.63" Type="wheels_nf_nanako_offroad_double_type2_20N" />
+
+		<!-- Nanako Original -->
 		<CompatibleWheels Scale="0.55" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels Scale="0.63" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels Scale="0.55" Type="wheels_offroad_single_20N/3555058" />

@@ -150,12 +150,26 @@
 		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.73" Type="wheels_heavy_mudtires_single_p12" />
 		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.73" Type="wheels_heavy_mudtires_single2_p12" />
 
-		<!-- 3280471 - MrBusses -->
+		<!-- Mr.Busses overwritten by New Friction -->
+		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_nf_mrb_hvy_dually" />
+		<CompatibleWheels OffsetZ="0.07" Scale="0.73" RearOffsetZ="-0.08" Type="wheels_nf_mrb_hvy_wide" />
+		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_nf_mrb_quasi_mud_double_hvy" />
+
+		<!-- Mr.Busses Original -->
 		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_mrb_hvy_dually/3280471" />
 		<CompatibleWheels OffsetZ="0.07" Scale="0.73" RearOffsetZ="-0.08" Type="wheels_mrb_hvy_wide/3280471" />
 		<CompatibleWheels OffsetZ="0.05" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_quasi_mud_double_hvy/3280471" />
 
-		<!-- 3555058 - Nanako -->
+		<!-- Nanako overwritten by New Friction -->
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_nf_nanako_tractor_single_20N" />
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_nf_nanako_offroad_single_20N" />
+		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_nf_nanako_offroad_single_type2_20N" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_nf_nanako_tractor_double_type1_20N" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_nf_nanako_tractor_double_type2_20N" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_nf_nanako_offroad_double_20N" />
+		<CompatibleWheels OffsetZ=".0" Scale="0.73" RearOffsetZ="0.05" Type="wheels_nf_nanako_offroad_double_type2_20N" />
+
+		<!-- Nanako Original -->
 		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="-0.1" Scale="0.73" RearOffsetZ="-0.1" Type="wheels_offroad_single_type2_20N/3555058" />
