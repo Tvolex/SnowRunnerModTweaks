@@ -162,7 +162,7 @@
 	<ControlledIK
 		CoeffEndMovementSpeedOY="2"
 		CoeffEndMovementSpeedOYWithLoad="1.0"
-		CoeffEndMovementSpeedXZ="1"
+		CoeffEndMovementSpeedXZ="2"
 		CoeffEndMovementSpeedXZWithLoad="0.5"
 	>
 		<Chain EndOffset="(1; 0; 0)" ModelFrames="BoneRoot_cdt,BoneCabin_cdt,BoneShaft_cdt,BoneShaft2_cdt" />
