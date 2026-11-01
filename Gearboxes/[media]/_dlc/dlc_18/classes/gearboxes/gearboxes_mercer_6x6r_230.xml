@@ -1,0 +1,121 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.35"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="120"
+		DamagedConsumptionModifier="1.13"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_mercer_6x6r_230_default"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="18.0"
+	>
+		<ReverseGear AngVel="1.15" FuelModifier="1.15" />
+		<HighGear AngVel="8.1" FuelModifier="2.7" />
+		<Gear AngVel="1.15" FuelModifier="1.15" />
+		<Gear AngVel="2.275" FuelModifier="1.125" />
+		<Gear AngVel="3.4" FuelModifier="1.1" />
+		<Gear AngVel="7.2" FuelModifier="1.05" />
+		<Gear AngVel="9.65" FuelModifier="1.0" />
+		<GameData
+			Price="2100"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_DEFAULT_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	
+	<Gearbox
+		AWDConsumptionModifier="1.4"
+		CriticalDamageThreshold="0.83"
+		DamageCapacity="120"
+		DamagedConsumptionModifier="1.21"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_mercer_6x6r_230_offroad"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="25.0"
+	>
+		<ReverseGear AngVel="1.68" FuelModifier="1.2" />
+		<HighGear AngVel="7.8" FuelModifier="2.6" />
+		<Gear AngVel="1.68" FuelModifier="1.2" />
+		<Gear AngVel="2.64" FuelModifier="1.175" />
+		<Gear AngVel="3.6" FuelModifier="1.15" />
+		<Gear AngVel="6.1" FuelModifier="1.1" />
+		<Gear AngVel="8.2" FuelModifier="1.05" />
+		<Gear AngVel="10.5" FuelModifier="1.0" />
+		<GameData
+			Price="3600"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_OFFROAD_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_OFFROAD_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	
+	<Gearbox
+		AWDConsumptionModifier="1.5"
+		CriticalDamageThreshold="0.27"
+		DamageCapacity="150"
+		DamagedConsumptionModifier="1.05"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_mercer_6x6r_230_highrange"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="5.0"
+	>
+		<ReverseGear AngVel="1.46" FuelModifier="1.25" />
+		<HighGear AngVel="8.4" FuelModifier="2.8" />
+		<Gear AngVel="1.46" FuelModifier="1.25" />
+		<Gear AngVel="2.18" FuelModifier="1.225" />
+		<Gear AngVel="2.9" FuelModifier="1.2" />
+		<Gear AngVel="4.8" FuelModifier="1.15" />
+		<Gear AngVel="7.2" FuelModifier="1.1" />
+		<Gear AngVel="10.05" FuelModifier="1.05" />
+		<Gear AngVel="12.55" FuelModifier="1.0" />
+		<GameData
+			Price="5300"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_HIGHRANGE_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_HIGHRANGE_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

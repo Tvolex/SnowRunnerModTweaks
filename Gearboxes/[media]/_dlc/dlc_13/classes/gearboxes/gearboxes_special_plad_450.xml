@@ -1,0 +1,42 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.35"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="230"
+		DamagedConsumptionModifier="1.9"
+		FuelConsumption="2.7"
+		IdleFuelModifier="0.3"
+		Name="g_special_plad_450"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="23.0"
+	>
+		<ReverseGear AngVel="0.7" FuelModifier="1.25" />
+		<HighGear AngVel="6.0" FuelModifier="2.0" />
+		<Gear AngVel="0.7" FuelModifier="1.25" />
+		<Gear AngVel="1.45" FuelModifier="1.225" />
+		<Gear AngVel="2.2" FuelModifier="1.2" />
+		<Gear AngVel="3.4" FuelModifier="1.15" />
+		<Gear AngVel="4.6" FuelModifier="1.1" />
+		<Gear AngVel="5.9" FuelModifier="1.05" />
+		<Gear AngVel="6.8" FuelModifier="1.0" />
+		<GameData
+			Price="7000"
+			UnlockByExploration="true"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_KOLOB_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_KOLOB_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

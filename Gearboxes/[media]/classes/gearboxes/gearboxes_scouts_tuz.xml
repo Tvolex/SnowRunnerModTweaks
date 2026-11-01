@@ -1,0 +1,39 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.2"
+		CriticalDamageThreshold="0.4"
+		DamageCapacity="80"
+		DamagedConsumptionModifier="1.8"
+		FuelConsumption="1.5"
+		IdleFuelModifier="0.15"
+		Name="g_scout_tuz"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="30.0"
+	>
+		<ReverseGear AngVel="0.6" FuelModifier="1.1" />
+		<HighGear AngVel="9.0" FuelModifier="4.0" />
+		<Gear AngVel="1.5" FuelModifier="1.1" />
+		<Gear AngVel="4.25" FuelModifier="1.075" />
+		<Gear AngVel="7.0" FuelModifier="1.05" />
+		<Gear AngVel="15.0" FuelModifier="1.0" />
+
+		<GameData
+			Price="1500"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams 
+				IsHighGearExists="true" 
+				IsLowerGearExists="true" 
+				IsLowerPlusGearExists="true" 
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SCOUT_TUZ_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SCOUT_TUZ_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

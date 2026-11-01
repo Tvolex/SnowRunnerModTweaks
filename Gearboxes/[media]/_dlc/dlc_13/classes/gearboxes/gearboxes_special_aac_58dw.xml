@@ -1,0 +1,40 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.4"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="135"
+		DamagedConsumptionModifier="1.4"
+		FuelConsumption="1.5"
+		IdleFuelModifier="0.15"
+		Name="g_aac_58dw_special"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="15.0"
+	>
+		<ReverseGear AngVel="0.7" FuelModifier="1.2" />
+		<HighGear AngVel="8" FuelModifier="2.6" />
+		<Gear AngVel="1.5" FuelModifier="1.2" />
+		<Gear AngVel="2.75" FuelModifier="1.175" />
+		<Gear AngVel="4.0" FuelModifier="1.15" />
+		<Gear AngVel="6.6" FuelModifier="1.1" />
+		<Gear AngVel="10.5" FuelModifier="1.05" />
+		<Gear AngVel="13" FuelModifier="1.0" />
+		<GameData
+			Price="2700"
+			UnlockByExploration="true"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_DEFAULT_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

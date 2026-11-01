@@ -1,0 +1,119 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.3"
+		CriticalDamageThreshold="0.41"
+		DamageCapacity="170"
+		DamagedConsumptionModifier="1.31"
+		FuelConsumption="2.4"
+		IdleFuelModifier="0.2"
+		Name="g_special_wortek_250t_default"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="27.0"
+	>
+		<ReverseGear AngVel="1.5" FuelModifier="1.15" />
+		<HighGear AngVel="4.7" FuelModifier="1.56" />
+		<Gear AngVel="1.4" FuelModifier="1.15" />
+		<Gear AngVel="2" FuelModifier="1.125" />
+		<Gear AngVel="2.6" FuelModifier="1.1" />
+		<Gear AngVel="3.9" FuelModifier="1.05" />
+		<Gear AngVel="4.8" FuelModifier="1" />
+		<GameData
+			Price="3800"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_DEFAULT_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true" 
+				IsLowerGearExists="true" 
+				IsLowerPlusGearExists="true" 
+				IsLowerMinusGearExists="true"
+				IsManualLowGear="false"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.4"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="180"
+		DamagedConsumptionModifier="1.2"
+		FuelConsumption="2.5"
+		IdleFuelModifier="0.2"
+		Name="g_special_wortek_250t_offroad"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="23.0"
+	>
+		<ReverseGear AngVel="1.0" FuelModifier="1.2" />
+		<HighGear AngVel="4.05" FuelModifier="1.45" />
+		<Gear AngVel="1.2" FuelModifier="1.2" />
+		<Gear AngVel="1.7" FuelModifier="1.175" />
+		<Gear AngVel="2.2" FuelModifier="1.15" />
+		<Gear AngVel="3.4" FuelModifier="1.1" />
+		<Gear AngVel="4.5" FuelModifier="1.05" />
+		<Gear AngVel="5.6" FuelModifier="1" />
+		<GameData
+			Price="6600"
+			UnlockByExploration="true"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_OFFROAD_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_OFFROAD_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.5"
+		CriticalDamageThreshold="0.41"
+		DamageCapacity="170"
+		DamagedConsumptionModifier="1.18"
+		FuelConsumption="2.5"
+		IdleFuelModifier="0.2"
+		Name="g_special_wortek_250t_highway"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="12.0"
+	>
+		<ReverseGear AngVel="1.4" FuelModifier="1.25" />
+		<HighGear AngVel="5.1" FuelModifier="1.3" />
+		<Gear AngVel="1.3" FuelModifier="1.25" />
+		<Gear AngVel="1.8" FuelModifier="1.225" />
+		<Gear AngVel="2.3" FuelModifier="1.2" />
+		<Gear AngVel="3.5" FuelModifier="1.15" />
+		<Gear AngVel="4.8" FuelModifier="1.1" />
+		<Gear AngVel="6.1" FuelModifier="1.05" />
+		<Gear AngVel="7.2" FuelModifier="1.0" />
+		<GameData
+			Price="6000"
+			UnlockByExploration="true"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_HIGHWAY_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_HIGHWAY_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true" 
+				IsLowerGearExists="true" 
+				IsLowerPlusGearExists="true" 
+				IsLowerMinusGearExists="true"
+				IsManualLowGear="false"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

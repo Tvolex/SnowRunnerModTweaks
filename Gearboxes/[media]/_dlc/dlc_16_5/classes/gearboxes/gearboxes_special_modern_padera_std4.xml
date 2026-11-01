@@ -1,0 +1,166 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.5"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="220"
+		DamagedConsumptionModifier="1.58"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_special_padera_std4_default"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="10.0"
+	>
+		<ReverseGear AngVel="1.14" FuelModifier="1.25" />
+		<HighGear AngVel="7.6" FuelModifier="2.5" />
+		<Gear AngVel="1.15" FuelModifier="1.25" />
+		<Gear AngVel="1.8" FuelModifier="1.225" />
+		<Gear AngVel="2.45" FuelModifier="1.2" />
+		<Gear AngVel="3.9" FuelModifier="1.15" />
+		<Gear AngVel="6.05" FuelModifier="1.1" />
+		<Gear AngVel="7.55" FuelModifier="1.05" />
+		<Gear AngVel="9.4" FuelModifier="1.0" />
+		<GameData
+			Price="2900"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_DEFAULT_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.6"
+		CriticalDamageThreshold="0.58"
+		DamageCapacity="240"
+		DamagedConsumptionModifier="1.6"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_special_padera_std4_offroad"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="13.0"
+	>
+		<ReverseGear AngVel="1.15" FuelModifier="1.3" />
+		<HighGear AngVel="7.85" FuelModifier="2.6" />
+		<Gear AngVel="1.36" FuelModifier="1.3" />
+		<Gear AngVel="1.74" FuelModifier="1.275" />
+		<Gear AngVel="2.12" FuelModifier="1.25" />
+		<Gear AngVel="3.5" FuelModifier="1.2" />
+		<Gear AngVel="5.2" FuelModifier="1.15" />
+		<Gear AngVel="7.5" FuelModifier="1.1" />
+		<Gear AngVel="8.85" FuelModifier="1.05" />
+		<Gear AngVel="10.6" FuelModifier="1.0" />
+		<GameData
+			Price="6000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_SPECIAL_OFFROAD_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_SPECIAL_OFFROAD_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	<Gearbox
+		AWDConsumptionModifier="1.6"
+		CriticalDamageThreshold="0.55"
+		DamageCapacity="200"
+		DamagedConsumptionModifier="1.52"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_special_padera_std4_highrange"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="8.0"
+	>
+		<ReverseGear AngVel="1.0" FuelModifier="1.3" />
+		<HighGear AngVel="8.5" FuelModifier="2.7" />
+		<Gear AngVel="1.4" FuelModifier="1.3" />
+		<Gear AngVel="1.95" FuelModifier="1.275" />
+		<Gear AngVel="2.5" FuelModifier="1.25" />
+		<Gear AngVel="4.0" FuelModifier="1.2" />
+		<Gear AngVel="6.3" FuelModifier="1.15" />
+		<Gear AngVel="9.1" FuelModifier="1.1" />
+		<Gear AngVel="12.2" FuelModifier="1.05" />
+		<Gear AngVel="15.2" FuelModifier="1.0" />
+		<GameData
+			Price="5100"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_HIGHRANGE_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_HIGHRANGE_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="false"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+	
+	<Gearbox
+		AWDConsumptionModifier="1.5"
+		CriticalDamageThreshold="0.55"
+		DamageCapacity="200"
+		DamagedConsumptionModifier="1.52"
+		FuelConsumption="2.25"
+		IdleFuelModifier="0.25"
+		Name="g_special_padera_std4_finetune"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="8.0"
+	>
+		<ReverseGear AngVel="1.05" FuelModifier="1.6" />
+		<HighGear AngVel="8.2" FuelModifier="1.0" />
+		<Gear AngVel="1.55" FuelModifier="1.6" />
+		<Gear AngVel="1.925" FuelModifier="1.55" />
+		<Gear AngVel="2.3" FuelModifier="1.5" />
+		<Gear AngVel="2.82" FuelModifier="1.4" />
+		<Gear AngVel="3.65" FuelModifier="1.3" />
+		<Gear AngVel="5.6" FuelModifier="1.2" />
+		<Gear AngVel="7.4" FuelModifier="1.1" />
+		<Gear AngVel="10.6" FuelModifier="1.0" />
+		<GameData
+			Price="6200"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_TRUCK_FINETUNE_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_TRUCK_FINETUNE_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="true"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

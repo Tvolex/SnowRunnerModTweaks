@@ -1,0 +1,42 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.5"
+		CriticalDamageThreshold="0.7"
+		DamageCapacity="190"
+		DamagedConsumptionModifier="1.6"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_special_mercer_k520"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="22.0"
+	>
+		<ReverseGear AngVel="0.8" FuelModifier="1.25" />
+		<HighGear AngVel="7.5" FuelModifier="2.5" />
+		<Gear AngVel="1.5" FuelModifier="1.25" />
+		<Gear AngVel="2.25" FuelModifier="1.225" />
+		<Gear AngVel="3.0" FuelModifier="1.2" />
+		<Gear AngVel="5.0" FuelModifier="1.15" />
+		<Gear AngVel="7.5" FuelModifier="1.1" />
+		<Gear AngVel="9.8" FuelModifier="1.05" />
+		<Gear AngVel="12.0" FuelModifier="1.0" />
+		<GameData
+			Price="7000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<UiDesc
+				UiDesc="UI_GEARBOX_F750_DEFAULT_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_F750_DEFAULT_NAME"
+			/>
+			<GearboxParams
+				IsHighGearExists="true"
+				IsLowerGearExists="true"
+				IsLowerPlusGearExists="true"
+				IsManualLowGear="true"
+				IsLowerMinusGearExists="true"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>

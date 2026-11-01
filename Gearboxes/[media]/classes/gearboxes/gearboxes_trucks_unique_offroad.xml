@@ -1,0 +1,39 @@
+<GearboxVariants>
+	<Gearbox
+		AWDConsumptionModifier="1.4"
+		CriticalDamageThreshold="0.5"
+		DamageCapacity="160"
+		DamagedConsumptionModifier="1.6"
+		FuelConsumption="2.0"
+		IdleFuelModifier="0.2"
+		Name="g_truck_unique_offroad"
+		MinBreakFreq="0.0"
+		MaxBreakFreq="20.0"
+	>
+		<ReverseGear AngVel="0.8" FuelModifier="1.15" />
+		<HighGear AngVel="7.0" FuelModifier="2.3" />
+		<Gear AngVel="1.0" FuelModifier="1.15" />
+		<Gear AngVel="2.75" FuelModifier="1.125" />
+		<Gear AngVel="4.5" FuelModifier="1.1" />
+		<Gear AngVel="9.0" FuelModifier="1.05" />
+		<Gear AngVel="12.0" FuelModifier="1.0" />
+		<GameData
+			Price="2300"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<GearboxParams 
+				IsHighGearExists="true" 
+				IsLowerGearExists="true" 
+				IsLowerPlusGearExists="true" 
+				IsLowerMinusGearExists="true"
+			/>
+			<UiDesc
+				UiDesc="UI_GEARBOX_TRUCK_UNIQUE_OFFROAD_DESC"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="UI_GEARBOX_TRUCK_UNIQUE_OFFROAD_NAME"
+			/>
+		</GameData>
+	</Gearbox>
+</GearboxVariants>
