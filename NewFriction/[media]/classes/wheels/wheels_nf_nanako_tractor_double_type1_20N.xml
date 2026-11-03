@@ -29,7 +29,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type1 with the rear wheel is a super single tire type1 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-W1-20N-I" />
+				<UiDesc UiDesc="Mudtires series type1 with the rear wheel is a super single tire type1 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="NF-MS-W1-20N-I" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_02_double_type1" Name="mud_2" Mass="200" RearMassScale="2">
@@ -39,7 +39,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type2 with the rear wheel is a super single tire type2 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-W1-20N-II" />
+				<UiDesc UiDesc="Mudtires series type2 with the rear wheel is a super single tire type2 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="NF-MS-W1-20N-II" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_01_double_type1" Name="mud_3" Mass="200" RearMassScale="2">
@@ -49,7 +49,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire type3 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-W1-20N-III" />
+				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire type3 Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="NF-MS-W1-20N-III" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Chains" Mesh="wheels/tire_chains_01_double_type1" Name="chains_1" Mass="200" RearMassScale="2">
@@ -59,7 +59,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire type3 all wheels chains Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored." UiName="MS-W1-20N-III-Chains" />
+				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire type3 all wheels chains Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored." UiName="NF-MS-W1-20N-III-Chains" />
 			</GameData>
 		</TruckTire>
 	</TruckTires>
