@@ -2,17 +2,17 @@
 	<TruckTire>
 		<Offroad _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Offroad" />
 		</Offroad>
 		<Mudtires _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="HeavyMudtires" />
 		</Mudtires>
 		<Allterrain _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Allterrain" />
 		</Allterrain>
 	</TruckTire>

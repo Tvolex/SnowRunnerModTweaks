@@ -2,7 +2,7 @@
 	<TruckTire>
 		<ScoutHighway _template="Light">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="ScoutStiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutHighway" />
 		</ScoutHighway>
 	</TruckTire>

@@ -4,7 +4,7 @@
 		<Offroad _template="Heavy"  RearMassScale="2">
 			<WheelTracks _template="Offroad" />
 			<WheelTracks _template="DefaultDouble" Rear="true" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="HeavyMudtires" />
 			<WheelFriction _template="Chains" />
 		</Offroad>
@@ -25,7 +25,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 3.0" 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 2.1."
 				UiName="Mud Duallies by Quasi" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
@@ -43,7 +43,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 3.0 Ignore Ice " 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."
 				UiName="Studded Mud Duallies by Quasi" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />

@@ -6,6 +6,6 @@
 	Width = "0.068"
 >
 	<WheelTracks _template="Default" />
-	<WheelSoftness _template="Stiff" />
+	<WheelSoftness _template="Soft" />
 	<WheelFriction _template="ScoutHighway" />	
 </TruckWheel>

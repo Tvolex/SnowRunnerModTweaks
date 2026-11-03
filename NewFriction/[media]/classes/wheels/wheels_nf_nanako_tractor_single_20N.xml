@@ -3,12 +3,12 @@
 	<TruckTire>
 		<Mudtires _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="HeavyMudtires" />
 		</Mudtires>
 		<Chains _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Chains" />
 		</Chains>       
 	</TruckTire>
@@ -26,7 +26,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type1 super single tires 3.0 / 2.0 / 3.5" UiName="MS-S-20N-I" />
+				<UiDesc UiDesc="Mudtires series type1 super single tires Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-S-20N-I" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_02_single" Name="mud_2" Mass="200">
@@ -36,7 +36,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type2 super single tires 3.0 / 2.0 / 3.5" UiName="MS-S-20N-II" />
+				<UiDesc UiDesc="Mudtires series type2 super single tires Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-S-20N-II" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_01_single" Name="mud_3" Mass="200">
@@ -46,7 +46,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type3 super single tires 3.0 / 2.0 / 3.4" UiName="MS-S-20N-III" />
+				<UiDesc UiDesc="Mudtires series type3 super single tires Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-S-20N-III" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_02_single" Name="mud_4" Mass="200">
@@ -56,7 +56,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type4 super single tires 3.0 / 2.0 / 3.5" UiName="MS-S-20N-IV" />
+				<UiDesc UiDesc="Mudtires series type4 super single tires Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85." UiName="MS-S-20N-IV" />
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Chains" Mesh="wheels/tire_chains_01_single" Name="chains_1" Mass="200">
@@ -66,7 +66,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Mudtires series type3 super single tires all wheels chains 3.0 / 2.0 / 3.4 ICE ON" UiName="MS-S-20N-III-Chains" />
+				<UiDesc UiDesc="Mudtires series type3 super single tires all wheels chains Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored." UiName="MS-S-20N-III-Chains" />
 			</GameData>
 		</TruckTire>
 	</TruckTires>

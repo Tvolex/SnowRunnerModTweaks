@@ -3,7 +3,7 @@
 	<TruckTires>
 		<TruckTire _template="Light" Mesh="wheels/tire_scout_offroad2_hummer_h2" Name="tire1">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutDefault" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutOffroad" 
 			BodyFrictionAsphalt="5"
 			

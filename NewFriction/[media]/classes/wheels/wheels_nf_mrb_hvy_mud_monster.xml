@@ -3,7 +3,7 @@
 	<TruckTire>
 		<Offroad _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Mudtires" />
 		</Offroad>
 	</TruckTire>
@@ -24,7 +24,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 4 Ignore Ice"  
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
 				UiName="Monster Tayga Tires" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
@@ -41,7 +41,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 4 Ignore Ice"  
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."
 				UiName="Chained Monster Tayga Tires" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />

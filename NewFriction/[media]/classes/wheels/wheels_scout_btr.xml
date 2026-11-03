@@ -2,7 +2,7 @@
 	<TruckTire>
 		<Mudtires _template="Heavy">
 			<WheelTracks _template="Mudtires" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Mudtires" />
 		</Mudtires>
 	</TruckTire>

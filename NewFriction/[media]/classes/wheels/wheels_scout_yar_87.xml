@@ -2,7 +2,7 @@
 	<TruckTire>
 		<Offroad _template="Medium">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 		</Offroad>
 	</TruckTire>
 </_templates>

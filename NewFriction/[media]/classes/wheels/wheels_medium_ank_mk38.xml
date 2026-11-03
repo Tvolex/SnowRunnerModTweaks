@@ -2,7 +2,7 @@
 	<TruckTire>
 		<Offroad _template="Heavy" >
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Mudtires" />
 		</Offroad>
 	</TruckTire>

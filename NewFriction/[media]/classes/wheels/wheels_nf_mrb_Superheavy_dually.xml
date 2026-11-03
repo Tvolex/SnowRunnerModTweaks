@@ -23,7 +23,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. 0.8/3.0/2.0" 
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance Friction (Body/Asphalt/Substance): 0.65 / 6 / 1.3."
 				UiName="BMG Carnivore Dually" />
 			</GameData>
 		</TruckTire>
@@ -34,7 +34,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. 0.5/2.0/3.5" 
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
 				UiName="BMG Mud Claws M/T Dually" />
 			</GameData>
 		</TruckTire>
@@ -45,7 +45,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Specialized tire set with studs running over the treads for maximum traction on iced-over roads. 0.8/3.0/2.0" 
+				<UiDesc UiDesc="Specialized tire set with studs running over the treads for maximum traction on iced-over roads Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."
 				UiName="BMG Carnivore Studded  " />
 			</GameData>
 		</TruckTire>
@@ -56,7 +56,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Glitchworks Brand Bogger Dually tires 1.8/3.5/4.0" 
+				<UiDesc UiDesc="Glitchworks Brand Bogger Dually tires Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
 				UiName="GWCS Swampers" />
 			</GameData>
 		</TruckTire>		

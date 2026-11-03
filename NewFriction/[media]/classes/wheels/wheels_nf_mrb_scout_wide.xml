@@ -3,7 +3,7 @@
 	<TruckTire>
 		<Offroad _template="Light">
 			<WheelTracks _template="Offroad" />            
-			<WheelSoftness _template="ScoutDefault" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutOffroad" />            
 		</Offroad>
 	</TruckTire>
@@ -22,7 +22,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.0"
+				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1.3 / 7 / 1.2."
 				UiName="GWC Rock Kickers" 
 				/>
 			</GameData>
@@ -35,7 +35,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Glitchworks Brand Bogger tires 1.8/3.5/4.0"
+				UiDesc="Glitchworks Brand Bogger tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
 				UiName="GWC Bogger" 
 				/>
 			</GameData>
@@ -48,7 +48,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.5"
+				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
 				UiName="GWC Baja" 
 				/>
 			</GameData>
@@ -61,7 +61,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Glitchworks Brand Off road tires 1.8/3.5/3.5"
+				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
 				UiName="GWC TSL" 
 				/>
 			</GameData>
@@ -74,7 +74,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. 1.8/3.5/2.7"
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance Friction (Body/Asphalt/Substance): 1.3 / 7 / 1.2."
 				UiName="BMG Carnivore " 
 				/>
 			</GameData>
@@ -87,7 +87,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="A tire that can do everything from gripping mud to gliding over rocks  1.8/3.0/3.0"
+				UiDesc="A tire that can do everything from gripping mud to gliding over rocks Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
 				UiName="BMG Mud Claws M/T" 
 				/>
 			</GameData>
@@ -100,7 +100,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. 1.8/3.5/4.0"
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
 				UiName=" BMG Super Trencher M/T" 
 				/>
 			</GameData>
@@ -114,7 +114,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc 
-				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With added studs to keep traction on ice 1.8/3.5/4.0"
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With added studs to keep traction on ice Friction (Body/Asphalt/Substance): 0.45 / 0.2 / 2.6. Ice ignored."
 				UiName=" BMG Super Trencher M/T Ice &amp; Snow"
 				/>
 			</GameData>
@@ -127,7 +127,7 @@
 				UnlockByRank="1"
 			>
 			<UiDesc 
-				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. Studded for ice and snow 1.8/3.5/2.7"
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. Studded for ice and snow Friction (Body/Asphalt/Substance): 0.45 / 0.2 / 2.6. Ice ignored."
 				UiName="BMG Carnivore Studded " 
 				/>
 			</GameData>

@@ -2,22 +2,22 @@
 	<TruckTire>
 		<ScoutOffroad _template="Light">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutDefault" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutOffroad" />
 		</ScoutOffroad>
 		<ScoutMudtires _template="Light">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutSoft" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutMudtires" />
 		</ScoutMudtires>
 		<ScoutChains _template="Light">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutSoft" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutChains" />
 		</ScoutChains>
 		<ScoutAllterrain _template="Light">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="ScoutStiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutAllterrain" />
 		</ScoutAllterrain>
 	</TruckTire>

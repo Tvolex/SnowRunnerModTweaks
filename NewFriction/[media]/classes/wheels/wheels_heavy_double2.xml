@@ -3,7 +3,7 @@
 		<Offroad _template="Heavy" RearMassScale="2">
 			<WheelTracks _template="Offroad" />
 			<WheelTracks _template="DefaultDouble" Rear="true" />
-			<WheelSoftness _template="Average" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Offroad" />
 		</Offroad>
 	</TruckTire>

@@ -2,22 +2,22 @@
 	<TruckTire>
 		<Offroad _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Offroad" />
 		</Offroad>
 		<Highway _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Highway" />
 		</Highway>
 		<Chains _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Chains" />
 		</Chains>
 		<Allterrain _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="Allterrain" />
 		</Allterrain>
 	</TruckTire>
