@@ -226,13 +226,11 @@
 		<!-- Nanako overwritten by New Friction -->
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_nf_nanako_tractor_double_type1_20N" />
-		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_nf_nanako_tractor_double_type2_20N" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_nf_nanako_offroad_double_20N" />
 
 		<!-- Nanako Original -->
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_offroad_double_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_tractor_double_type1_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_tractor_double_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.45" RearOffsetZ="0.5" Scale="0.6" Type="wheels_offroad_double_20N/3555058" />
 
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->

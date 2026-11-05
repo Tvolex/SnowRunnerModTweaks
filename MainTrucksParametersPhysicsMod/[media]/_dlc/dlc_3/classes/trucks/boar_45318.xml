@@ -174,23 +174,13 @@
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.1" Scale="0.74" Type="wheels_quasi_mud_double_hvy/3280471" />
 
 		<!-- Nanako overwritten by New Friction -->
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_nf_nanako_tractor_double_type1_20N" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_nf_nanako_tractor_double_type1_20N" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_nf_nanako_tractor_double_type2_20N" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_nf_nanako_tractor_double_type2_20N" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_nf_nanako_offroad_double_20N" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_nf_nanako_offroad_double_20N" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 
 		<!-- Nanako Original -->
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_tractor_double_type1_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_tractor_double_type2_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_tractor_double_type2_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_offroad_double_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.69" Type="wheels_offroad_double_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.04" RearOffsetZ="0.06" Scale="0.74" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">

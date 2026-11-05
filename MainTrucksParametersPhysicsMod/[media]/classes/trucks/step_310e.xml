@@ -1,4 +1,4 @@
-﻿<_templates Include="trucks">
+<_templates Include="trucks">
 	<Wheel>
 		<RearWheel
 			ConnectedToHandbrake="true"
@@ -195,23 +195,13 @@
 		<CompatibleWheels OffsetZ="0.16" RearOffsetZ="0.01" Scale="0.55" Type="wheels_mrb_med_wide/3280471" />
 
 		<!-- Nanako overwritten by New Friction -->
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_nf_nanako_tractor_double_type1_20N" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_nf_nanako_tractor_double_type1_20N" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_nf_nanako_tractor_double_type2_20N" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_nf_nanako_tractor_double_type2_20N" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_nf_nanako_offroad_double_20N" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_nf_nanako_offroad_double_20N" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 
 		<!-- Nanako Original -->
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_tractor_double_type1_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_tractor_double_type2_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.5" Type="wheels_offroad_double_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.14" RearOffsetZ="-0.01" Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
 
 		<Camera Center="(-0.9; 0; 0)" ParentFrame="BoneCabin_cdt">

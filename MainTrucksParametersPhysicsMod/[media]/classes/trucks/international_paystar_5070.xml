@@ -175,7 +175,6 @@
 		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.13" Type="wheels_nf_nanako_offroad_single_20N" />
 		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.13" Type="wheels_nf_nanako_offroad_single_type2_20N" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_nf_nanako_tractor_double_type1_20N" />
-		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_nf_nanako_tractor_double_type2_20N" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_nf_nanako_offroad_double_20N" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_nf_nanako_offroad_double_type2_20N" />
 
@@ -184,7 +183,6 @@
 		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.13" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels Scale="0.58" RearOffsetZ="-0.13" Type="wheels_offroad_single_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_tractor_double_type1_20N/3555058" />
-		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_tractor_double_type2_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.11" RearOffsetZ="-0.02" Scale="0.58" Type="wheels_offroad_double_type2_20N/3555058" />
 
