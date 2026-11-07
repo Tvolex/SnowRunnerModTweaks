@@ -16,7 +16,8 @@
 >
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_jangsu_rx600" Name="jangsu_offroad_1">
-			<WheelFriction _template="Mudtires"/>
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5700"
 				UnlockByExploration="false"

@@ -15,7 +15,8 @@
 >
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_faun" Name="tire_1">
-		<WheelFriction _template="Offroad" BodyFrictionAsphalt="5" SubstanceFriction="0.65"/>
+		<WheelFriction _template="Offroad" BodyFrictionAsphalt="0.35" SubstanceFriction="0.65" BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

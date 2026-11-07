@@ -16,7 +16,8 @@
 >
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_step_3364_crocodile" Name="tire_1">
-			<WheelFriction _template="Allterrain" SubstanceFriction="0.4" />
+			<WheelFriction _template="Allterrain" SubstanceFriction="0.4"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"

@@ -9,7 +9,7 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.731">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_base_kirovets_k7m" Name="tire">
-			<WheelFriction _template="HeavyMudtires" BodyFrictionAsphalt="5" />
+			<WheelFriction _template="HeavyMudtires" BodyFrictionAsphalt="0.35"  BodyFriction="1.25"/>
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"
@@ -17,7 +17,7 @@
 			>
 				<UiDesc UiDesc="UI_TIRE_K7M_SUPERHEAVY_MUDTIRES_DESC" UiName="UI_TIRE_K7M_SUPERHEAVY_MUDTIRES_NAME" />
 			</GameData>
-			<WheelSoftness RadiusOffset="0.0319" SoftForceScale="0.130" />
+			<WheelSoftness RadiusOffset="0.0319" SoftForceScale="0.130"  _template="Soft"/>
 			<WheelTracks
                 TextureAlpha="tracks/kirovets_k7m_base_alpha__s_d.tga"
                 TextureHeight="tracks/kirovets_k7m_base_height__s_d.tga"

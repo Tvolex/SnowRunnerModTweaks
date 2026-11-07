@@ -10,9 +10,10 @@
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_mudtires_single_tayga_1" Name="mudtires">
 			<WheelFriction _template="Mudtires" 
-			BodyFrictionAsphalt="5"
+			BodyFrictionAsphalt="0.5"
 			SubstanceFriction="2.6"
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7000"
 				UnlockByExploration="false"

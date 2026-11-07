@@ -2,7 +2,7 @@
 	<TruckTire>
 		<ScoutHighway _template="Light">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Soft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="ScoutHighway" />
 		</ScoutHighway>
 	</TruckTire>
@@ -12,6 +12,7 @@
 		<TruckTire _template="ScoutHighway" Mesh="wheels/tire_scout_default1_1" Name="highway_1">
 			<WheelFriction _template="ScoutHighway" 
 			/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="1000"
 				UnlockByExploration="false"
@@ -25,6 +26,7 @@
 			
 			
 			/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="1200"
 				UnlockByExploration="false"
@@ -39,6 +41,7 @@
 			BodyFrictionAsphalt="4.01"
 			
 			/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="1400"
 				UnlockByExploration="false"

@@ -2,7 +2,7 @@
 	<TruckTire>
 		<ScoutAllterrain _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="ScoutSoft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="ScoutChains" />
 		</ScoutAllterrain>
 	</TruckTire>

@@ -9,8 +9,9 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.84">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_kenworth_963" Name="allterrain_1">
-			<!--<WheelFriction _template="Allterrain" BodyFrictionAsphalt="5" BodyFriction="0.5" SubstanceFriction="2.45"/>-->
+			<!--<WheelFriction _template="Allterrain" BodyFrictionAsphalt="0.5" BodyFriction="1.25" SubstanceFriction="2.45"/>-->
 			<WheelFriction _template="Allterrain"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
@@ -20,7 +21,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_kirovets_k700" Name="tire">
-			<WheelFriction _template="HeavyMudtires" />
+			<WheelFriction _template="HeavyMudtires"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="11550"
 				UnlockByExploration="false"
@@ -39,7 +41,8 @@
 			<WheelFriction 
 				_template="Offroad"
 				
-			/>
+			 BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="9385"
 				UnlockByExploration="false"
@@ -50,7 +53,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" BodyFrictionAsphalt="3.8" Mesh="wheels/tire_sleiter_mfk816" Name="tire_4">
-			<WheelFriction _template="HeavyMudtires" />
+			<WheelFriction _template="HeavyMudtires"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="10500"
 				UnlockByExploration="false"

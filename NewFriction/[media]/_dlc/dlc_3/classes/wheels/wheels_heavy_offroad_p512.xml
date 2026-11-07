@@ -16,7 +16,8 @@
 >
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_pacific_p512_double" Name="offroad">
-			<WheelFriction _template="Offroad" SubstanceFriction="0.7" />
+			<WheelFriction _template="Offroad" SubstanceFriction="0.7"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="6800"
 				UnlockByExploration="false"

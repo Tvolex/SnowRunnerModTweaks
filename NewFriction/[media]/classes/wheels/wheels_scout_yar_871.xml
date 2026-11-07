@@ -10,7 +10,8 @@
 <TruckWheels DamageCapacity="20" Radius="1" Width="0.863">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_scout_mudtires1_1" Name="mudtires_1"><!--TREKOL-1350-->
-			<WheelFriction _template="Mudtires" BodyFrictionAsphalt="3.9" BodyFriction="1.3" SubstanceFriction="2" />
+			<WheelFriction _template="Mudtires" BodyFrictionAsphalt="0.35" BodyFriction="1.25" SubstanceFriction="2" />
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
@@ -20,7 +21,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_scout_mudtires1_2" Name="mudtires_2">
-			<WheelFriction _template="Mudtires" BodyFriction="1.3"  SubstanceFriction="2" />
+			<WheelFriction _template="Mudtires" BodyFriction="1.25"  SubstanceFriction="2"  BodyFrictionAsphalt="0.35"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5300"
 				UnlockByExploration="false"
@@ -30,7 +32,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_kirovets_k700" Name="ATT-X">
-			<WheelFriction _template="HeavyMudtires" BodyFriction="1.2"  SubstanceFriction="2" />
+			<WheelFriction _template="HeavyMudtires" BodyFriction="1.25"  SubstanceFriction="2"  BodyFrictionAsphalt="0.35"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

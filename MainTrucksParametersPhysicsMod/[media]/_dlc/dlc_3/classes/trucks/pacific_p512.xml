@@ -8,7 +8,7 @@
 		<FrontWheel
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="5"
+			SteeringCastor="10"
 			SteeringJointOffset="0.25"
 			Torque="connectable"
 			ParentFrame="BoneCabin_cdt"
@@ -67,7 +67,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.016"
+		BackSteerSpeed="0.015"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.2"
@@ -75,7 +75,7 @@
 		ExhaustStartTime="0.9"
 		FuelCapacity="300"
 		Responsiveness="0.15"
-		SteerSpeed="0.031"
+		SteerSpeed="0.03"
 		TruckImage="pacificp512mchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -204,6 +204,11 @@
 		<CompatibleWheels Scale="0.646" OffsetZ="0.03" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels Scale="0.646" OffsetZ="0.03" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels Scale="0.646" OffsetZ="0.03" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.646" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.646" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.646" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.646" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.646" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.2; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit

@@ -8,7 +8,7 @@
         <FrontWheel
                 Location="front"
                 SteeringAngle="48"
-                SteeringCastor="8"
+                SteeringCastor="10"
                 Torque="connectable"
                 ParentFrame="BoneCabin_cdt"
         />
@@ -53,7 +53,7 @@
 </_templates>
 <Truck>
 <TruckData
-        BackSteerSpeed="0.016"
+        BackSteerSpeed="0.015"
         DiffLockType="Installed"
         EngineIconMesh="env/engine_default"
         EngineIconScale="1.2"
@@ -61,7 +61,7 @@
         ExhaustStartTime="0.9"
         FuelCapacity="200"
         Responsiveness="0.15"
-        SteerSpeed="0.031"
+        SteerSpeed="0.03"
         TruckImage="chevkodiak70blazer"
         TruckType="HEAVY_DUTY"
         HideDistance="250"
@@ -157,9 +157,10 @@
     <CompatibleWheels Scale="0.50" Type="wheels_medium_double" />
     <CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_double" />
 
-    <CompatibleWheels Scale="0.50" Type="wheels_medium_offroad_double" />
+<!--    <CompatibleWheels Scale="0.50" Type="wheels_medium_offroad_double" />-->
     <CompatibleWheels Scale="0.50" Type="wheels_medium_highway_double" />
     <CompatibleWheels Scale="0.50" Type="wheels_medium_allterrain_double" />
+    <CompatibleWheels Scale="0.66" Type="wheels_kodiak_custom_mud_test" />
 
     <CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_offroad_double" />
     <CompatibleWheels OffsetZ="0.02" Scale="0.55" Type="wheels_medium_highway_double" />
@@ -184,6 +185,11 @@
     <CompatibleWheels Scale="0.55" Type="wheels_tractor_double_type2_20N/3555058" />
     <CompatibleWheels Scale="0.55" Type="wheels_offroad_double_20N/3555058" />
     <CompatibleWheels Scale="0.55" Type="wheels_offroad_double_type2_20N/3555058" />
+    <CompatibleWheels Scale="0.55" Type="wheels_larus_double/1756037" />
+    <CompatibleWheels Scale="0.55" Type="wheels_OI-25/1756037" />
+    <CompatibleWheels Scale="0.55" Type="wheels_4380_single/1756037" />
+    <CompatibleWheels Scale="0.55" Type="wheels_o-47a/1756037" />
+    <CompatibleWheels Scale="0.55" Type="wheels_zil164/1756037" />
 
     <Camera Center="(-1.7; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit

@@ -9,7 +9,8 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="1.57">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_extend_kirovets_k7m" Name="tire_1" Mass="900">
-			<WheelFriction  BodyFrictionAsphalt="5" />
+			<WheelFriction  BodyFrictionAsphalt="0.35"  BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="true"

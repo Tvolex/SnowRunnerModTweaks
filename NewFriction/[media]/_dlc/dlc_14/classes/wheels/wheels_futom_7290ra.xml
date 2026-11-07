@@ -9,6 +9,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.73">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_futom_7290ra" Name="tire">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.35" />
 			<GameData
 				Price="6600"
 				UnlockByExploration="false"

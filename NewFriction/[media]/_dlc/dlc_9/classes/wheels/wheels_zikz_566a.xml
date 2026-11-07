@@ -14,7 +14,8 @@
 >
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_zikz_566a" Name="zikz_566_tire">
-			<WheelFriction _template="Offroad" />
+			<WheelFriction _template="Offroad"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

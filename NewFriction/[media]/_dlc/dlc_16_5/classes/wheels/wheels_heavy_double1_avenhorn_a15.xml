@@ -23,6 +23,7 @@
 	<TruckTires>
 		<TruckTire _template="Highway" Mesh="wheels/tire_medium_highway_double_1" Name="highway_1">
 			<WheelFriction _template="Highway" SubstanceFriction="0.6"/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="3600"
 				UnlockByExploration="false"
@@ -33,6 +34,7 @@
 		</TruckTire>
 		<TruckTire _template="Highway" Mesh="wheels/tire_medium_highway_double_2" Name="highway_2">
 			<WheelFriction _template="Highway"/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="4000"
 				UnlockByExploration="false"
@@ -43,6 +45,7 @@
 		</TruckTire>
 		<TruckTire _template="Highway" Mesh="wheels/tire_medium_highway_double_3" Name="highway_3">
 			<WheelFriction _template="Highway" BodyFrictionAsphalt="5.2"/>
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="4400"
 				UnlockByExploration="false"

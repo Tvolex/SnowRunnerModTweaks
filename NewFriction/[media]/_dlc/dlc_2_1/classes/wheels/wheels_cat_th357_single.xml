@@ -10,7 +10,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.762">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_cat_th357_1" Name="mudtires_1">
-		<WheelFriction _template="Mudtires" SubstanceFriction="2" />
+		<WheelFriction _template="Mudtires" SubstanceFriction="2"  BodyFriction="1.25" BodyFrictionAsphalt="0.35"/>
+		<WheelSoftness _template="Soft" />
 		<GameData
 				Price="8300"
 				UnlockByExploration="false"

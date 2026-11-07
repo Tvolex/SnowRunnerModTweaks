@@ -3,7 +3,7 @@
 		<SecondAxle
 			_template="FirstAxle"
 			SteeringAngle="32"
-			SteeringCastor="6"
+			SteeringCastor="10"
 		/>
 		<RearAxle
 			ConnectedToHandbrake="true"
@@ -100,7 +100,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.017"
+		BackSteerSpeed="0.016"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_big"
 		EngineIconScale="1.5"
@@ -108,7 +108,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="360"
 		Responsiveness="0.15"
-		SteerSpeed="0.025"
+		SteerSpeed="0.024"
 		TruckImage="ws6900tweeensteermchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -253,6 +253,11 @@
 		<CompatibleWheels Scale="0.7" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels Scale="0.7" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels Scale="0.7" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.8" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.8" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.8" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.8" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.8" Type="wheels_zil164/1756037" />
 
 		<Camera
 			Center="(-2; 0; 0)"

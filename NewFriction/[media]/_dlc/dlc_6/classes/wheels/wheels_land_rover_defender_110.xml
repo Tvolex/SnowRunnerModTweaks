@@ -3,8 +3,8 @@
 	<TruckTires>
 		<TruckTire _template="Light" Mesh="wheels/tire_land_rover_defender_110" Name="tire">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutDefault" />
-			<WheelFriction _template="ScoutOffroad" />
+			<WheelSoftness _template="Soft" />
+			<WheelFriction _template="ScoutOffroad"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"

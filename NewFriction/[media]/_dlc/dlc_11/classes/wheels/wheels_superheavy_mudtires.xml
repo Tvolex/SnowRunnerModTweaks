@@ -11,9 +11,10 @@
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_superheavy_mudtires_10" Name="JAT MSH I">
 			<WheelFriction _template="Mudtires" 
-			BodyFrictionAsphalt="5.61"
+			BodyFrictionAsphalt="0.35"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"
@@ -24,9 +25,10 @@
 		</TruckTire>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_superheavy_mudtires_11" Name="JAT MSH II">
 			<WheelFriction _template="Mudtires" 
-			BodyFrictionAsphalt="5.61"
+			BodyFrictionAsphalt="0.35"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="8100"
 				UnlockByExploration="false"
@@ -37,9 +39,10 @@
 		</TruckTire>
         <TruckTire _template="Mudtires" Mesh="wheels/tire_superheavy_mudtires_12" Name="JAT MSH III">
 			<WheelFriction _template="Mudtires" 
-			BodyFrictionAsphalt="4.61"
+			BodyFrictionAsphalt="0.35"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="9000"
 				UnlockByExploration="false"

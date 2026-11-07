@@ -12,9 +12,10 @@
         <!-- Offroad tires -->
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_13" Name="JAT OHS I">
 			<WheelFriction _template="Offroad" 
-			BodyFrictionAsphalt="3.41"
+			BodyFrictionAsphalt="0.5"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
@@ -25,9 +26,10 @@
 		</TruckTire>
         <TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_14" Name="JAT OHS II">
 			<WheelFriction _template="Offroad" 
-			BodyFrictionAsphalt="3.21"
+			BodyFrictionAsphalt="0.5"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5900"
 				UnlockByExploration="false"
@@ -38,9 +40,10 @@
 		</TruckTire>
         <TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_15" Name="JAT OHS III">
 			<WheelFriction _template="Offroad" 
-			BodyFrictionAsphalt="3.61"
+			BodyFrictionAsphalt="0.5"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="6200"
 				UnlockByExploration="false"

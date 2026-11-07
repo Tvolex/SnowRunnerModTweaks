@@ -56,6 +56,9 @@ tie-rod limits. If an original angle is already above its target, it is
 increased by 4 degrees while preserving its sign. Scout speeds already above
 their minimum are retained; missing tie-rod constraints are not added.
 
+Changed: SteeringCastor is kept between 10 and 15 degrees for every steering
+axle; trucks without an explicit castor value use 10 degrees.
+
 FIRST-PERSON CAMERA
 
 Changed: truck-specific cockpit camera position, look limits, zoom offsets,
@@ -73,3 +76,12 @@ Changed:
   Mack Pinnacle 0.01 to 0.005) across all nine included variants.
 - Grapple open/close speed, crane motor forces, travel limits, vertical
   movement, and cargo definitions are unchanged.
+
+U357 WHEEL COMPATIBILITY
+
+Truck definitions include compatibility entries for the wheel classes in the
+separate mod-u357 pack. Install that pack as well to use those wheel options.
+Its off-road and mud tires are tuned to Soft with Body/Asphalt/Substance
+friction values of 1.25 / 0.35 / 2.5; the highway tires remain stiff and keep
+their original friction values. The friction and softness values are also
+listed in the affected tire descriptions.

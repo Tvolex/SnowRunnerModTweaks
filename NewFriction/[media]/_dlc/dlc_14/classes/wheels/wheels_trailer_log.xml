@@ -20,6 +20,7 @@
 <TruckWheels DamageCapacity="40" Radius="0.55" Width="0.541">
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/wheels_trailer_log" Name="tire">
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="6600"
 				UnlockByExploration="false"
@@ -27,7 +28,7 @@
 			>
 				<UiDesc UiDesc="UI_TIRE_AGRO_DESC" UiName="UI_TIRE_AGRO_NAME" />
 			</GameData>
-			<WheelFriction _template="HeavyMudtires" SubstanceFriction="2.25" /> 
+			<WheelFriction _template="HeavyMudtires" SubstanceFriction="2.25" BodyFriction="1.25" BodyFrictionAsphalt="0.35"/>
 			<WheelTracks
                 TextureAlpha="tracks/kirovets_k7m_base_alpha__s_d.tga"
                 TextureHeight="tracks/kirovets_k7m_base_height__s_d.tga"

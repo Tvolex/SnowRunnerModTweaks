@@ -11,7 +11,8 @@
 		<TruckTire _template="Offroad" Mesh="wheels/tire_mercer_k520" Name="tire_1">
 			<WheelFriction 
 				_template="Offroad"
-			/>
+			 BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5700"
 				UnlockByExploration="false"

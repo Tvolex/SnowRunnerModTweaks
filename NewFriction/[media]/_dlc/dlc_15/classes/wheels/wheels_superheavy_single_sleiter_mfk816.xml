@@ -10,6 +10,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.973">
 	<TruckTires>
 		<TruckTire _template="Mudtires" BodyFrictionAsphalt="5" Mesh="wheels/tire_sleiter_mfk816" Name="sleiter_tire_1">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.35" />
 			<GameData
 				Price="6500"
 				UnlockByExploration="false"

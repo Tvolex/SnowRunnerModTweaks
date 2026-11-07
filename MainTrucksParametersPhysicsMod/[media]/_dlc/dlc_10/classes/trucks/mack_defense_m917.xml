@@ -8,7 +8,7 @@
 		<FrontWheel
 			Location="front"
 			SteeringAngle="44"
-			SteeringCastor="8"
+			SteeringCastor="10"
 			Torque="default"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -82,7 +82,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.026"
+		BackSteerSpeed="0.025"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_mack_defense_m917"
 		EngineIconScale="1"
@@ -90,7 +90,7 @@
 		ExhaustStartTime="0.9"
 		FuelCapacity="350"
 		Responsiveness="0.45"
-		SteerSpeed="0.026"
+		SteerSpeed="0.025"
 		TruckImage="mackdefense917mchr"
 		TruckType="OFFROAD"
 		HideDistance="250"
@@ -223,6 +223,11 @@
 		<CompatibleWheels Scale="0.6" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels Scale="0.6" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.6" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.6" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.6" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.6" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.6" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-0.94; -0.35; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit

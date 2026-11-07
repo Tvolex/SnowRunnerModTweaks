@@ -9,7 +9,7 @@
 			ConnectedToHandbrake="true"
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="8"
+			SteeringCastor="10"
 			Torque="full"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -79,7 +79,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.011"
+		BackSteerSpeed="0.01"
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_kenworth_963"
 		EngineIconScale="0.978"
@@ -87,7 +87,7 @@
 		ExhaustStartTime="1.5"
 		FuelCapacity="510"
 		Responsiveness="0.15"
-		SteerSpeed="0.021"
+		SteerSpeed="0.02"
 		TruckImage="kenworth963mchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -232,6 +232,11 @@
 		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0" Scale="0.87" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.9" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.9" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.9" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.9" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.9" Type="wheels_zil164/1756037" />
 
 		<Camera
 			Center="(-3.5; 0; 0)"

@@ -9,7 +9,7 @@
 		<FirstAxle
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="0"
+			SteeringCastor="10"
 			SteeringJointOffset="0.23"
 			Torque="connectable"
 			ParentFrame="BoneCabin_cdt"
@@ -65,7 +65,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.026"
+		BackSteerSpeed="0.025"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.4"
@@ -73,7 +73,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="290"
 		Responsiveness="0.3"
-		SteerSpeed="0.021"
+		SteerSpeed="0.02"
 		TruckImage="ws49xmchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -198,6 +198,11 @@
 		<CompatibleWheels OffsetZ="0.062" RearOffsetZ="0.07" Scale="0.60" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.062" RearOffsetZ="0.07" Scale="0.60" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.062" RearOffsetZ="0.07" Scale="0.60" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.60" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.60" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.60" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.60" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.60" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit

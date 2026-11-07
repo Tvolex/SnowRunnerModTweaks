@@ -17,7 +17,7 @@
 		</ScoutChains>
 		<ScoutAllterrain _template="Light">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Soft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="ScoutAllterrain" />
 		</ScoutAllterrain>
 	</TruckTire>
@@ -61,6 +61,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="ScoutOffroad" Mesh="wheels/tire_scout_offroad_4" Name="offroad_1">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.5" />
 			<GameData
 				Price="4200"
 				UnlockByExploration="false"
@@ -70,6 +72,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="ScoutMudtires" Mesh="wheels/tire_scout_mudtires_1" Name="mudtires_1" Width="0.797">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.35" />
 			<GameData
 				Price="5100"
 				UnlockByExploration="false"

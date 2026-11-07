@@ -5,9 +5,9 @@
 			<WheelTracks _template="Offroad" />
 			<WheelSoftness _template="Soft" />
 			<WheelFriction _template="ScoutOffroad" 
-			BodyFrictionAsphalt="5"
+			BodyFrictionAsphalt="0.5"
 			
-/>
+ BodyFriction="1.25"/>
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"

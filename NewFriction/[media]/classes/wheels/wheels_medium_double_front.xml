@@ -7,7 +7,7 @@
 		</Offroad>
 		<Highway _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Soft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="Highway" />
 		</Highway>
 		<Chains _template="Medium">
@@ -17,7 +17,7 @@
 		</Chains>
 		<Allterrain _template="Medium">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Soft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="Allterrain" />
 		</Allterrain>
 	</TruckTire>

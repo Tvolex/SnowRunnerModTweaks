@@ -9,7 +9,7 @@
 		<FrontWheel
 			Location="front"
 			SteeringAngle="44"
-			SteeringCastor="8"
+			SteeringCastor="10"
 			SteeringJointOffset="0.22"
 			Torque="full"
 		/>
@@ -39,7 +39,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.151"
+		BackSteerSpeed="0.15"
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_small"
 		EngineIconScale="1.15"
@@ -47,7 +47,7 @@
 		ExhaustStartTime="1.6"
 		FuelCapacity="80"
 		Responsiveness="0.6"
-		SteerSpeed="0.031"
+		SteerSpeed="0.03"
 		TruckImage="rezvanimchr"
 		TruckType="SCOUT"
 		HideDistance="250"
@@ -173,6 +173,11 @@
 
 		<!-- Mr.Busses Original -->
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.49" Type="wheels_scout_wide/3280471" />
+		<CompatibleWheels Scale="0.49" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.49" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.49" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.49" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.49" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(0.3; 0; 0)" RadiusMultiplier="0.8">
 			<Cockpit

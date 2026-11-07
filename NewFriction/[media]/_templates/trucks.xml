@@ -1,7 +1,7 @@
 <_templates>
 	<WheelTracks>
 		<TwoWheels TextureAlpha="tracks/two_wheels_alpha__s_d.tga" TextureHeight="tracks/two_wheels_height__s_d.tga" />
-		<Offroad TextureAlpha="tracks/offroad_alpha__s_d.tga" TextureHeight="tracks/offroad_height__s_d.tga" />
+		<Offroad TextureAlpha="tracks/offroad_alpha__s_d.tga" TextureHeight="tracks/offroad_height__s_d.tga"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
 		<DefaultDouble TextureAlpha="tracks/default_double_alpha__s_d.tga" TextureHeight="tracks/default_double_height__s_d.tga" />
 		<Default TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
 	</WheelTracks>
@@ -15,20 +15,20 @@
 	</WheelSoftness>
 	<WheelFriction>
 		<ScoutOffroad
-			BodyFriction="1.3"
-			BodyFrictionAsphalt="7"
+			BodyFriction="1.25"
+			BodyFrictionAsphalt="0.5"
 			SubstanceFriction="1.2"
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<ScoutMudtires
-			BodyFriction="1"
-			BodyFrictionAsphalt="7"
+			BodyFriction="1.25"
+			BodyFrictionAsphalt="0.35"
 			SubstanceFriction="1.85"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<ScoutHighway
 			BodyFriction="0.85"
-			BodyFrictionAsphalt="8"
+			BodyFrictionAsphalt="3"
 			SubstanceFriction="0.5"
 			UiName="UI_TIRE_TYPE_HIGHWAY_NAME"
 		/>
@@ -41,51 +41,51 @@
 		/>
 		<ScoutStuds
 			BodyFriction="1.5"
-			BodyFrictionAsphalt="7"
+			BodyFrictionAsphalt="2"
 			SubstanceFriction="0.5"
 			IsIgnoreIce="true"
 			UiName="UI_TIRE_TYPE_STUDS_NAME"
 		/>
 		<ScoutAllterrain
 			BodyFriction="1.4"
-			BodyFrictionAsphalt="7"
+			BodyFrictionAsphalt="3"
 			SubstanceFriction="1"
 			UiName="UI_TIRE_TYPE_ALLTERRAIN_NAME"
 		/>
 		<Offroad
-			BodyFriction="0.65"
-			BodyFrictionAsphalt="6"
+			BodyFriction="1.25"
+			BodyFrictionAsphalt="0.5"
 			SubstanceFriction="1.3"
 			UiName="UI_TIRE_TYPE_OFFROAD_NAME"
 		/>
 		<Mudtires
-			BodyFriction="0.55"
-			BodyFrictionAsphalt="5"
+			BodyFriction="1.25"
+			BodyFrictionAsphalt="0.35"
 			SubstanceFriction="1.85"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<Highway
 			BodyFriction="0.55"
-			BodyFrictionAsphalt="7"
+			BodyFrictionAsphalt="5"
 			SubstanceFriction="0.3"
 			UiName="UI_TIRE_TYPE_HIGHWAY_NAME"
 		/>
 		<HeavyMudtires
-			BodyFriction="0.55"
-			BodyFrictionAsphalt="5"
+			BodyFriction="1.25"
+			BodyFrictionAsphalt="0.35"
 			SubstanceFriction="2.1"
 			UiName="UI_TIRE_TYPE_MUDTIRES_NAME"
 		/>
 		<Chains
 			BodyFriction="0.45"
-			BodyFrictionAsphalt="0.3"
+			BodyFrictionAsphalt="0.2"
 			IsIgnoreIce="true"
 			SubstanceFriction="2.4"
 			UiName="UI_TIRE_TYPE_CHAINS_NAME"
 		/>
 		<Allterrain
 			BodyFriction="0.7"
-			BodyFrictionAsphalt="6"
+			BodyFrictionAsphalt="3"
 			SubstanceFriction="1"
 			UiName="UI_TIRE_TYPE_ALLTERRAIN_NAME"
 		/>

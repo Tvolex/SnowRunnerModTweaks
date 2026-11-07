@@ -25,7 +25,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
-				UiName="Monster Tayga Tires" />
+				UiName="NF-Monster Tayga Tires" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
 			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
@@ -42,7 +42,7 @@
 				UnlockByRank="1"
 			>
 				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."
-				UiName="Chained Monster Tayga Tires" />
+				UiName="NF-Chained Monster Tayga Tires" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
 			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />

@@ -9,7 +9,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.69">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_plad_450" Name="offroad">
-			<WheelFriction _template="Offroad" SubstanceFriction="2.1" />
+			<WheelFriction _template="Offroad" SubstanceFriction="2.1"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="6800"
 				UnlockByExploration="false"

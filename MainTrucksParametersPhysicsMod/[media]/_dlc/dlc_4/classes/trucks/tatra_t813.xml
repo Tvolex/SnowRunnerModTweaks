@@ -3,7 +3,7 @@
 		<SecondAxle
 			_template="FirstAxle"
 			SteeringAngle="18"
-			SteeringCastor="4"
+			SteeringCastor="10"
 			SteeringJointOffset="0.3"
 		/>
 		<RearAxle
@@ -50,7 +50,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.016"
+		BackSteerSpeed="0.015"
 		DiffLockType="Installed"
 		EngineIconMesh="env/engine_pacific_p16"
 		EngineIconScale="0.8"
@@ -58,7 +58,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="380"
 		Responsiveness="0.2"
-		SteerSpeed="0.023"
+		SteerSpeed="0.022"
 		TruckImage="tatra813mchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -173,6 +173,11 @@
 		<CompatibleWheels RearOffsetZ="0.04" Scale="0.64" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels RearOffsetZ="0.04" Scale="0.64" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels RearOffsetZ="0.04" Scale="0.64" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.64" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.7; 0; 0)" ParentFrame="BoneChassis_cdt">
 			<Cockpit

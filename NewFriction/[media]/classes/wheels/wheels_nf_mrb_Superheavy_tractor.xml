@@ -24,7 +24,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
-				UiName=" BMG Tractors M/T" 
+				UiName="NF-BMG Tractors M/T"
 				/>
 			</GameData>
 		</TruckTire>
@@ -37,7 +37,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."
-				UiName=" BMG Tractors M/T Ice &amp; Snow" 
+				UiName="NF-BMG Tractors M/T Ice &amp; Snow"
 				/>
 			</GameData>
 		</TruckTire>

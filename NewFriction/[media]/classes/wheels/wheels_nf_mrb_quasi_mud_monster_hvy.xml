@@ -26,7 +26,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.55 / 5 / 1.85."
-				UiName="Monster Mud Tires by Quasi" />
+				UiName="NF-Monster Mud Tires by Quasi" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
 			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
@@ -43,7 +43,7 @@
 				UnlockByExploration="false"
 				UnlockByRank="1"
 			>
-				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."  UiName="Monster Mud Tires with Studs by Quasi" />
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 0.45 / 0.3 / 2.4. Ice ignored."  UiName="NF-Monster Mud Tires with Studs by Quasi" />
 			</GameData>
 			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
 			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />

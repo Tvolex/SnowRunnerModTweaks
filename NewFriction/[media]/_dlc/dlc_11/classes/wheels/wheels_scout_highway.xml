@@ -11,6 +11,7 @@
 	<TruckTires>
 		<TruckTire _template="ScoutHighway" Mesh="wheels/tire_scout_highway_10" Name="JAT HS I">
 			<WheelFriction _template="ScoutHighway" />
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="1200"
 				UnlockByExploration="false"
@@ -21,6 +22,7 @@
 		</TruckTire>     
 		<TruckTire _template="ScoutHighway" Mesh="wheels/tire_scout_highway_11" Name="JAT HS II">
 			<WheelFriction _template="ScoutHighway" />
+			<WheelSoftness _template="Average" />
 			<GameData
 				Price="1400"
 				UnlockByExploration="false"

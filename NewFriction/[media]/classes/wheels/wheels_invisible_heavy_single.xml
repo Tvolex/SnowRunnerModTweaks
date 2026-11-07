@@ -12,7 +12,7 @@
 		</Mudtires>
 		<Allterrain _template="Heavy">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="Soft" />
+			<WheelSoftness _template="Average" />
 			<WheelFriction _template="Allterrain" />
 		</Allterrain>
 	</TruckTire>

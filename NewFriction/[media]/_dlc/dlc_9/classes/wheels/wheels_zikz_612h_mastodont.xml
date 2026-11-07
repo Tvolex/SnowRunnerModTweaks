@@ -13,6 +13,8 @@
 <TruckWheels DamageCapacity="150" Radius="1" Width="0.8">
 	<TruckTires>
 		<TruckTire _template="HeavyMudtires" Mesh="wheels/tire_zikz_605r_1" Name="mudtires_zikz605r_1">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.35" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

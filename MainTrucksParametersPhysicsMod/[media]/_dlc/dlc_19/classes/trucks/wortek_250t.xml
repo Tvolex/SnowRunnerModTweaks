@@ -4,7 +4,7 @@
 			ConnectedToHandbrake="false"
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="4"
+			SteeringCastor="10"
 			SteeringJointOffset="0.25"
 			Torque="full"
 			ParentFrame="BoneCabin_cdt"
@@ -81,8 +81,8 @@
 		ExhaustStartTime="0.6"
 		FuelCapacity="600"
 		Responsiveness="0.08"
-		SteerSpeed="0.021"
-		BackSteerSpeed="0.0185"
+		SteerSpeed="0.02"
+		BackSteerSpeed="0.0175"
 		TruckImage="wortek250Tmchr"
 		TruckType="HEAVY"
 		EngineMarkerOffset="(0.0; 0.0; 0.0)"
@@ -137,6 +137,11 @@
 		<CompatibleWheels RearOffsetZ="0.215" OffsetZ="0.27" Scale="0.66" Type="wheels_tractor_double_type1_20N/3555058" />
 		<CompatibleWheels RearOffsetZ="0.215" OffsetZ="0.27" Scale="0.66" Type="wheels_offroad_double_20N/3555058" />
 		<CompatibleWheels RearOffsetZ="0.215" OffsetZ="0.27" Scale="0.66" Type="wheels_offroad_double_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.66" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.66" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.66" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.66" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.66" Type="wheels_zil164/1756037" />
 
 		<SteeringWheel Frame="BoneSteering" />
 		<SteeringRack

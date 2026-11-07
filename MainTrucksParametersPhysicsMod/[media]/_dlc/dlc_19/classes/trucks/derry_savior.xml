@@ -8,7 +8,7 @@
 			Location="front"
 			Torque="full"
 			SteeringAngle="38"
-			SteeringCastor="0.5"
+			SteeringCastor="10"
 			SteeringJointOffset="0.43"
 			ParentFrame="BoneCabin_cdt"
 		/>
@@ -20,7 +20,7 @@
 			Location="rear"
 			Torque="default"
 			SteeringAngle="0"
-			SteeringCastor="0"
+			SteeringCastor="10"
 			SteeringJointOffset="0.43"
 			ParentFrame="BoneChassis_cdt"
 		/>
@@ -32,7 +32,7 @@
 			Location="rear"
 			Torque="default"
 			SteeringAngle="-12.109"
-			SteeringCastor="0"
+			SteeringCastor="10"
 			SteeringJointOffset="0.43"
 			ParentFrame="BoneChassis_cdt"
 		/>
@@ -44,7 +44,7 @@
 			Location="rear"
 			Torque="default"
 			SteeringAngle="-23.223"
-			SteeringCastor="2.5"
+			SteeringCastor="10"
 			SteeringJointOffset="0.43"
 			ParentFrame="BoneChassis_cdt"
 		/>
@@ -114,7 +114,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.026"
+		BackSteerSpeed="0.025"
 		DiffLockType="Connected"
 		EngineIconMesh="env/engine_derry_savior"
 		EngineIconScale="1"
@@ -122,7 +122,7 @@
 		ExhaustStartTime="0.0"
 		FuelCapacity="280"
 		Responsiveness="0.1"
-		SteerSpeed="0.031"
+		SteerSpeed="0.03"
 		TruckImage="derrySaviormchr"
 		TruckType="HEAVY"
 		EngineMarkerOffset="(0.0; 0.0; 0.0)" 
@@ -184,6 +184,11 @@
 		<CompatibleWheels OffsetZ="0.06" Scale="0.72" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.06" Scale="0.72" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.06" Scale="0.72" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.72" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.72" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.72" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.72" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.72" Type="wheels_zil164/1756037" />
 
 		<SuspensionSocket
 			Default="s_derry_savior_suspension_default"

@@ -13,6 +13,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.672">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_mercedes_mamute_1519" Name="tire_offroad_mercedes_mamute">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.5" />
 			<GameData
 				Price="3600"
 				UnlockByExploration="false"

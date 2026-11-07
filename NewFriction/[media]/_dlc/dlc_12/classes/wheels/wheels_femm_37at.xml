@@ -9,7 +9,8 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="1.26">
 	<TruckTires>
 		<TruckTire _template="HeavyMudtires" Mesh="wheels/tire_femm_37at" Name="tire">
-			<WheelFriction _template="HeavyMudtires" />
+			<WheelFriction _template="HeavyMudtires"  BodyFriction="1.25" BodyFrictionAsphalt="0.35"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"

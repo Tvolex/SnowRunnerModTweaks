@@ -11,7 +11,8 @@
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_1" Name="allterrain_1">
 			<WheelFriction _template="Allterrain"
 			
-/>
+ BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="3400"
 				UnlockByExploration="false"
@@ -22,7 +23,8 @@
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_2" Name="offroad_1">
 			<WheelFriction _template="Offroad" 
-/>
+ BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4700"
 				UnlockByExploration="false"
@@ -34,7 +36,8 @@
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_3" Name="mudtires_1">
 			<WheelFriction _template="Mudtires" 
 			
-/>
+ BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"

@@ -8,7 +8,7 @@
 		<FrontWheel
 			Location="front"
 			SteeringAngle="44"
-			SteeringCastor="5"
+			SteeringCastor="10"
 			SteeringJointOffset="0.22"
 			Torque="full"
 			ParentFrame="BoneCabin_cdt"
@@ -67,7 +67,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.061"
+		BackSteerSpeed="0.06"
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_small"
 		EngineIconScale="1"
@@ -78,7 +78,7 @@
 		GearboxMarkerOffset="(0.8; 0; 0)"
 		FueltankMarkerOffset="(-0.05; 0; 0)"
 		Responsiveness="0.6"
-		SteerSpeed="0.031"
+		SteerSpeed="0.03"
 		TruckImage="scout8001mchr"
 		TruckType="SCOUT"
 		HideDistance="250"
@@ -198,6 +198,11 @@
 
 		<!-- Mr.Busses Original -->
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.51" Type="wheels_scout_wide/3280471" />
+		<CompatibleWheels Scale="0.5" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.5" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.5" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.5" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.5" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.4; 0; 0)" RadiusMultiplier="0.8">
 			<Cockpit

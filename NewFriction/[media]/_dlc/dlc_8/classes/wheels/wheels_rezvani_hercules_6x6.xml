@@ -3,8 +3,8 @@
 	<TruckTires>
 		<TruckTire _template="Light" Mesh="wheels/tire_rezvani_hercules_6x6" Name="tire">
 			<WheelTracks _template="Offroad" />
-			<WheelSoftness _template="ScoutDefault" />
-			<WheelFriction _template="ScoutOffroad" BodyFrictionAsphalt="5.0"/>
+			<WheelSoftness _template="Soft" />
+			<WheelFriction _template="ScoutOffroad" BodyFrictionAsphalt="0.5" BodyFriction="1.25"/>
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"

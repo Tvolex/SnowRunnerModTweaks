@@ -9,7 +9,8 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.715">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_azov_43_191_sprinter" Name="tire">
-			<WheelFriction _template="Allterrain" />
+			<WheelFriction _template="Allterrain"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"

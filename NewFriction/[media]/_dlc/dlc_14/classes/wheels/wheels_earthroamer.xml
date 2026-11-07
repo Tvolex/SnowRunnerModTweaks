@@ -11,9 +11,10 @@
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_earthrommer" Name="earthroamer_offroad">
 		<WheelFriction
-			BodyFrictionAsphalt="3.11"
+			BodyFrictionAsphalt="0.5"
 			
-			/>
+			 BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4500"
 				UnlockByExploration="false"

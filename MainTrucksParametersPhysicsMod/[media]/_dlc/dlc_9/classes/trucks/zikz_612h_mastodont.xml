@@ -5,6 +5,7 @@
 			ConnectedToHandbrake="true"
 			Location="front"
 			SteeringAngle="38"
+			SteeringCastor="10"
 			SteeringJointOffset="0.36"
 			Torque="default"
 		/>
@@ -13,6 +14,7 @@
 			ConnectedToHandbrake="true"
 			Location="front2"
 			SteeringAngle="29.7"
+			SteeringCastor="10"
 			SteeringJointOffset="0.36"
 			Torque="default"
 		/>
@@ -37,7 +39,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.011"
+		BackSteerSpeed="0.01"
 		DiffLockType="Always"
 		EngineIconMesh="env/engnie_zikz_612h_mastodon"
 		EngineIconScale="0.8"
@@ -45,7 +47,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="500"
 		Responsiveness="0.2"
-		SteerSpeed="0.017"
+		SteerSpeed="0.016"
 		TruckImage="zikz612mchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -173,6 +175,11 @@
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels OffsetZ="0.34" Scale="0.77" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.78" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_zil164/1756037" />
 
 		<!--<LimitedFluid
 			Center="(5.483; 1.498; 1.235)"

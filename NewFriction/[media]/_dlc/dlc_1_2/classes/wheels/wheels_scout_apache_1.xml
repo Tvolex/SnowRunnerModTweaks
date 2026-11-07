@@ -31,9 +31,10 @@
 	<TruckTires>
 		<TruckTire _template="ScoutOffroad" Mesh="wheels/tire_scout_apache_1" Name="offroad_apache_1">
 			<WheelFriction _template="Offroad" 
-			BodyFrictionAsphalt="5"
+			BodyFrictionAsphalt="0.5"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4700"
 				UnlockByExploration="false"
@@ -85,9 +86,10 @@
 			Width="0.797"
 		>
 			<WheelFriction _template="ScoutMudtires" 
-			BodyFrictionAsphalt="5"
+			BodyFrictionAsphalt="0.35"
 			
-/>
+ BodyFriction="1.25"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5300"
 				UnlockByExploration="false"

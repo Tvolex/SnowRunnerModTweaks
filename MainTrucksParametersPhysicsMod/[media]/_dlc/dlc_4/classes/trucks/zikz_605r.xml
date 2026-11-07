@@ -4,7 +4,7 @@
 			ConnectedToHandbrake="true"
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="4"
+			SteeringCastor="10"
 			Torque="default"
 		/>
 		<RearAxle Location="rear" Torque="default" />
@@ -41,7 +41,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.011"
+		BackSteerSpeed="0.01"
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_pacific_p16"
 		EngineIconScale="0.8"
@@ -49,7 +49,7 @@
 		ExhaustStartTime="2.8"
 		FuelCapacity="380"
 		Responsiveness="0.2"
-		SteerSpeed="0.017"
+		SteerSpeed="0.016"
 		TruckImage="zikz605rmchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -172,6 +172,11 @@
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.68" Type="wheels_mrb_suphvy_supersingle/3280471" />
 		<CompatibleWheels Scale="0.68" Type="wheels_quasi_mud_double/3280471" />
 		<CompatibleWheels OffsetZ="0.02" RearOffsetZ="0.02" Scale="0.68" Type="wheels_quasi_mud_monster/3280471" />
+		<CompatibleWheels Scale="0.78" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.78" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.7; 0; 0)" ParentFrame="BoneChassis_cdt">
 			<Cockpit

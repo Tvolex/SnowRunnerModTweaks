@@ -8,7 +8,7 @@
 		<FrontWheel
 			Location="front"
 			SteeringAngle="38"
-			SteeringCastor="0"
+			SteeringCastor="10"
 			SteeringJointOffset="0.08"
 			Torque="default"
 			ParentFrame="BoneCabin_cdt"
@@ -47,7 +47,7 @@
 </_templates>
 <Truck>
 	<TruckData
-		BackSteerSpeed="0.031"
+		BackSteerSpeed="0.03"
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.3"
@@ -55,7 +55,7 @@
 		ExhaustStartTime="0.9"
 		FuelCapacity="330"
 		Responsiveness="0.15"
-		SteerSpeed="0.031"
+		SteerSpeed="0.03"
 		TruckImage="tayga6455mchr"
 		TruckType="OFFROAD"
 		HideDistance="250"
@@ -194,6 +194,11 @@
 		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_tractor_single_20N/3555058" />
 		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_offroad_single_20N/3555058" />
 		<CompatibleWheels Scale="0.64" RearOffsetZ="-0.1" Type="wheels_offroad_single_type2_20N/3555058" />
+		<CompatibleWheels Scale="0.64" Type="wheels_larus_double/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_OI-25/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_4380_single/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_o-47a/1756037" />
+		<CompatibleWheels Scale="0.64" Type="wheels_zil164/1756037" />
 
 		<Camera Center="(-1.5; 0; 0)" ParentFrame="BoneCabinDamper_cdt">
 			<Cockpit

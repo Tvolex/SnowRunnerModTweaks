@@ -23,7 +23,7 @@
 			>
 				<UiDesc 
 				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1.3 / 7 / 1.2."
-				UiName="GWC Rock Kickers" 
+				UiName="NF-GWC Rock Kickers"
 				/>
 			</GameData>
 		</TruckTire>			
@@ -36,7 +36,7 @@
 			>
 				<UiDesc 
 				UiDesc="Glitchworks Brand Bogger tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
-				UiName="GWC Bogger" 
+				UiName="NF-GWC Bogger"
 				/>
 			</GameData>
 		</TruckTire>		
@@ -49,7 +49,7 @@
 			>
 				<UiDesc 
 				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
-				UiName="GWC Baja" 
+				UiName="NF-GWC Baja"
 				/>
 			</GameData>
 		</TruckTire>		
@@ -62,7 +62,7 @@
 			>
 				<UiDesc 
 				UiDesc="Glitchworks Brand Off road tires Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
-				UiName="GWC TSL" 
+				UiName="NF-GWC TSL"
 				/>
 			</GameData>
 		</TruckTire>
@@ -75,7 +75,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance Friction (Body/Asphalt/Substance): 1.3 / 7 / 1.2."
-				UiName="BMG Carnivore " 
+				UiName="NF-BMG Carnivore"
 				/>
 			</GameData>
 		</TruckTire>
@@ -88,7 +88,7 @@
 			>
 				<UiDesc 
 				UiDesc="A tire that can do everything from gripping mud to gliding over rocks Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
-				UiName="BMG Mud Claws M/T" 
+				UiName="NF-BMG Mud Claws M/T"
 				/>
 			</GameData>
 		</TruckTire>				
@@ -101,7 +101,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction Friction (Body/Asphalt/Substance): 1 / 7 / 1.85."
-				UiName=" BMG Super Trencher M/T" 
+				UiName="NF-BMG Super Trencher M/T"
 				/>
 			</GameData>
 		</TruckTire>		
@@ -115,7 +115,7 @@
 			>
 				<UiDesc 
 				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With added studs to keep traction on ice Friction (Body/Asphalt/Substance): 0.45 / 0.2 / 2.6. Ice ignored."
-				UiName=" BMG Super Trencher M/T Ice &amp; Snow"
+				UiName="NF-BMG Super Trencher M/T Ice &amp; Snow"
 				/>
 			</GameData>
 		</TruckTire>
@@ -128,7 +128,7 @@
 			>
 			<UiDesc 
 				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. Studded for ice and snow Friction (Body/Asphalt/Substance): 0.45 / 0.2 / 2.6. Ice ignored."
-				UiName="BMG Carnivore Studded " 
+				UiName="NF-BMG Carnivore Studded"
 				/>
 			</GameData>
 		</TruckTire>

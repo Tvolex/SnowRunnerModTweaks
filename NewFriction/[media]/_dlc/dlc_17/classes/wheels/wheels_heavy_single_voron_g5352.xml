@@ -9,7 +9,8 @@
 <TruckWheels DamageCapacity="50" Radius="1" Width="0.65">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_1" Name="allterrain_1">
-			<WheelFriction _template="Allterrain" />
+			<WheelFriction _template="Allterrain"  BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="4900"
 				UnlockByExploration="false"
@@ -19,7 +20,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_2" Name="offroad_1">
-			<WheelFriction _template="Offroad"/>
+			<WheelFriction _template="Offroad" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="5900"
 				UnlockByExploration="false"
@@ -29,7 +31,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_4" Name="offroad_2">
-			<WheelFriction _template="Offroad"/>
+			<WheelFriction _template="Offroad" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="6200"
 				UnlockByExploration="false"
@@ -39,7 +42,8 @@
 			</GameData>
 		</TruckTire>        
 		<TruckTire _template="Offroad" Mesh="wheels/tire_heavy_offroad_single_3" Name="mudtires_1">
-			<WheelFriction _template="Mudtires"/>
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7000"
 				UnlockByExploration="false"
@@ -59,7 +63,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_dlc8_offroad_single_1" Name="mudtires_2">
-			<WheelFriction _template="Mudtires"/>
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="8500"
 				UnlockByExploration="false"
@@ -69,7 +74,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_dlc8_offroad_single_2" Name="mudtires_3">
-			<WheelFriction _template="Mudtires"/>
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7900"
 				UnlockByExploration="false"
@@ -79,7 +85,8 @@
 			</GameData>
 		</TruckTire>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_dlc8_offroad_single_3" Name="mudtires_4">
-			<WheelFriction _template="Mudtires"/>
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.5"/>
+			<WheelSoftness _template="Soft" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

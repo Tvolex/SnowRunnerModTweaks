@@ -10,6 +10,8 @@
 <TruckWheels DamageCapacity="100" Radius="1" Width="0.794">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_sleiter_st833_chimera" Name="tire_1">
+			<WheelSoftness _template="Soft" />
+			<WheelFriction BodyFriction="1.25" BodyFrictionAsphalt="0.5" />
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"
