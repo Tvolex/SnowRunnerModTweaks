@@ -1,0 +1,124 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Mudtires _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="HeavyMudtires" />
+		</Mudtires>
+		<Chains _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="Chains" />
+		</Chains>       
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="120"
+	Radius="1"
+	Width="0.97"
+>
+	<TruckTires>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_01_single" Name="mud_1" Mass="200">
+			<WheelFriction
+			    BodyFriction="1.25"
+				BodyFrictionAsphalt="0.35"
+				SubstanceFriction="2.5" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type1 super single tires. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="MS-S-20N-I" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_02_single" Name="mud_2" Mass="200">
+			<WheelFriction
+			    BodyFriction="1.25"
+				BodyFrictionAsphalt="0.35"
+				SubstanceFriction="2.5" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6900"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type2 super single tires. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="MS-S-20N-II" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_01_single" Name="mud_3" Mass="200">
+			<WheelFriction
+			    BodyFriction="1.25"
+				BodyFrictionAsphalt="0.35"
+				SubstanceFriction="2.5" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6700"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type3 super single tires. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="MS-S-20N-III" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_02_single" Name="mud_4" Mass="200">
+			<WheelFriction
+			    BodyFriction="1.25"
+				BodyFrictionAsphalt="0.35"
+				SubstanceFriction="2.5" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6750"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type4 super single tires. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="MS-S-20N-IV" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Chains" Mesh="wheels/tire_chains_01_single" Name="chains_1" Mass="200">
+			<WheelFriction
+			    BodyFriction="3.0"
+				BodyFrictionAsphalt="2.0"
+				SubstanceFriction="3.4" 
+				IsIgnoreIce="True" 
+			/>
+			<GameData
+				Price="7600"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type3 super single tires all wheels chains 3.0 / 2.0 / 3.4 ICE ON" UiName="MS-S-20N-III-Chains" />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_tractor_01_single_type1_01" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="RIM-1" UiName="RIM-G-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_01_single_type1_02" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="RIM-2" UiName="RIM-B-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_02_single_type1_01" Name="rim_3">
+			<GameData>
+				<UiDesc UiDesc="RIM-3" UiName="RIM-G-II" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_02_single_type1_02" Name="rim_4">
+			<GameData>
+				<UiDesc UiDesc="RIM-4" UiName="RIM-B-II" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_mack_01_single" Name="rim_5">
+			<GameData>
+				<UiDesc UiDesc="RIM-5" UiName="RIM-B-III" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

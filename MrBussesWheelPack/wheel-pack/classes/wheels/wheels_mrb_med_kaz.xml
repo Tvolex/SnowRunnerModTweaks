@@ -1,0 +1,81 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Soft" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels DamageCapacity="50" Radius="1" Width="1.118">
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/kraz" Name="kraztires" Mass="200">
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.35" SubstanceFriction="2.5"/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="Heavy Mudtires" />
+			</GameData>
+		</TruckTire>
+			<TruckTire _template="Offroad" Mesh="wheels/krazchain" Name="kraztireschains" Mass="200">
+			<WheelFriction _template="Chains" BodyFriction="2.0" BodyFrictionAsphalt="0.5" SubstanceFriction="4.0" 	IsIgnoreIce="true" />	/>
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With snow chains 0.5/2.0/4.0" 
+						UiName="Chained Heavy Mudtires " />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_heavy_offroad_single_1" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC" UiName="UI_RIM_HEAVY_OFFROAD_SINGLE_1_NAME" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_heavy_offroad_single_2" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="UI_RIM_HEAVY_OFFROAD_SINGLE_2_DESC" UiName="UI_RIM_HEAVY_OFFROAD_SINGLE_2_NAME" />
+			</GameData>
+		</TruckRim>
+			<TruckRim Mesh="wheels/beadlocks" Name="beaadlocks">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Heavy Beadlock Rim" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT51SF_Rim1" Name="PT51SF_Rim1">
+			<GameData>
+				<UiDesc UiDesc="PT51 rims from PogTires." UiName="Volvere Custom Beadlock" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT51SF_Rim2" Name="PT51SF_Rim2">
+			<GameData>
+				<UiDesc UiDesc="PT51 rims from PogTires." UiName="Mountain King Beadlock" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT61SF_Rim" Name="PT61SF_Rim">
+			<GameData>
+				<UiDesc UiDesc="PT61 heavy duty rims from PogTires." UiName="Heavy Duty PogTires Rims" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT62SF_Rim1" Name="PT62SF_Rim1">
+			<GameData>
+				<UiDesc UiDesc="PT62 heavy duty rims from PogTires." UiName="Heavy Duty PogTires Rims Type 1" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT62SF_Rim2" Name="PT62SF_Rim2">
+			<GameData>
+				<UiDesc UiDesc="PT62 heavy duty rims from PogTires." UiName="Heavy Duty PogTires Rims Type 2" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/PT63SF_Rim" Name="PT63SF_Rim">
+			<GameData>
+				<UiDesc UiDesc="PT63 heavy duty rims from PogTires." UiName="Heavy Duty PogTires Rims" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

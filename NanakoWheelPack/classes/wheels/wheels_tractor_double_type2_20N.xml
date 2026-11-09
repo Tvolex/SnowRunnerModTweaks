@@ -1,0 +1,107 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Mudtires _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelTracks _template="Offroad" Rear="true" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="HeavyMudtires" />
+		</Mudtires>
+		<Chains _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelTracks _template="Offroad" Rear="true" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="Chains" />
+		</Chains>       
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="120"
+	Radius="1"
+	Width="0.97"
+	WidthRear="1.22"
+>
+	<TruckTires>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_01_double_type2" Name="mud_1" Mass="200" RearMassScale="2">
+			<WheelFriction
+				BodyFriction="1.47"
+				BodyFrictionAsphalt="0.33"
+				SubstanceFriction="2.6" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="7100"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type1 with the rear wheel is a super single tire and the front tire is more wider. Friction (Body/Asphalt/Substance): 1.47 / 0.33 / 2.6. Wheel softness: Soft. Jitter applied: ±0.3." UiName="MS-W2-20N-I" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_tractor_02_double_type2" Name="mud_2" Mass="200" RearMassScale="2">
+			<WheelFriction
+				BodyFriction="1.45"
+				BodyFrictionAsphalt="0.34"
+				SubstanceFriction="2.6" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="7200"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type2 with the rear wheel is a super single tire and the front tire is more wider. Friction (Body/Asphalt/Substance): 1.45 / 0.34 / 2.6. Wheel softness: Soft. Jitter applied: ±0.3." UiName="MS-W2-20N-II" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Mudtires" Mesh="wheels/tire_sand_01_double_type2" Name="mud_3" Mass="200" RearMassScale="2">
+			<WheelFriction
+				BodyFriction="1.54"
+				BodyFrictionAsphalt="0.29"
+				SubstanceFriction="2.4" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="7000"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire and the front tire is more wider. Friction (Body/Asphalt/Substance): 1.54 / 0.29 / 2.4. Wheel softness: Soft. Jitter applied: ±0.3." UiName="MS-W2-20N-III" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Chains" Mesh="wheels/tire_chains_01_double_type2" Name="chains_1" Mass="200" RearMassScale="2">
+			<WheelFriction
+			    BodyFriction="3.0"
+				BodyFrictionAsphalt="2.0"
+				SubstanceFriction="3.4" 
+				IsIgnoreIce="True" 
+			/>
+			<GameData
+				Price="7200"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Mudtires series type3 with the rear wheel is a super single tire and the front tire is more wider all wheels chains 3.0 / 2.0 / 3.4" UiName="MS-W2-20N-III-Chains" />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_tractor_01_double_type2_01" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="RIM-1" UiName="RIM-G-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_01_double_type2_02" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="RIM-2" UiName="RIM-B-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_02_double_type2_01" Name="rim_3">
+			<GameData>
+				<UiDesc UiDesc="RIM-3" UiName="RIM-G-II" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_tractor_02_double_type2_02" Name="rim_4">
+			<GameData>
+				<UiDesc UiDesc="RIM-4" UiName="RIM-B-II" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

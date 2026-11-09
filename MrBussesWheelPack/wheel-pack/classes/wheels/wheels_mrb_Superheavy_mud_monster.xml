@@ -1,0 +1,67 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Average" />
+			<WheelFriction _template="Mudtires" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="100"
+	Radius="1"
+	Width="1.36"
+>
+	<TruckTires>
+				<TruckTire 
+		_template="Offroad"
+			Mesh="wheels/tag_tire" 
+			Name="tag_tires"
+		>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft."  
+				UiName="Monster Tayga Tires" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelFriction _template="Mudtires" 
+			BodyFrictionAsphalt="0.35"
+			BodyFriction="1.25"
+			SubstanceFriction="2.5" 			
+		 />
+		</TruckTire>				
+		<TruckTire 
+		_template="Offroad"
+			Mesh="wheels/tag_chain_tire" 
+			Name="tag_chain_tire"
+		>
+			<GameData
+				Price="500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes, providing the best off-road performance at the cost of on-road traction. Asphalt: 1.2 Dirt 3.0 Mud: 5.5 Ignore Ice"  
+				UiName="Chained Monster Tayga Tires" />
+			</GameData>
+			<WheelTracks TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelTracks Rear="true" TextureAlpha="tracks/default_alpha__s_d.tga" TextureHeight="tracks/default_height__s_d.tga" />
+			<WheelFriction _template="Chains" 
+			BodyFrictionAsphalt="1.2"
+			BodyFriction="3.0"
+			SubstanceFriction="5.5" 	
+			IsIgnoreIce="true" />		
+		</TruckTire>
+		</TruckTires>
+	<TruckRims>
+			<TruckRim Mesh="wheels/beadlocksm" Name="Rim3">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Heavy Beadlock Rim" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

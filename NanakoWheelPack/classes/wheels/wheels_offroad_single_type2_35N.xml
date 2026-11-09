@@ -1,0 +1,89 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="Offroad" />
+		</Offroad>
+		<Chains _template="Heavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness RadiusOffset="0.027" SoftForceScale="0.192" />
+			<WheelFriction _template="Chains" />
+		</Chains>       
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="120"
+	Radius="1"
+	Width="0.65"
+>
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_offroad_01_single_type2" Name="offroad_1" Mass="350">
+			<WheelFriction
+				BodyFriction="1.48"
+				BodyFrictionAsphalt="0.31"
+				SubstanceFriction="2.6" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6600"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Off-road series super single tire type1. Friction (Body/Asphalt/Substance): 1.48 / 0.31 / 2.6. Wheel softness: Soft." UiName="OS-SS-35N-I" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/tire_offroad_03_single_type2" Name="offroad_3" Mass="350">
+			<WheelFriction
+				BodyFriction="1.56"
+				BodyFrictionAsphalt="0.28"
+				SubstanceFriction="2.4" 
+			/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6500"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Off-road series super single tire type3. Friction (Body/Asphalt/Substance): 1.56 / 0.28 / 2.4. Wheel softness: Soft." UiName="OS-SS-35N-II" />
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Chains" Mesh="wheels/tire_offroad_04_single_type2" Name="chains_1" Mass="350">
+			<WheelFriction
+			    BodyFriction="3.0"
+				BodyFrictionAsphalt="1.6"
+				SubstanceFriction="3.4" 
+				IsIgnoreIce="True" 
+			/>
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Off-road series super single tire type1 all wheels chains 3.0 / 2.0 / 3.4 ICE ON" UiName="OS-SS-35N-I-Chains" />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/rim_offroad_01_single_type2_01" Name="rim_1">
+			<GameData>
+				<UiDesc UiDesc="RIM-1" UiName="RIM-G-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_offroad_01_single_type2_02" Name="rim_2">
+			<GameData>
+				<UiDesc UiDesc="RIM-2" UiName="RIM-B-I" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_offroad_02_single_type2_01" Name="rim_3">
+			<GameData>
+				<UiDesc UiDesc="RIM-3" UiName="RIM-G-II" />
+			</GameData>
+		</TruckRim>
+		<TruckRim Mesh="wheels/rim_offroad_02_single_type2_02" Name="rim_4">
+			<GameData>
+				<UiDesc UiDesc="RIM-4" UiName="RIM-B-II" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

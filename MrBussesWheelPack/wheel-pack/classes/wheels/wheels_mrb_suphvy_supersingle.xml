@@ -1,0 +1,99 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy">
+			<WheelTracks _template="Offroad" />            
+			<WheelSoftness _template="Average" />
+			<WheelFriction _template="Offroad" BodyFriction="3.0" BodyFrictionAsphalt="1.8" SubstanceFriction="3.5" />            
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels
+	DamageCapacity="250"
+	Radius="1"
+	Width="1"
+	WidthRear="1"
+>
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/ultrawide_tire_offroad" Name="ultawide_offroad" Mass="600">
+		<WheelFriction _template="Offroad" BodyFriction="1.25" BodyFrictionAsphalt="0.35" SubstanceFriction="2.5"/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+			<UiDesc 
+				UiDesc="Specialized tire set providing great traction in the worst of circumstances without sacrificing too much on-road performance. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft."
+				UiName="Ultra Wide BMG Carnivore " 
+				/>
+			</GameData>
+		</TruckTire>
+				<TruckTire _template="Offroad" Mesh="wheels/ulltawidemud" Name="ultrawide_mud" Mass="600">
+		<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.35" SubstanceFriction="2.5"/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="A tire that can do everything from gripping mud to gliding over rocks. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft."
+				UiName="Ultra Wide BMG Mud Claws M/T" 
+				/>
+			</GameData>
+		</TruckTire>				
+		<TruckTire _template="Offroad" Mesh="wheels/uwheavymud" Name="ultaheavy_mud" Mass="600">
+		<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.35" SubstanceFriction="2.5"/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft."
+				UiName="Ultra Wide BMG Super Trencher M/T" 
+				/>
+			</GameData>
+		</TruckTire>
+			<TruckTire _template="Offroad" Mesh="wheels/uwheavymud_stud" Name="ultraheavy_mud_stud" Mass="600">
+		<WheelFriction _template="Chains" BodyFriction="3.5" BodyFrictionAsphalt="1.0" SubstanceFriction="4.0" IsIgnoreIce="true"/>
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+					<UiDesc 
+				UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With added studs to keep traction on ice 1.0/3.0/4.0"
+				UiName="Ultra Wide BMG Super Trencher M/T Ice &amp; Snow"
+				/>
+			</GameData>
+		</TruckTire>
+		<TruckTire _template="Offroad" Mesh="wheels/uwide_tire_stud" Name="ultrawide_stud" Mass="600">
+		<WheelFriction _template="Chains" BodyFriction="3.5" BodyFrictionAsphalt="1.8" SubstanceFriction="3.0" IsIgnoreIce="true"/>
+			<GameData
+				Price="6800"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc 
+				UiDesc="Wide Off road tires 1.8/3.5/3.0"
+				UiName="Ultra Wide off road Studded" 
+				/>
+			</GameData>
+		</TruckTire>
+		</TruckTires>	
+		
+	<TruckRims>
+		<TruckRim Mesh="wheels/uwwide_rim_offroad" Name="ultrawide_Rim">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Wide Heavy Rim" />
+			</GameData>
+		</TruckRim>
+			<TruckRim Mesh="wheels/uwbeadlocks" Name="ultrabeaadlocks">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Wide Heavy Beadlock Rim" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>

@@ -1,0 +1,46 @@
+<_templates Include="trucks">
+	<TruckTire>
+		<Offroad _template="Superheavy">
+			<WheelTracks _template="Offroad" />
+			<WheelSoftness _template="Soft" />
+		</Offroad>
+	</TruckTire>
+</_templates>
+<TruckWheels DamageCapacity="50" Radius="1" Width="1.118">
+	<TruckTires>
+		<TruckTire _template="Offroad" Mesh="wheels/uwkraz" Name="sukraztires" Mass="600">
+			<WheelFriction _template="Mudtires" BodyFriction="1.25" BodyFrictionAsphalt="0.35" SubstanceFriction="2.5"/>
+			<WheelSoftness _template="Soft" />
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. Friction (Body/Asphalt/Substance): 1.25 / 0.35 / 2.5. Wheel softness: Soft." UiName="Heavy Mudtires" />
+			</GameData>
+		</TruckTire>
+			<TruckTire _template="Offroad" Mesh="wheels/uwkrazchain" Name="sukraztireschains" Mass="600">
+			<WheelFriction _template="Chains" BodyFriction="2.0" BodyFrictionAsphalt="0.5" SubstanceFriction="4.0" 	IsIgnoreIce="true" />	/>
+			<GameData
+				Price="7400"
+				UnlockByExploration="false"
+				UnlockByRank="1"
+			>
+				<UiDesc UiDesc="Specialized tire set. The ultimate weapon against the deepest of marshes providing the best off-road performance at the cost of on-road traction. With snow chains 0.5/2.0/4.0" 
+						UiName="Chained Heavy Mudtires " />
+			</GameData>
+		</TruckTire>
+	</TruckTires>
+	<TruckRims>
+		<TruckRim Mesh="wheels/uwwide_rim_offroad" Name="ultrawide_Rim">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Wide Heavy Rim" />
+			</GameData>
+		</TruckRim>
+			<TruckRim Mesh="wheels/uwbeadlocks" Name="ultrabeaadlocks">
+			<GameData>
+				<UiDesc UiDesc="" UiName="Wide Heavy Beadlock Rim" />
+			</GameData>
+		</TruckRim>
+	</TruckRims>
+</TruckWheels>
