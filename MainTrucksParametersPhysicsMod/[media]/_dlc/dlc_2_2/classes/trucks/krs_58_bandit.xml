@@ -64,7 +64,7 @@
 		EngineStartDelay="2"
 		ExhaustStartTime="1.8"
 		FuelCapacity="150"
-		Responsiveness="0.55"
+		Responsiveness="0.18"
 		SteerSpeed="0.035"
 		TruckImage="banditmchr"
 		TruckType="OFFROAD"

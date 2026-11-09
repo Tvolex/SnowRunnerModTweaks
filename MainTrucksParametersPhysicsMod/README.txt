@@ -57,7 +57,21 @@ increased by 4 degrees while preserving its sign. Scout speeds already above
 their minimum are retained; missing tie-rod constraints are not added.
 
 Changed: SteeringCastor is kept between 10 and 15 degrees for every steering
-axle; trucks without an explicit castor value use 10 degrees.
+axle in the original set of tuned truck definitions; trucks without an
+explicit castor value use 10 degrees. The additional engine-response
+definitions retain their Original steering setup.
+
+ENGINE RESPONSE
+
+Changed: heavy-duty, heavy, and off-road trucks use more deliberate startup
+and engine response settings. The category values are minimum EngineStartDelay
+/ ExhaustStartTime and maximum Responsiveness:
+
+Category       Start delay   Exhaust timing   Responsiveness
+Heavy duty     1.2           1.1              0.22
+Heavy          1.8           1.5              0.15
+Off-road       1.4           1.2              0.18
+
 
 FIRST-PERSON CAMERA
 
@@ -79,8 +93,9 @@ Changed:
 
 U357 WHEEL COMPATIBILITY
 
-Truck definitions include compatibility entries for the wheel classes in the
-separate mod-u357 pack. Install that pack as well to use those wheel options.
+The originally tuned truck definitions include compatibility entries for the
+wheel classes in the separate mod-u357 pack. Install that pack as well to use
+those wheel options.
 Its off-road and mud tires are tuned to Soft with Body/Asphalt/Substance
 friction values of 1.25 / 0.35 / 2.5; the highway tires remain stiff and keep
 their original friction values. The friction and softness values are also

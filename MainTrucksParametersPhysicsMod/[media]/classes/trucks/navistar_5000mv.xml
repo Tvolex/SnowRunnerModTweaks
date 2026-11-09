@@ -54,7 +54,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="340"
-		Responsiveness="0.45"
+		Responsiveness="0.15"
 		SteerSpeed="0.025"
 		TruckImage="navistar5000mchr"
 		TruckType="HEAVY"

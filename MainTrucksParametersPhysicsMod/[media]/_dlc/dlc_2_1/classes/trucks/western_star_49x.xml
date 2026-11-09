@@ -72,7 +72,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="290"
-		Responsiveness="0.3"
+		Responsiveness="0.15"
 		SteerSpeed="0.02"
 		TruckImage="ws49xmchr"
 		TruckType="HEAVY"

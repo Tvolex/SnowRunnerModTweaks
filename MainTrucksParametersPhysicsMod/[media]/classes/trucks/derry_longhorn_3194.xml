@@ -50,7 +50,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="370"
-		Responsiveness="0.25"
+		Responsiveness="0.15"
 		SteerSpeed="0.018"
 		TruckImage="militarytruck1mchr"
 		TruckType="HEAVY"

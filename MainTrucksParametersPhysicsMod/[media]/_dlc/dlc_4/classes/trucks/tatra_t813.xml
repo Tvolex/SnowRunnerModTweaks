@@ -57,7 +57,7 @@
 		EngineStartDelay="3.2"
 		ExhaustStartTime="2.8"
 		FuelCapacity="380"
-		Responsiveness="0.2"
+		Responsiveness="0.15"
 		SteerSpeed="0.022"
 		TruckImage="tatra813mchr"
 		TruckType="HEAVY"
